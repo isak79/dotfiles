@@ -15888,3 +15888,40 @@ ls
 clear
 v
 clear
+git add .
+clear
+git push -u origin main
+v
+clear
+git commit -m "init"
+clear
+git push -u origin main
+clear
+cd config
+ls
+cd dotfiles
+ls
+clear
+cd config
+clear
+ls
+cp aerospace/ ../dotfiles/ --recursive
+clear
+cd dotfiles
+clear
+ls
+cd -
+clear
+ls
+cp atuin/ ../dotfiles/ --recursive 
+clear
+ls
+cp karabiner/ ../dotfiles/ --recursive 
+clear
+ls
+c
+cd dotfiles
+clear
+ols
+clear
+ls
