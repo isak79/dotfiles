@@ -15925,3 +15925,25 @@ clear
 ols
 clear
 ls
+v
+clear
+cd -
+clear
+ls
+cd wezterm
+clear
+cat wezterm 
+clear
+rm wezterm
+cleasr
+clear
+ls
+cp bat/ ../dotfiles/ --recursive 
+clear
+ls
+c
+clear
+cd dotfiles
+clear
+ls
+git status
