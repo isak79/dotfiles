@@ -1,0 +1,15890 @@
+clear
+cd .config/nushell
+clear
+ls
+nvim config.nu
+clear
+source config.nu
+clear
+nv config.nu
+nvim config.nu
+clear
+ls
+eza
+ps
+clear
+$env
+clear
+echo hei | type
+clear
+echo hei | describe 
+clear
+ps | where cpu > 5
+clear
+http get https://www.youtube.com/watch?v=uJsZATwQ3R8
+clear
+http get https://www.youtube.com/watch?v=uJsZATwQ3R8 | html
+http get https://www.youtube.com/watch?v=uJsZATwQ3R8 | to html
+clear
+ls
+clear
+nv config.nu
+clear
+nvim config.nu
+clear
+http get https://www.youtube.com/watch?v=uJsZATwQ3R8 | get version
+clear
+brew install carapace
+clear
+ls
+clear
+nv .
+nvim .
+clear
+nvim .
+clear
+nvim .
+clear
+nvim .
+clear
+source env.nu 
+source config.nu
+nvim .
+nvim config.nu
+clear
+source config.nu
+clear
+nv .
+nvim .
+clear
+carapace
+clear
+carapce --list --all
+carapace --list --all
+clear
+cd INF102/
+clear
+ls
+clear
+tmux a
+clear
+tmux kill-server
+clear
+cd
+clear
+cd .config/nushell
+clear
+ls
+clear
+nvim $nu.env-path
+clear
+source config.nu
+clear
+cd IN
+clear
+cd INF102/
+clear
+ls
+cd Isak.Hansen_semesteroppgave-2/
+clear
+git diff HEAD~
+clear
+brew uninstall oh-my-posh 
+clear
+starship preset tokyo-night -o ~/.config/starship.toml
+clear
+cd ~/.config
+ls
+clear
+z INF113
+^z INF113
+clear
+cd Oblig2/
+clear
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+clear
+cd
+clear
+cd Documents
+ls ..
+cd ../..
+clear
+ls
+cd ..
+clear
+ls
+clear
+cd Users/isakhansen/
+clear
+ls
+clear
+cd Musix
+cd Music
+clear
+cøear
+clear
+:w
+nvim starship.toml 
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+clear
+nv starship.toml
+nvim starship.toml 
+clear
+c
+clear
+nv starship.toml
+nvim starship.toml 
+clear
+nvim starship.toml 
+clear
+echo hello
+nvim starship.toml 
+clear
+cd
+clear
+cd INF102/
+clear
+nvim .
+clear
+cd Isak.Hansen_semesteroppgave-2/
+clear
+nvim ~/.config/starship.toml 
+clear
+ls
+clear
+eza
+clear
+git status
+clear
+nvim .
+clear
+git push
+clear
+ls
+clear
+c
+clear
+nvim ~/.config/starship.toml 
+clear
+cd
+clear
+ls
+clear
+cd Isak.Hansen_semesteroppgave-2/
+clear
+pwd
+clear
+cd .config/nushell
+clear
+nv .
+nvim .
+clear
+z INF113
+source config.nu
+clear
+brew lsit
+clear
+brew list
+clear
+brew list | grep zoxide
+clear
+ls 
+ls -la
+clear
+ls
+clear
+ls -la
+clear
+ls
+ls | where name.contains("zoxide")
+ls | where name.contains("split")
+clear
+brew uninstall zoxide
+clear
+brew install zoxide
+clear
+cd .config/nushell
+source config.nu
+source env.nu
+z INF113
+clear
+cd
+clear
+cd
+ls
+clear
+tmux a
+clear
+tmux kill-server
+clear
+ls
+clear
+tmux
+clear
+brew uninstall fish
+clear
+cd 
+cd .config/nushell
+clear
+nvim .
+clear
+source env.nu
+source config.nu
+clear
+v
+clear
+v .
+clear
+source config.nu
+c
+clear
+cd
+clear
+tmuz a
+c
+clear
+z INF102
+clear
+cd Isak.Hansen_semesteroppgave-2/
+cclear
+c
+source config.nu
+clear
+c
+source config.nu
+source ~/.config/nushell/config.nu
+c
+cleara
+c
+ls
+c
+cd
+clear
+cd /etc
+c
+ls
+bat shells
+clear
+which nu
+which nu.path
+clear
+which nu | get path
+which nu | get path | pbcopy 
+╭───┬──────────────────────╮<\n>│ 0 │ /opt/homebrew/bin/nu │<\n>╰───┴──────────────────────╯<\n>
+clear
+cd
+clear
+which nu | get path | to string
+which nu | get path | string
+which nu | get path | to-string
+c
+which nu
+c
+echo "/opt/homebrew/bin/nu" >> /etc/shells
+clear
+which nu
+chsh -s /opt/homebrew/bin/nu
+clear
+v .config/nushell/env.nu 
+clear
+$env
+clear
+$env
+clear
+nu conf
+config nu
+clear
+chsh -s 
+chsh -s chsh -s /opt/homebrew/bin/nu
+tmux a
+clear
+v .config/nushell/env.nu 
+clear
+v .config/nushell/env.nu 
+c
+v .config/nushell/env.nu 
+clear
+nu config
+config nu
+c
+brew
+clear
+$env
+clear
+$env | where name==brew
+clear
+$env
+clear
+chsh
+clear
+chsh -s chsh -s /opt/homebrew/bin/nu
+clear
+$path
+clear
+$env | path
+clear
+$env
+clear
+echo $path
+clear
+$env.path
+$env.path | describe
+$env.path | string
+$env.path | tostring
+clear
+$env.path | into string
+$env.path | into string | describe
+clar
+x
+c
+nu config
+config nu
+c
+source ~/.config/nushell/env.nu
+config nu
+clear
+source ~/.config/nushell/env.nu
+config nu
+clear
+source ~/.config/nushell/env.nu
+$env.path
+c
+clear
+nu config
+clear
+config nu
+source ~/.config/nushell/env.nu
+v ~/.config/nushell/env.nu 
+source ~/.config/nushell/env.nu
+v ~/.config/nushell/env.nu 
+c
+source ~/.config/nushell/env.nu
+c
+v ~/.config/nushell/env.nu 
+source ~/.config/nushell/env.nu
+c
+v ~/.config/nushell/env.nu 
+source ~/.config/nushell/env.nu
+v ~/.config/nushell/env.nu 
+clear
+source ~/.config/nushell/env.nu
+v ~/.config/nushell/env.nu 
+$env.editor
+clear
+v ~/.config/nushell/env.nu 
+clear
+source ~/.config/nushell/env.nu
+chsh -s chsh -s /opt/homebrew/bin/nu
+c
+v ~/.config/nushell/env.nu 
+chsh -s chsh -s /opt/homebrew/bin/nu
+clear
+rm itxbergen_hvit.png itxbergen_svart.png
+cd java-workspaces/
+ls
+clear
+cat Isak.Hansen_semesteroppgave-2/
+cd Isak.Hansen_semesteroppgave-2/
+ls
+clear
+cd ..
+c
+rmdir java-workspaces/
+clear
+cd java-workspaces/
+ls
+rmdir Isak.Hansen_semesteroppgave-2/
+ls
+c
+cd ..
+rmdir java-workspaces/
+ls
+./counter
+c
+./counter
+rm counter
+ls
+ls | where name.contains(txt)
+ls | where name.contains("txt")
+clear
+ls | where name | string contains txt
+ls | where name | str contains txt
+c
+ls | where name | str contains "txt"
+c
+ls | where name contains "txt"
+ls | where "txt" in name
+clear
+ls | where name | "txt" in name
+ls | where name
+ls
+clear
+ls | where name
+ls | name
+clear
+ls
+ls | where name == its
+ls | where name == itx
+ls | where name == ITx
+clear
+ls | where "txt" in name
+ls | where name $carapace_completer
+c
+ls | get name
+clear
+ls | get name | contains "txt"
+ls | get name | str contains "txt"
+ls | get name | str contains "txt" | get name
+c
+ls | get name | str contains "txt"
+ls
+clear
+ls | where name contains "txt" 
+ls | where "txt" in get
+clear
+ls | where name contains "txt"
+clear
+ls | get name | str contains "txt"
+c
+ls | where name | str contains "txt"
+ls | where name
+ls | where name str contains "txt"
+c
+ls | get name | str contains "txt"
+clear
+ls | where name contains "txt" | get name
+ls | where name contains "txt"
+clear
+cd .config/nushell
+clear
+nv .
+v .
+clear
+ls
+cd
+clear
+ls
+clear
+ls
+c
+eza
+clear
+nv .
+ls
+tldr mvn
+clera
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+clear
+tldr mvn
+mvn exec:java -x -Dexec.mainClass="com.mycompany.app.Nyapp"
+clear
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+mvn -q exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+clear
+ls
+c
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+clear
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+c
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Nyapp"
+ic
+c
+clear
+ls
+ls 
+clear
+ls ::
+clear
+ls ::
+clear
+ls pom.xml
+clear
+echo pom.xml
+clear
+ls :::
+clear
+ls ::: | where size > 1kb
+ls | where size > 1kb
+clear
+<
+clear
+where -help
+clear
+where --help
+c
+::: --help
+clear
+ls 
+clear
+ls 
+clera
+clear
+this is a \
+clear
+ls \
+clear
+echo \ hei
+clear
+echo 1 2 3 4
+echo 1 2 3 4 | describe 
+clear
+echo niggas in penis 
+echo niggas in penis | join " "
+join --help
+clear
+echo niggas in penis | join -i " "
+clear
+echo niggas in penis | join
+clear
+echo niggas in penis | str join " "
+clear
+echo niggas in penis | to json
+clear
+echo niggas in penis --reverse
+echo niggas in penis | --reverse
+clear
+echo niggas in penis | ^sort 
+echo niggas in penis | sort
+clear
+help
+help commands
+c
+echo hei | ansi gradient 
+echo hei | ansi gradient #00000
+clear
+echo hei | ansi gradient 30
+c
+echo hei | ansi gradient 
+clear
+nu config
+config nu
+clear
+git log
+clear
+()
+c
+(echo )
+clea
+c
+start --help
+c
+start (fzf)
+cd
+clear
+start (fzf)
+clear
+z STAT110
+clear
+ls
+cd ..
+ls
+cd INF113
+ls
+mv `Modern Mathematical Statistics with Applications.pdf` ../STAT110/
+cd ../STAT110/
+c
+start `Modern Mathematical Statistics with Applications.pdf`
+clear
+brew list
+brew search karabiner
+c
+cd
+c
+v .config/aerospace/aerospace.toml 
+c
+python3
+clear
+cd .config/sketchybar/
+ls
+v .
+c
+cd
+x
+z
+clear
+z INF113
+z
+clear
+c
+tmux a
+c
+cd python
+ls
+clear
+alias p3=python3
+c
+alias p3 = python3
+c
+p3 friendcommuting.py
+c
+cc
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+p3 friendcommuting.py
+c
+v .
+ls
+c
+nv avg.py
+c
+ls
+bat ch
+c
+l
+c
+ls
+bat rockPaperScissors 
+c
+p3 avg.py
+c
+python3 avg.py
+hei
+c
+python3 
+clear
+python3 avg.py
+c
+python3 avg.py
+bat avg.py 
+c
+python3 avg.py
+c
+python3 avg.py
+c
+python3 avg.py
+c
+python3 avg.py
+c
+python3 avg.py
+c
+"117 103 121 112 120 132 113 117 132<\n>149 125 131 136 107 108 113 136 114" | save n.txt
+ls
+cat n.txt 
+v n.txt 
+rm n.txt
+c
+echo 117 103 121 112 120 132 113 117 132<\n>149 125 131 136 107 108 113 136 114
+c
+125
+c
+echo hei på deg
+c
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114 | save n.txt
+c
+ls
+bat n.txt 
+c
+echo n.txt | avg.py
+echo n.txt | python3 avg.py
+c
+echo n.txt
+c
+cat n.txt 
+c
+cat n.txt | python3 avg.py
+c
+help
+help commands 
+c
+help commands | name =~ sum
+help commands
+c
+help commands | where name =~ sum
+c
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114 | sum
+(echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114 | sum) / 18
+11487/18
+c
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114 | sum
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114
+ehco "11487/18" | cls
+ehco "11487/18" | clc
+c
+echo "11487/18" | clc
+echo "11487/18" | ^clc
+c
+help commands | where name =~ mat
+c
+echo "11487/18" | math
+c
+echo 117 103 121 112 120 132 113 117 132 149 125 131 136 107 108 113 136 114
+brew search ztables
+c
+ztables
+clea
+clear
+mkdir ztables
+cd ztables
+c
+git clone git@github.com:jlinoff/ztables.git
+ls
+c
+ls
+mv ztables/ ..
+cd ztables/
+ls
+clear
+python3 ztables.py 1.99
+c
+python3 ztables.py -i 1.99
+python3 ztables.py -f 1.99
+c
+python3 ztables.py -p FLOAT 1.99
+c
+python3 ztables.py -l FLOAT -1.99
+c
+ztable -h
+ztable --help
+clear
+python3 ztables.py -s
+c
+python3 ztables.py -s | detect columns 
+c
+python3 ztables.py -s
+c
+python3 ztables.py -s | grep 1.99
+python3 ztables.py -s | grep 1.9
+c
+cd ..
+ls
+cd ..
+ls
+rm -rf ztables/
+c
+v
+c
+ls
+c
+v avg.py
+c
+python3 statOblig.py
+cc
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+ls
+c
+ls
+bat varians 
+c
+ls
+bat avg.py
+c
+python3 statOblig.py
+c
+python3 statOblig.py
+c
+python3
+c
+z INF113
+c
+ls
+cd ../STAT110/
+c
+ls
+brew list | grep geogebra
+c
+brew search geogrbta
+brew search geogebra
+c
+ls
+open `Modern Mathematical Statistics with Applications.pdf`
+c
+cd ../INF113/
+ls
+c
+git clone git@git.app.uib.no:Isak.Hansen/oblig3-myfs.git
+ls
+cd oblig3-myfs/
+ls
+c
+v statOblig.py
+z INF113
+ls
+c
+cd oblig3-myfs/
+ls
+c
+python3 main.py
+ls
+xxd myfilesystem.fs 
+ls
+c
+xxd myfilesystem.fs 
+c
+git diff HEAD~
+c
+tmux
+c
+cd
+c
+cd INF102/
+c
+git clone v
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab-6-inf-102.git
+c
+cd lab-6-inf-102/
+c
+ls
+c
+ls
+v .
+c
+brew list
+c
+v .@
+c
+v .
+c
+v .
+c
+cd
+c
+v:
+c
+ls
+c
+cd ..
+ls
+c
+pnpm dev
+ls
+cd nextjs-dashboard/
+ls
+c
+pnpm dev
+c
+pnpm i use-debounce
+c
+pnpm dev
+c
+v .
+c
+cd
+cd /
+ls
+cd opt
+ls
+cd cisco/
+ls
+cd anyconnect/
+ls
+c
+ls
+c
+v .
+cd ..
+ls
+c
+rm -rf oblig3-myfs/
+ls
+c
+git@git.app.uib.no:Isak.Hansen/oblig3-myfs.git
+c
+git clone git@git.app.uib.no:Isak.Hansen/oblig3-myfs.git
+ls
+c
+cd oblig3-myfs/
+c
+ls
+python3 main.py
+xxd myfilesystem.fs 
+c
+z
+v .
+c
+ls
+c
+cd
+c
+ls
+tmux a
+c
+ls
+v .
+c
+echo hei
+echo hei
+c
+c
+ls
+v .
+c
+v .
+c
+pnpm dev
+c
+cd nextjs-dashboard/
+ls
+c
+ls
+c
+pnpm dev
+c
+brew install helix
+c
+helix
+c
+brew install helix
+helix
+c
+man helix
+tldr helix
+c
+helix .
+c
+z
+c
+brew search helix
+hx
+c
+hx
+ls
+c
+hx .
+c
+ls
+c
+ls | where name==helix
+ls | where name == helix
+c
+cd helix/
+ls
+c
+hx .
+c
+ls
+hx config.toml 
+c
+hx config.toml 
+c
+ls
+c
+mkdir themes
+cd themes/
+lss
+ls
+c
+hx tokyonight.toml
+c
+hx tokyonight.toml 
+c
+cd ..
+hx health
+c
+hx --health
+c
+hx config.toml 
+hx --health
+c
+cd ..
+c
+cd java
+ls
+c
+hx Terning.class 
+c
+ls
+c
+java Function.java
+c
+hx Function.java 
+c
+java Function 
+java Function.java
+c
+hx Test.java
+c
+java Test.java
+hx Test.java 
+c
+v Test.java 
+c
+hx Test.java 
+c
+zellij --version
+c
+cd ..
+cd ..
+ls 
+cd zellij/
+ls
+c
+v .
+c
+source .
+source config.kdl.bak
+source config.kdl
+c
+v .
+c
+zellij config.kdl
+clear
+man zellij
+tldr zellij
+c
+zellij setup --check
+c
+kc
+c
+v .
+c
+v .
+c
+cd ..
+ls
+cd Oblig2
+ls
+cd ../oblig3-myfs/
+v .
+c
+clear
+cd
+c
+ls
+c
+z INF113
+c
+ls
+cd oblig3
+ls
+c
+docker compose up
+c
+cd
+cl
+c
+cd .config/nushell/
+ls
+c
+cd
+c
+v .zshrc
+c
+bat .zsh_history 
+c
+bat .zshrc-e 
+c
+v .
+c
+$env.path
+where docker
+docker
+c
+docker compose up
+c
+cd
+c
+ls
+c
+z INF113
+c
+cd oblig3/
+ls
+c
+docker compose up
+docker
+c
+docker
+c
+source ~/.config/nushell/env.nu
+c
+docker
+c
+docker compose up
+ls
+c
+bat docker-compose.yml 
+c
+cd ..
+ls
+v Dockerfile 
+c
+docker compose up
+c
+cd
+c
+z INF113
+ls
+cd oblig3/
+ls
+c
+bat docker-compose.yml 
+c
+docker compose up
+docker
+c
+z INF113
+c
+mv oblig3/ Oblig3
+c
+ls
+cd oblig3/
+c
+docker
+c
+docker compose up
+c
+docker compose up
+c
+tldr docker
+c
+docker ps
+c
+tldr d
+c
+tldr dokcer
+c
+tldr docker
+docker exec -it oblig3
+docker exec -it oblig3 ba
+c
+docker compose up
+docker compose down
+clear
+clear
+docker compose up
+clear
+docker exec -it oblig3 bash
+docker compose up
+clear
+docker compose down
+clear
+clear
+ls
+clear
+cd zellij/
+ls
+clear
+v .
+clear
+ls
+cd
+c
+ls
+v .
+c
+v .
+x
+c
+v .
+c
+v:
+v .
+c
+cd
+c
+v .tmux.conf
+c
+cd .config/
+ls
+cd tmux
+c
+mkdir tmux
+mv ../.tmux.conf ./tmux/
+cd ..
+c
+ls | where name =~ tmux
+ls
+c
+cd .config/tmux
+ls
+clear
+cd ../..
+c
+ls -l
+clear
+cd .tmux/
+ls
+cd plugins/
+ls
+cd
+clear
+cd .config/tmux
+c
+cat .tmux.conf 
+c
+bat .tmux.conf 
+:qa
+clear
+tmux
+clear
+help commands
+clear
+help commands | where description =~ rename
+clea
+clear
+v:
+c
+v .
+c
+tmux a
+c
+c
+tmux a
+c
+ls
+source tmux.conf
+clear
+tmux a
+d
+ls
+cd
+ls
+c
+c
+:qa
+clear
+clear
+cdc
+cd
+c
+cd .config/zellij/
+v .
+clear
+c
+brew search nix
+clear
+cat -v
+c
+cd ../nvim
+ls
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+cd ../zellij/
+clear
+ls
+:qa
+clear
+docker exec -it oblig3 bash
+docker compose up
+clear
+ls
+clear
+v .
+clear
+brew upgrade
+clear
+ls
+clear
+lazygit --version
+clear
+ls
+clear
+v .
+clear
+v .
+clear
+ssh 10.0.0.24@root
+ssh 10.0.0.24:root
+ckear
+clear
+mkdir remarkable
+clear
+ls
+cd remarkable/
+clear
+ls
+clear
+touch details.txt
+ssh root@10.0.0.24
+clear
+v details.txt
+clear
+brew search remarkable
+brew install remarkable
+clear
+ssh 10.0.0.24 
+c
+ssh root@10.0.0.24
+clear
+git clone https://github.com/ddvk/remarkable-update.git
+ls
+clear
+cd remarkable-update/
+ls
+cd updates
+ls
+clear
+cd 
+clear
+cd Downloads/
+ls
+ls | where name =~ remarkable
+ls | where name =~ remar
+clear
+ls | where name =~ re
+mv `reMarkable 2 2.15.0 1067.signed` ~/remarkable/
+ls
+mv `../../reMarkable 2 2.15.0 1067.signed` .
+ls
+clear
+cd ..
+clear
+python3 serve.py 10.0.0.24  
+ls
+cd updates/
+ls
+clear
+ls
+v readme.md 
+clear
+cd ..
+ls
+clear
+python3 serve.py 10.0.0.24  
+clear
+cd updates/
+cd ..
+clear
+python3 serve.py 10.0.0.24  
+cd updates/
+ls
+clear
+ls
+clear
+cd ..
+clear
+v serve.py 
+clear
+ls -l ./updates
+ls
+ls -l
+clear
+cd updates/
+ls
+v .
+clear
+ls
+cd ..
+clear
+python3 serve.py 10.0.0.24  
+v serve.py 
+clear
+cd updates/
+v .
+clear
+cd ..
+clear
+python3 serve.py 10.0.0.24  
+cd updates/
+clear
+cd ..
+ls
+v serve.py 
+clear
+cd updates/
+c
+v .
+clear
+cd ..
+clear
+c
+z
+z remarkable/
+z remarkable-update/
+ls
+python3 serve.py 10.0.0.24  
+clear
+ssh root@10.0.0.24
+clear
+cd ..
+ls
+bat details.txt 
+clear
+ls
+clear
+git clone https://github.com/Jayy001/codexctl.git
+clear
+ls
+cd codexctl/
+clear
+ls
+cd
+cd Downloads/
+ls
+clear
+ls -l
+clear
+ls | sort-by date
+clear
+ls
+./codexctl.bin
+chmod 755 codexctl.bin 
+clear
+./codexctl.bin
+clear
+clear
+ls
+codexctl
+clear
+python3   codexctl.py
+pip install -r requirements.txt 
+pip3 install -r requirements.txt 
+clear
+python3   codexctl.py
+python3 codexctl.py install
+clear
+cd updates/
+ls
+python3 codexctl.py install 2.15.0
+python3 codexctl.py install 2.15.0.1067
+pip3 install wheel
+clear
+python3 -m pip install --upgrade pip
+clear
+python3 codexctl.py install 2.15.0.1067
+pipip3 install -r requirements.txt 
+pip3 install -r requirements.txt
+clear
+python3 codexctl.py --help
+python3 codexctl.py download 2.15.0.1067
+clear
+clear
+ls
+c
+ls
+clear
+python3 codexctl.py download 2.15.0.1067
+ls
+clear
+ls
+cd
+clear
+cd Downloads/
+ls
+cd ~/Downloads/
+ls
+clear
+python3 codexctl.py --help
+clear
+ls
+ls ..
+clear
+mv ~/Downloads/2.15.0.1067_reMarkable2-lyC7KAjjSB-.signed ..
+ls ..
+clear
+cd ..
+ls
+clear
+mkdir version
+mv 2.15.0.1067_reMarkable2-lyC7KAjjSB-.signed version/
+ls version/
+clear
+cd codexctl/
+clear
+python3 codexctl.py --help
+python3 codexctl.py extract ../version/2.15.0.1067_reMarkable2-lyC7KAjjSB-.signed
+ls ../version/
+ls
+clear
+cat extracted 
+clear
+cd ..
+ls
+cd codexctl/
+ls
+clear
+ssh root@192.168.68.59
+clear
+ssh root@192.168.68.59
+clear
+cd ..
+ls
+clear
+bat details.txt 
+clear
+ls
+cd codexctl/
+ls
+bat codexctl.py 
+clear
+python3 codexctl.py --help
+ls
+ls
+ssh root@192.168.68.59
+c
+tldr scp
+clear
+cd codexctl/
+cd
+clear
+ls
+clear
+cd remarkable/
+ls
+bat details.txt 
+scp extracted 192.168.68.59:/home/root
+clear
+v details.txt 
+clear
+ls /dev
+clear
+scp extracted root@192.168.68.59:/home/root
+ssh root@192.168.68.59
+ls
+cd oblig3-myfs/
+ls
+clear
+ls
+v .
+clear
+c
+clear
+cd oblig3-myfs/
+ls
+cd ..
+cd workspace/
+ls
+clear
+cd ..
+rmdir workspace/
+ls
+clear
+cd oblig3-myfs/
+ls
+clear
+bat mian
+bat main.py 
+clear
+python3 main.py
+ls
+bat myfilesystem.fs 
+v .
+clear
+ls
+clear
+python3 main.py
+bat myfilesystem.fs 
+c
+python3 main.py
+c
+python3 main.py
+c
+xxd test1.fs 
+clear
+c
+python3 main.py
+c
+cd python
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+xxd test1.fs 
+c
+bat test1.fs
+cat test1.fs 
+clear
+c
+ls
+rm test1.fs
+clear
+python3 test.py
+clear
+pythpython3 main.py
+python3 main.py
+c
+rm test1.fs
+clear
+python3 main.py
+c
+rm test1.fs
+python3 main.py
+c
+rm test1.fs
+c
+python3 main.py
+c
+rm test1.fs
+c
+rm test1.fs
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+ls
+rm test_save_with_file_size.fs test1.fs
+c
+ls
+c
+python3 main.py
+ls
+c
+xxd test_save_with_file_size.fs 
+c
+rm test_save_with_file_size.fs
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+ssh root@192.168.68.59
+c
+cd ..
+bat details.txt 
+clear
+ls
+scp root@192.168.68.55:/usr/share/remarkable/suspended.png .
+ls
+start suspended.png
+clear
+bat details.txt 
+scp astronaut.png  root@192.168.68.55:/
+clear
+ps 
+ps | where name =~ gimop
+ps | where name =~ gimp
+clear
+ssh root@192.168.68.55
+mv g.png gandalf.png
+clear
+ls
+scp gandalf.png root@192.168.68.55:/
+clear
+bat details.txt 
+ls
+start gandalf.png
+clear
+scp gandalf.png root@192.168.68.55:/
+start suspended.png
+start gandalf.png
+ssh root@192.168.68.55
+cd
+clear
+ls
+start gandalf.png
+scp gandalf.png root@192.168.68.55:/
+ls
+start gandalf.png
+scp gandalf.png root@192.168.68.55:/
+clear
+ssh ssh root@10.11.99.1
+clear
+ssh root@10.11.99.1
+clear
+clear
+c
+ls
+cd ..
+ls
+bat details.txt 
+ssh root@10.11.99.1
+clear
+ssh root@10.11.99.1
+ssh root@10.11.91.1
+clear
+ssh root@10.11.91.1
+clear
+sshfs
+brew install shhfs
+clear
+brew install macfuse
+sshfs
+clear
+macfuse
+sshfs
+sshfs --version
+brew install sshfs
+ssh root@10.11.91.1
+clear
+ssh root@10.11.91.1
+clear
+ssh root@192.168.68.55
+clear
+tldr ssh
+ssh root@10.11.91.1 rm-ssh-wlan on
+clear
+ssh root@ssh root@192.168.68.55
+ssh @ssh root@192.168.68.55
+clear
+ls
+bat details.txt 
+clear
+ssh-keygen \<\n>  -f ~/.ssh/id_rsa_remarkable \<\n>  -N ''
+clear
+ssh root@192.168.68.55
+clear
+ssh root@10.11.99.1
+zsh
+ls
+c
+python3 main.py
+ls
+rm test.fs
+rm test1.fs
+clear
+c
+python3 main.py
+ls
+xxd test1.fs
+clear
+cd .
+gi 
+c
+cd ..
+ls
+cd
+c
+cd java/
+ls
+cd my-app/
+ls
+clear
+brew upgrade && update
+brew upgrade
+c
+lazygit
+ls
+clear
+lazygit
+c
+lazyit
+c
+v .
+clear
+cd
+clear
+brew dump
+clear
+tldr brew
+clear
+brew list
+c
+ls
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+ls
+clear
+bat test_save_with_file_size.fs 
+xxd test_save_with_file_size.fs 
+c
+rm test_save_with_file_size.fs
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+qc
+c
+rm 
+rm test_save_with_file_size.fs
+c
+python3 main.py
+áà
+c
+ls
+clear
+ls
+c
+xxd test_save_with_file_size.fs 
+c
+echo ehi
+clear
+c
+ls
+rm tes
+c
+rm test_save_with_file_size.fs
+clear
+ls
+clear
+python3 main.py
+c
+xxd test1.fs 
+c
+ls
+clear
+rm test1.fs
+clear
+python3 main.py
+c
+p
+c
+python3 main.py
+c
+diff
+clera
+clear
+diff myfs1.py myfs.py 
+c
+echo haaaalooo
+echo haaaalooo
+clear
+clear
+mkdir h
+c
+cd h
+cd h
+c
+c
+touch j.txt
+touch j.txt
+ls
+ls
+clear
+clear
+rm j.txt
+rm j.txt
+ls
+ls
+clear
+clear
+v hei
+v hei
+ls
+ls
+clear
+clear
+bat hei 
+bat hei 
+v .
+c
+c
+v .
+v .
+clear
+clear
+ls
+v .
+ls
+rm hei
+ls
+clear
+cd ..
+rmdir h
+ls
+clear
+c
+cd ..
+ls
+cd ..
+ls
+cd .config
+c
+ls
+cd nvim
+clear
+ls
+nvim --version
+c
+v .
+clear
+v .
+c
+v .
+clear
+ls
+v .
+c
+ls
+git status
+clear
+cd ..
+ls
+v starship.toml 
+c
+ls
+clear
+cd nvim
+cd ..
+c
+ls
+cd karabiner/
+ls
+v .
+c
+cd ..
+ls
+brew list
+clear
+brew list | detect columns 
+brew list
+clear
+brew list | detect columns | where name =~ oh
+brew list | detect columns | where aos =~ oh
+clear
+brew list | detect columns | where aom =~ oh
+clear
+ls
+cd carapace/
+ls
+v .
+c
+ls
+cd .
+cd ..
+ls
+rmdir ohmyposh/
+rm -rf ohmyposh/
+ls
+brew uninstall thefuck
+clear
+ls
+c
+ls
+c
+xxd test1.fs 
+c
+bat main.py 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+xxd test1.fs 
+c
+v .
+c
+cd nvim
+c
+v .
+echo hei
+ls
+:q
+clear
+ls
+quit
+exit
+clear
+ls
+v init.lua 
+clear
+\m
+clear
+echo hei
+echo e
+echo hei
+clear
+ls
+clear
+v .
+hei
+c
+clear
+Z
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+c
+brew update nushell
+brew upgrade nushell
+brew upgrade tmux
+clear
+ls
+c
+z tmux
+cd
+clear
+v .tmux.conf 
+c
+ls
+c
+tm
+c
+ls
+c
+infocmp tmux-256color
+c
+v .tmux.conf 
+clear
+ls
+c
+cd .config
+ls
+clear
+cd nushell/
+ls
+nv .
+c
+v .
+clera
+clear
+ls
+c
+v .tm
+c
+v .tmux.conf 
+clear
+ls
+clear
+c
+ls
+cd
+ls
+clear
+c
+source nushell
+source nu
+clear
+cd .config
+ls
+cd nushell/
+ls
+clear
+v .
+clear
+cd ..
+c
+cd
+clear
+starship 
+starship config
+clear
+c
+ls
+clear
+v .config/starship.toml 
+clear
+c
+v .config/starship.toml 
+clear
+starship config
+clear
+ls
+c
+v .tmux.conf 
+clear
+ls
+c
+v .tmux.conf 
+clear
+ls
+c
+v .tmux.conf 
+c
+ls
+c
+v .zshrc
+clear
+ls
+c
+cd .config
+cd nushell/
+ls
+clear
+ls
+c
+brew upgrade starship
+clear
+ls
+c
+ls
+c
+ls
+c
+v .
+ls
+c
+cd tests
+clear
+mkdir -p ~/tests/starship-custom
+mkdir tests
+cd tests
+clear
+mkdir starship-custom
+cd starship-custom/
+clear
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+cd java/
+cd my-app/
+lss
+c
+cd ~/.config/nvim
+ls
+clear
+ls
+c
+ls
+clear
+c
+ls
+clear
+pwd
+clear
+pwd | pbcopy
+clear
+cd
+clear
+ls
+c
+ls
+clear
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+c
+ls
+clear
+c
+ls
+clear
+cd java
+clear
+cd c
+clear
+ls
+cd ja.c
+clear
+touch ja.c
+ls
+rm ja.c
+c
+ls
+c
+ls
+c
+cd ..
+ls
+clear
+ks
+ls
+clear
+zellij kill-server
+clear
+zellij kill-all-sessions
+clear
+c
+v ../starship.toml 
+c
+clear
+v test.txt
+ls
+rm test.txt
+clear
+v test.txt
+c
+sort
+clear
+cd E485: /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/tBpN7I/
+cd E485: /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/tBpN7I
+clear
+cd /var/folders/
+ls
+c
+cd
+pwd
+celar
+clear
+export TMPDIR=$home/tmp
+clear
+export TMPDIR = $home/tmp
+clearr
+clear
+$env.TMPDIR
+$env.TMPDIR = $home/tmpdir
+clear
+export --help
+clear
+cd .config/nushell/
+v .
+c
+$env.TMPDIR
+$env.TMPDIR=$home/tmp
+clear
+let-env
+$env.TMPDIR = $env.home/tmp
+$env.TMPDIR = ($env.home)/tmp
+clear
+$env.home
+clear
+$env.TMPDIR = ~/tmp/
+clear
+mkdir ~/tmp
+ls ~
+ls ~ | where name =~ tmp
+clear
+$env.TMPDIR = ~/tmp/
+$env.TMPDIR = ~/tmp
+clear
+let-env
+$env.TMPDIR = '/Users/isakhansen/tmp/'
+clear
+v test.txt
+clear
+$env.TMPDIR
+$env.TMPDIR = '/Users/isakhansen/tmp/'
+$env.TMPDIR
+clear
+$env.TMPDIR
+clear
+v 
+$env.TMPDIR
+clear
+ls -ld /Users/isakhansen/tmp
+chmod 1777 /Users/isakhansen/tmp/nvim.isakhansen
+clear
+v test.txt
+whoami
+c
+npm i -g neovim
+sudo npm i -g neovim
+c
+pip3 i neovim
+pip3 install neovim
+c
+gem
+clear
+gem install neovim
+clear
+v .tmux.conf 
+v ~/.tmux.conf
+c
+ls
+clear
+v te
+v test.txt
+v ~/.tmux.conf
+cd .conf
+cd .config/nushell/
+ls
+clear
+v 
+c
+$env.TERM
+$env.TERM = screen-256color
+$env.TERM = 'screen-256color'
+c
+clear
+v .
+$env.TERM
+v .
+$env.TERM
+$env.TERM = 'screen-256color'
+$env.TERM
+v .
+clear
+v ~/.tmux.conf
+c
+brew install luarocks
+c
+v .
+clear
+brew search TreeSitter
+brew tap treesitter
+clear
+v .
+clear
+cd ..
+clear
+cd
+clear
+v .wezterm.lua 
+clear
+cd nvim
+clear
+z nvim
+ls
+cd init.lua
+c
+v init.lua 
+clear
+v .
+clear
+v .
+clear
+cd
+c
+nv .tmux.conf
+v .tm
+clear
+v .tmux.conf
+clear
+v .
+v .tmux.conf
+v .
+clear
+v .
+clear
+$env.TERM = 'tmux-256color'
+clear
+v .tmux.conf
+clear
+v .
+clear
+$env.TERM
+$env.TERM = 'tmux-256color'
+$env.TERM
+clear
+v .
+$env.TERM = 'tmux-256color'
+v .
+clear
+$env.TERM
+clear
+v .
+v .config/nushell/
+clear
+v .wezterm.lua 
+clear
+v .tmux.conf
+cd
+c
+v .
+c
+v test.txt
+vi test.txt
+ls /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/FzV3jj/12
+cd /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/FzV3jj/
+ls
+cat nvim.26843.0 
+v test.txt
+clear
+ps 
+ps | where name == nvim
+ps | where name =~ nvim
+v .
+cd
+clear
+v .
+v.
+clear
+kill -9 57994 51424
+clear
+ps aux
+clear
+nvim -u NONE
+clear
+v test.txt 
+clear
+v -u NONE test.txt 
+v test.txt 
+rm -rf /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/*
+clear
+c
+v test.txt 
+:qa
+clear
+ls
+c
+c
+ls /var/folders/gc/trw9ndfx0n1_9nyyxk5snx1h0000gn/T/nvim.isakhansen/F3xnxE/
+c
+$env.TMPDIR = '/Users/isakhansen/tmp/'
+v test.txt 
+clear
+$env.TMPDIR
+cmatrix
+clear
+nv .tmux.conf
+v .tmux.conf
+clera
+clear
+v .tmux.conf
+s
+clear
+s
+clear
+cleear
+clear
+echo hei
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+nu test.nu
+clea
+clear
+rm test.*
+clear
+go
+clear
+brew install go
+go
+clear
+v h.go
+go h.go
+go help
+c
+go run h.go
+clear
+go run h.go
+clear
+go run h.go
+clear
+v h.go
+rm h.go
+clear
+v .tmux.conf
+clear
+clear
+v .tmux.conf
+clear
+clear
+cd nushell/
+ls
+cd 113
+clear
+cd
+z
+clear
+v .
+v nushell/
+clear
+z
+clear
+v .
+. nushell/
+v nushell/
+clear
+cd 
+cd INF113
+cd 113
+cd INF113
+clear
+cd INF113
+alias
+clear
+z INF113
+clear
+z config
+clear
+v nushell/
+cd
+cd INF113
+clear
+z co
+clear
+ls
+cd
+clear
+z config
+clear
+v nushell/
+cd INF113
+z
+clear
+z
+clear
+cd
+alias
+clear
+alias --help
+clear
+cd INF113
+z INF113
+clear
+z
+zoxide
+clear
+cd 
+v nushell/
+cd
+z
+clear
+zoxide
+alias cd = z
+cd 
+cd INF113
+clear
+brew instal charmbracelet/glow
+brew install glow
+clear
+glow
+clear
+cd INF10w
+cd INF102
+clear
+ls
+cd Isak.Hansen_semesteroppgave-2/
+ls
+clear
+glow README.md
+clear
+glow
+clear
+v nvim
+clear
+v nvim
+fzf --tmux
+ls
+clear
+fzf --version
+c
+clear
+ls
+clear
+cd skole
+cd Datasikkerhet
+z Datasikkerhet
+clear
+ls
+cd `Semester 1/`
+ls
+cd `../Semester 2/`
+ls
+cd MNF130/
+clear
+cd
+clear
+alias cd = z
+c
+cd config
+clear
+ls
+hx
+clear
+v ../.tmux.conf 
+clear
+hx ../.tmux.conf
+clear
+hx helix/
+clear
+hx nvim
+clear
+hx helix/
+clear
+hx helix/
+clear
+hx helix/
+clear
+hx helix/
+clear
+hx helix/
+clear
+hx helix/
+clear
+hx helix/
+clear
+source helix/config.toml
+clear
+hx helix/
+clear
+hx helix/
+clear
+v nvim
+clear
+ls
+cd oblig3/
+cd ..
+clear
+v .
+clear
+ls
+cd Oblig3/
+clear
+ls
+clear
+__zoxide_z 
+v nushell/
+clear
+cd
+z
+clear
+v nushell/
+clear
+c
+clear
+cd
+cd config
+clear
+cd config
+c
+clear
+cd config
+cd 113
+clear
+cd
+clear
+c
+cd config
+clear
+v nushell/
+clear
+v carapace/
+clear
+ssh github.com 
+clear
+cd nvim
+clear
+ls
+git checkout HEAD~
+clear
+lazygit
+clear
+git checkout HEAD~
+git switch main 
+clear
+git checkout main 
+git log
+c
+cd ..
+clear
+cd INF102
+clear
+ls
+clear
+cd Isak.Hansen_semesteroppgave-2/
+ls
+clear
+git log
+clear
+git log | detect columns 
+clear
+get https://github.com/Jayy001/codexctl/issues/71#issuecomment-2099115757
+http get https://github.com/Jayy001/codexctl/issues/71#issuecomment-2099115757
+clear
+v .
+v nvim
+clear
+ls **
+cd htop
+ls
+ls -l
+clear
+cd htop
+sudo cd htop
+cd htop
+ls
+clear
+ls **/*.md
+htop
+clear
+btop
+cd btop
+ls
+v .
+htop | lolcat
+clear
+btop | lolcat
+clear
+btop
+clear
+v .
+clear
+brew install lolcat
+clear
+btop | lolcat
+clear
+btop
+ls
+v themes
+clear
+v .
+clear
+btop
+c
+clear
+ls
+clear
+cd 113
+clear
+sys
+sys cpu
+sys net
+c
+sys mem
+btop
+clear
+sys | table
+c
+sys temp
+c
+cd
+clear
+ls **/main
+ls
+cd 113
+clear
+ls **/*.c
+ls **/*.c | each { |h| say $h}
+ls **/*.c | get name | each { |h| say $h}
+clear
+query web
+help query web
+help query
+clear
+help query dh
+help query db
+clear
+query db
+clear
+http get https://github.com/Jayy001/codexctl/issues/71#issuecomment-2099115757 | query web -q "h2"
+http get https://github.com/Jayy001/codexctl/issues/71#issuecomment-2099115757 | query db
+c
+(echo hei)
+clear
+(echo hei )
+clear
+(echo hei |<\n><\n>describe)
+clear
+(echo hei <\n>|<\n><\n><\n>describe)
+clear
+ls
+cd 102
+clear
+ls
+cd Isak.Hansen_semesteroppgave-2/
+ls
+clear
+git log
+c
+git log | detect columns 
+git log | detect columns | select author
+git log | detect columns | get author
+clear
+git log | detect columns
+git log | detect columns | transpose
+clear
+git log | detect columns
+c
+git log --pretty=format:"%h %an %ad %s" --date=short | column -t
+git log --pretty=format:"%h %an %ad %s" --date=short | column -t | detect columns
+clear
+jc
+brew install jc
+clear
+git log | jc --git-columns
+git log | jc --git-log
+clear
+git log | jc --git-log | from json
+git log | jc --git-log | from json | table
+clear
+git log | jc --git-log | from json | select author
+git log | jc --git-log | from json | select author | ^uniq 
+git log | jc --git-log | from json | select author | uniq 
+clear
+jc --help
+clear
+brew list
+brew list | detect columns 
+c
+tldr brew
+clear
+Enable-TransientPrompt
+clear
+cd ..
+clear
+vv nushell/
+v nushell/
+clear
+cd tmuc
+cd tmux
+clear
+ls
+cd plugins/
+ls
+mkdir catppuccin
+clear
+cd catppuccin/
+ls
+clear
+git clone -b v2.1.0 https://github.com/catppuccin/tmux.git
+ls
+clear
+v ~/.tmux.conf 
+clear
+ls
+clear
+v ~/
+clea
+clear
+v ~/.tmux.conf 
+clear
+:qa
+clear
+v ~/.tmux.conf 
+clear
+tmux a
+clear
+v ~/.tmux.conf 
+clear
+$env.TERM
+tmux --version
+tmux -v
+clear
+cd config
+clear
+echo hei
+clear
+v .tmux.conf
+$env.TERM
+clear
+$env.TERM
+$env.TERM = 'xterm-256color'
+clear
+$env.TERM
+clear
+v .tmux.conf
+$env.TERM = 'screen-256color'
+clear
+$env.TERM
+clear
+$env.TERM = 'xterm-256color'
+clear
+v .tmux.conf
+clear
+v .tmux.conf
+:qa
+clear
+v ~/.tmux.conf 
+clear
+v ~/.tmux.conf 
+$env.TERM
+clear
+v 
+clear
+v .tmux.conf
+clear
+v .tmux.conf
+clear
+v .tmux.conf
+$env.TERM
+clear
+v .tmux.conf
+tmux source-file ~/.tmux.conf
+v .tmux.conf
+clear
+v .tmux.conf
+tmux source-file ~/.tmux.conf
+v .tmux.conf
+clear
+tmux source-file ~/.tmux.conf
+clear
+v .tmux.conf
+clear
+cd .tmux.conf
+cd tmux
+clear
+ls
+cd plugins/
+rm -rf catppuccin/
+clear
+v .tmux.conf
+clear
+c
+clear
+c
+v 
+c
+v .tmux.conf
+clear
+c
+ls
+cd
+ls
+cd 113
+clear
+c
+v .tmux.conf
+c
+c
+clear
+c
+v .tmux.conf
+c
+clear
+v .tmux.conf
+c
+c
+v .tmux.conf
+clear
+c
+c
+cd ..
+clear
+ls
+mv INF113/ ~
+clear
+cd
+ls
+cd INF113/
+ls
+clear
+mkdir DSIK
+mv INF102/ INF113/ DSIK
+clear
+cd DSIK/
+ls
+clear
+clar
+clear
+cd
+z
+ls
+cd INF113/
+clear
+v .
+clear
+cd Oblig3/
+ls
+claer
+clear
+ls
+clear
+c
+ls
+cd Oblig3/
+ls
+cd oblig3-myfs/ls
+cd oblig3-myfs/l
+cd oblig3-myfs/
+clear
+ls
+cd ..
+ls
+cd oblig3-myfs/
+clear
+mv ~/Downloads/README.md .
+ls
+clear
+glow README.md
+cd carapace/
+cd ..
+ls
+c
+cd ..
+clear
+ls
+cd .tmux/
+ls
+clear
+cd plugins/
+ls
+c
+ls
+brew search sk
+brew search devicons
+c
+v ~/.tmux
+v ~/.tmux.conf 
+clear
+c
+c
+glow README.md
+v ~/.tmux.conf 
+c
+c
+ls
+cd Oblig3
+ls
+clear
+ls
+cd Dockerfile
+c
+cd oblig3-myfs/
+ls
+python3 main.py
+c
+ls
+clear
+ls
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+clear
+xxd test_save_with_file_size.fs 
+c
+echo hei
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+git status 
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+xxd myfs1.py 
+c
+alias p3 = python3
+c
+p3 main.py
+c
+xxd myfs1.py 
+c
+xxd test_save_with_file_size.fs 
+c
+p3 main.py
+c
+ls
+c
+python3 main.py
+v ~/.tmux.conf 
+clear
+v nvim
+cd nvim
+git status 
+c
+cd ..
+c
+v starship.toml 
+v nushell/
+v starship.toml 
+clear
+v nvim
+c
+v ~/.tmux.conf 
+c
+c
+c
+git status
+c
+ps
+c
+ps | where name =~ nvim
+c
+ps | where name =~ vs
+ps | where name =~ visual
+c
+ps | where name =~ v
+c
+ps | where name =~ code
+ps
+ps | where name =~ vis
+c
+btop
+ps | where name =~ Code
+mut x = 0
+ps | where name =~ Code | get mem| each {|y| (x+y)}
+ps | where name =~ Code | get mem| each {|y| $x = $x + $y}
+c
+ps | where name =~ Code | get mem a| each {|y| $x = $x + $y }
+ps | where name =~ Code | get mem a | each {|y| $x = $x + $y }
+ps | where name =~ Code | get mem a | reduce $acc {|$acc, $item| $acc + $item}
+ps | where name =~ Code | get mem a | reduce acc {|$acc, $item| $acc + $item}
+c
+reduce --help
+ps | where name =~ Code | get mem a | reduce --fold 0 {|$acc, $item| $acc + $item}
+ps | where name =~ Code | get mem | reduce --fold 0 {|$acc, $item| $acc + $item}
+c
+reduce --help
+ps | where name =~ Code | get mem | reduce --fold 0 {|acc, item| $acc + $item}
+c
+ps | where name =~ Code | get mem
+ps | where name =~ Code | get mem | describe
+(hei |<\n>describe)
+c
+reduce --help
+[ 1 2 3 4 ] | describe
+c
+ps | where name =~ Code | get mem | to int
+ps | where name =~ Code | get mem | to
+ps | where name =~ Code | get mem | describe
+ps | where name =~ Code | get mem | into int
+ps | where name =~ Code | get mem | into int | reduce --fold 0 {|acc, item| $acc + $item}
+ps | where name =~ nvim | get mem | into int | reduce --fold 0 {|acc, item| $acc + $item}
+76267520/210714624
+76267520 / 210714624
+c
+ps | where name ~= Code
+ps | where name =~ Code
+c
+python3 main.py
+c
+python3 main.py
+c
+p3 main.py
+python3 main
+c
+python3 main
+c
+python3 main.py
+# file system parameters<\n>TOTAL_SIZE = 0x800  # 2kB<\n><\n># Metainfo block<\n>HEADER_START = 0x0<\n># 1 byte counter for the number of files<\n>COUNTER_BYTES = 0x1<\n># size of file info entry (filename, ...)<\n>FILE_ENTRY_SIZE = 0x10<\n># size of a file block (content of a file)<\n>FILE_BLOCK_SIZE = 0x100<\n># max number of files (first block is reserved for metainfo, rest are files)<\n>MAX_FILES = (TOTAL_SIZE - FILE_BLOCK_SIZE) // FILE_BLOCK_SIZE<\n><\n>MAX_HARD_LINK_FILES = 0  # TODO: Oppgave 4<\n><\n>FILENAME_SIZE = 0x20  # TODO:<\n><\n><\n>###### EXCEPTIONS ######<\n>class NoFile(Exception):<\n>    def __init__(self, message="No such file found"):<\n>        self.message = message<\n>        super().__init__(self.message)<\n><\n><\n>class NoFreeSpace(Exception):<\n>    def __init__(self, message="No free space available"):<\n>        self.message = message<\n>        super().__init__(self.message)<\n><\n><\n>class EmptyFile(Exception):<\n>    def __init__(self, message="Not allowed to store an empty file"):<\n>        self.message = message<\n>        super().__init__(self.message)<\n><\n><\n>###### FILE SYSTEM OPERATIONS ######<\n><\n><\n>def format(f):<\n>    """<\n>    Formats the file system by writing the initial metadata.<\n>    """<\n>    f.write(b"\0" * TOTAL_SIZE)<\n><\n><\n>def _get_num_files(f):<\n>    f.seek(HEADER_START)<\n>    bytes = f.read(COUNTER_BYTES)<\n>    num = int.from_bytes(bytes, "little", signed=False)<\n>    return num<\n><\n><\n>def _set_num_files(f, n):<\n>    f.seek(HEADER_START)<\n>    bytes = n.to_bytes(COUNTER_BYTES, "little", signed=False)<\n>    f.write(bytes)<\n><\n><\n>def _get_num_linked_files(f):<\n>    pass  # Oppgave 4<\n><\n><\n>def _set_num_linked_files(f, n):<\n>    pass  # Oppgave 4<\n><\n><\n>def save(f, filename, content):<\n>    """<\n>    Saves a file with the given content to the file system.<\n><\n>    Args:<\n>        f (file object): The file object representing the file system.<\n>        filename (str): The name of the file to be saved.<\n>        content (str): The file content to be saved.<\n>    """<\n><\n>    if content == "":<\n>        raise EmptyFile<\n>    found_slot = None<\n>    for i in range(MAX_FILES):<\n>        f.seek(HEADER_START + i * FILE_ENTRY_SIZE)<\n>        entry = f.read(FILE_ENTRY_SIZE).decode("ascii").strip("\x00")<\n>        if entry == "":<\n>            found_slot = i<\n>            break<\n><\n>    if found_slot is None:<\n>        raise NoFreeSpace(f"No free space available, max files: {MAX_FILES}")<\n><\n>    num_existing = _get_num_files(f)<\n>    new_fileno = num_existing + 1<\n>    _set_num_files(f, new_fileno)<\n><\n>    # write filename in ftable next free entry, truncate if needed<\n>    f.seek(HEADER_START + FILE_ENTRY_SIZE * found_slot)<\n>    f.write(filename.encode("ascii")[:FILE_ENTRY_SIZE])<\n><\n>    f.seek(HEADER_START + FILE_ENTRY_SIZE * found_slot + FILENAME_SIZE)<\n>    f.write(len(content).to_bytes(4, byteorder="big"))<\n><\n>    # write content to file block, truncate if needed<\n>    f.seek(HEADER_START + FILE_BLOCK_SIZE * found_slot + FILENAME_SIZE + 4)<\n>    f.write(content.encode("ascii")[:FILE_BLOCK_SIZE])<\n><\n><\n>def find_fileno(f, filename):<\n>    """<\n><\n>    Finds the line of the filename in the header.<\n>    Uses 0-indexing.<\n><\n>    Args:<\n>        f (file object): File system<\n>        filename (str): Name of file<\n><\n>    Returns:<\n>        int: 0-indexed position number<\n>    """<\n>    N = _get_num_files(f)<\n>    for pos in range(0, N):<\n>        f.seek(HEADER_START + FILE_ENTRY_SIZE * (pos + 1))<\n>        name = f.read(FILENAME_SIZE)<\n>        name = name.decode("ascii").strip("\0")<\n>        if name == filename:<\n>            return pos<\n>    else:<\n>        raise NoFile(f"File {filename} not found")<\n><\n><\n>def find_filesize(f, fileno):<\n>    """<\n>    Return the file size of the file associated with<\n>    the given file number.<\n><\n>    Args:<\n>        f (file object): The file system<\n>        fileno (int): The file number<\n>    """<\n>    # Oppgave 2<\n>    pass<\n><\n><\n>def load(f, filename):<\n>    """<\n>    Load the content of a file from a custom filesystem.<\n>    Args:<\n>        f (file object): The file object representing the file system.<\n>        filename (str): The name of the file to load.<\n>    Returns:<\n>        str: The content of the file as a string.<\n>    """<\n><\n>    fileno = find_fileno(f, filename)<\n>    f.seek(HEADER_START + FILE_BLOCK_SIZE * (fileno + 1) + FILENAME_SIZE)<\n>    contentlength = f.read(4).decode("ascii")<\n>    content = f.read(contentlength)<\n>    content = content.decode("ascii").strip("\0")<\n><\n>    return content<\n><\n><\n>def copy(f, infile, outfile):<\n>    """<\n>    Copy the contents of a file from the filesystem<\n>    to another file in the filesystem.<\n><\n>    Args:<\n>        f (file object): The file object representing the file system.<\n>        infile (str): The name of the file to copy from.<\n>        outfile (str): The name of the new file to copy to.<\n>    """<\n>    content = load(f, infile)<\n>    save(f, outfile, content)<\n><\n><\n>def remove(f, filename):<\n>    """<\n>    Remove a file from the filesystem.<\n><\n>    Args:<\n>        f (file object): The file object representing the file system.<\n>        filename (str): The name of the file to remove.<\n>    """<\n><\n>    fileno = find_fileno(f, filename)<\n><\n>    f.seek(HEADER_START + FILE_BLOCK_SIZE * (fileno + 1))<\n>    f.write(b"\0" * FILE_BLOCK_SIZE)<\n><\n>    f.seek(HEADER_START + FILE_ENTRY_SIZE * (fileno + 1))<\n>    f.write(b"\0" * FILE_ENTRY_SIZE)<\n><\n>    # update number of files<\n>    num_existing = _get_num_files(f)<\n>    _set_num_files(f, num_existing - 1)<\n><\n><\n>def hard_link(f, existing_file, link_name):<\n>    """<\n>    Create a hard link to an existing file.<\n><\n>    Args:<\n>        f (file object): The file object representing the file system.<\n>        existing_file (str): The name of the existing file.<\n>        link_name (str): The name of the new hard link.<\n>    """<\n>    # 
+c
+tmux source-file ~/.tmux.conf
+c
+hei
+c
+cd Oblig3/
+ls
+c
+cd oblig3-myfs/ls
+cd oblig3-myfs/c
+cd oblig3-myfs/
+c
+hei
+python3 main.py
+cd Oblig3/
+cd oblig3-myfs/
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+glow
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+xxd test1.fs 
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+rm test_save_with_file_size.fs
+c
+python3 main.py
+c
+python3 main.py
+cd Oblig3/oblig3-myfs/
+ls
+c
+c
+python3 main.py
+c
+python3 main
+python3 main.py
+c
+v .
+c
+python3 main.py
+ls
+bat t.txt 
+c
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+bat t.txt 
+v t.txt 
+c
+ls
+cd Oblig1/
+cd ..
+clear
+c
+cd Oblig1/
+ls
+cd ../Oblig2/
+ls
+cd ..
+c
+cd INF102/
+ls
+cd Isak.Hansen_semesteroppgave-2/
+ls
+clear
+git log
+c
+git log | jc --git-log
+c
+git log | jc --git-log | from json
+git log | jc --git-log | from json | select author
+c
+git log | jc --git-log | from json | select author | uniq
+c
+ls **
+ls **/*
+python3 main.py
+bat t.txt 
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3
+clear
+python3
+clear
+python3
+clear
+python3
+clear
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+bat t.txt 
+c
+v test.txt 
+python3 te
+python3 test.py
+clear
+v test.py 
+c
+python3 test.py
+bat t.txt 
+bat test_save_with_file_size.fs 
+c
+v .
+c
+xxd test_save_with_file_size.fs 
+c
+xxd test_save_with_file_size.fs 
+python3 main.py
+bat test_save_with_file_size.fs 
+c
+bat t.txt 
+c
+ls
+(ls | where name =~ h)
+c
+v .
+git diff
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+bat t.txt 
+python3 main.py
+c
+xxd test_save_with_file_size.fs 
+c
+bat t.txt 
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+bat t.txt 
+c
+git status
+c
+git push
+c
+lazygit
+c
+lazygit
+c
+python3 main.py
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+python3 main.py
+c
+bat t.txt 
+c
+python3 main.py
+c
+python3 main.py
+bat t.txt 
+c
+python3 main.py
+c
+glow
+c
+ls
+clear
+git log
+c
+git log | jc --git-log | from json
+c
+alias `git log` = `git log | jc --git-log | from json`
+git log
+alias `git log` = "git log | jc --git-log | from json"
+unalias `git log`
+clear
+alias
+alias --help
+alias list
+unalias 
+unalias -a `git log`
+clear
+git log
+git log
+cd Oblig3/
+ls
+cd oblig3-myfs/
+clear
+git log
+git log | jc --git-log | from json
+git log | jc --git-log | from json | table
+c
+git diff HEAD~ myfs.py
+clear
+cd
+clear
+date now
+date now | date to-timezone "New York"
+date now | date to-timezone "Europe/London"
+[[framework, language]; [Django, Python] [Laravel, PHP]]
+clear
+[one two three] | to yaml
+clear
+[{name: 'Robert' age: 34 position: 'Designer'}<\n> {name: 'Margaret' age: 30 position: 'Software Developer'}<\n> {name: 'Natalie' age: 50 position: 'Accountant'}<\n>] | select name position
+> let name = "Alice"<\n>> $"greetings, ($name)!"<\n>greetings, Alice!
+cler
+c
+let name = Alice
+let name = "Alice"
+c
+$"greetings, ($name)!"
+$"greetings, ($name)!" | describe
+c
+let string_list = "one,two,three" | split row ","
+$string_list
+$string_list | describe
+c
+isak
+"isak"
+clear
+"isak" | describe
+c
+"isak" | split row "s"
+clear
+> $'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+$'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+$'(ansi yellow_bold)This text is a bold purple!(ansi reset)'
+clear
+n = [1,2,3]
+let n = [1,2,3]
+n
+echo n
+clear
+echo $n
+$n | prepend 5
+$n
+let n = ($n | prepend 5)
+$n
+clear
+$n | each {|p] echo hei}
+$n | each { |p] echo "hei" }
+$n | each { |p] echo "hei $p" }
+$n | each { |p| echo "hei" }
+$n | each { |p| echo "hei" } | describe 
+$n | each { [p] echo "hei" } | describe 
+$n | each { |p| echo "hei" }
+clear
+glob
+glob --help
+glob *.txt
+glob **/*.txt --depth 2
+c
+l
+ls
+c
+ls | to html
+c
+ls
+c
+ls | to html | save test.html
+v test.html 
+rm test.html
+ls
+c
+cd tests/
+ls
+cd starship-custom/
+ls
+clear
+cd
+clear
+let my-record = {"apples": 12, "bananas":  5}
+let my_record = {"apples": 12, "bananas":  5}
+$my_record
+$my_record | to json
+$my_record | to json | from json
+c
+{<\n>name: "Isak"<\n>age: 21<\n>gender: male<\n>}
+isak = {<\n>name: "Isak"<\n>age: 21<\n>gender: male<\n>}
+let isak = {<\n>name: "Isak"<\n>age: 21<\n>gender: male<\n>}
+$isak
+c
+$isak | to nuon
+to nuon --help
+[1, 2, 3]
+[1, 2, 3] | from nuon
+"[1, 2, 3]" | from nuon
+"[1, 2, 3]"
+c
+$carapace_completer
+c
+$my_record 
+$my_record.apples
+$my_record | update apples { $my_record.apples + 5}
+$my_record
+$my_record | merge ( update apples { $my_record.apples + 5} )
+$my_record | merge ( $my_record | update apples { $my_record.apples + 5} )
+$my_record
+c
+...$isak title: "it-kis"
+{ ...$isak title: "it-kis" }
+$isak
+c
+cd Oblig3/
+ls
+cd oblig3-myfs/
+ls
+c
+xxd 
+c
+xxd test_save_with_file_size.fs 
+c
+xxd test1.fs 
+c
+alias m = python3 main.py
+c
+m
+c
+m
+rm test1.fs
+m
+c
+xxd test1.fs 
+c
+m
+bat main.py 
+c
+xxd myfilesystem.fs 
+xxd test_save_with_file_size.fs 
+c
+m
+c
+m
+c
+diff myfs2.py myfs3.py 
+c
+v .
+cd Oblig3/
+ls
+cd oblig3-myfs/
+c
+ls
+c
+c
+ls | where name =~ lazy
+cd lazygit/
+ls
+c
+m
+c
+ls
+xxd test_remove_not_zeroed_out.fs 
+c
+rm test_remove_not_zeroed_out.fs
+m
+c
+xxd  test_remove_not_zeroed_out.fs 
+c
+m
+c
+m
+bat t.txt 
+c
+m
+c
+m
+bat t.txt 
+v t.txt 
+rm t.txt
+c
+m
+c
+m
+c
+m
+c
+m
+c
+m
+c
+bat t.txt 
+c
+python3
+c
+m
+c
+m
+c
+m
+bat t.txt 
+c
+bat t.txt 
+m
+c
+bat t.txt 
+c
+m
+c
+m
+bat 
+c
+bat t.txt 
+v t.txt 
+rm t.txt
+c
+m
+bat t.txt 
+bat b.txt 
+c
+rm b.txt
+c
+m
+bat b.txt 
+jjc
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xx
+c
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+xxd test_remove_not_zeroed_out.fs 
+c
+m
+c
+m
+c
+m
+c
+diff myfs.py myfs_3.py 
+c
+xxd myfs_1.py 
+c
+cd ..
+ls -l
+cd STAT110
+ls
+cd ..
+ls
+cd ..
+c
+cd INF113
+c
+ls
+c
+git status
+cd Oblig3/oblig3-myfs/
+ls
+c
+git 
+git status
+c
+git diff
+c
+v:
+v .
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+v test..py
+v test.py
+clear
+c
+cd Oblig3/oblig3-myfs/
+c
+python3 test.py
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+xxd isak.fs
+q
+c
+xxd test_save_with_file_size.fs 
+c
+xxd test_save_with_file_size.fs 
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+c
+v config.yml 
+c
+cd ..
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+xxd --help
+man xxd
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+c
+ls
+c
+python3 main.py
+xxd test1.fs 
+c
+v .
+clear
+python3 isak.py
+c
+xxd test1.fs 
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+python3 isak.py
+c
+python3 isak.py
+bat forbannade.txt 
+cc
+c
+python3 isak.py
+bat forbannade.txt 
+c
+bat forbannade.txt 
+python3 isak.py
+bat forbannade.txt 
+c
+python3 isak.py
+c
+xxd isak.fs
+c
+git status
+c
+ls
+xxd test_remove_not_zeroed_out.fs 
+c
+xxd test_save_with_file_size.fs 
+c
+ls
+c
+python3  main.py
+xxd test1.fs 
+c
+cd Oblig3/oblig3-myfs/
+ls
+c
+ls
+xxd test_remove_not_zeroed_out.fs 
+c
+xxd test_save_with_file_size.fs 
+c
+python3  main.py
+xxd test_save_with_file_size.fs 
+c
+python3  main.py
+c
+xxd test1.fs 
+c
+python3 main.py
+c
+python3 main.py
+xxd test_save_with_file_size.fs 
+c
+python3 main.py
+xxd test_remove_not_zeroed_out.fs 
+c
+python3 main.py
+xxd test_remove_not_zeroed_out.fs 
+c
+python3 main.py
+xxd test1.fs 
+c
+cd testing/
+ls
+clear
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+ls
+cd Oblig3/
+ls
+cd ..
+c
+cd Oblig3/
+ls
+c
+mkdir Oblig3 testing
+c
+ls
+cd Oblig3/
+ls
+cd ..
+rmdir Oblig3/
+rmdir testing/
+mkdir "Oblig3 testing"
+ls
+cd `Oblig3 testing/`
+ls
+clear
+git clone git@git.app.uib.no:Isak.Hansen/oblig3-myfs.git
+ls
+clear
+cd oblig3-myfs/
+ls
+clear
+python3 isak.py
+xxd isak.fs 
+c
+ls
+clear
+ls
+c
+git status
+c
+ls
+c
+python3 isak.py
+xxd isak.fs 
+c
+xxd isak.fs 
+python3 isak.py
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+pwd
+pwd
+c
+cd ..
+ls
+c
+ls
+c
+cd oblig3-myfs/
+ls
+clear
+cd Oblig3/
+ls
+cd oblig3-myfs/
+ls
+v .
+c
+cd .
+cd ..
+ls
+cd ..
+ls
+clear
+cd Oblig3/
+ls
+cd oblig3-myfs/
+cd ..
+ls
+cd `Oblig3 testing/`
+ls
+clear
+ls
+pwd
+ls
+pwdd
+clear
+c
+pwd
+pwd
+cd oblig3-myfs
+pwd
+v myfs.py 
+clear
+cd ..
+ls
+ls
+cd oblig3-myfs/
+ls
+cleaer
+clear
+c
+git log
+c
+cd ..
+mkdir solution1
+mv oblig3-myfs/ solution1/
+cd solution1/
+ls
+cd oblig3-myfs/
+ls
+c
+ls
+ls
+c
+cd Oblig3/solution1/oblig3-myfs/
+c
+ls
+c
+python3 main.py
+ls
+c
+cd testing/
+ls
+c
+python3 main.py
+c
+python3 isak.py
+cd
+c
+v Downloads/
+c
+cd Downloads/
+ls
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+v nvim
+clear
+cd ..
+ls
+git log
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+v "myfs 4B.py" 
+ls
+ls
+diff myfs.py ~"/Downloads/myfs 4B.py" 
+c
+c
+diff myfs.py ~"/Downloads/myfs 4B.py" | bat
+v .
+c
+cd testing/
+cd ..
+cd testing/
+c
+v .
+c
+cd ..
+c
+ls
+git status
+lazygit
+c
+git checkout main 
+ckear
+c
+git reset --hard origin/solution1 
+clear
+git log
+c
+v .
+c
+git checkout solution1 
+git log
+c
+xxd isak.fs 
+c
+cd ..
+ls
+cd ..
+cd `Oblig3 testing/`
+ls
+cd oblig3-myfs/
+ls
+clear
+v c
+c
+v c
+c
+v .wezterm.lua 
+c
+ls
+cd .config/
+cd ..
+v .tmux.conf
+c
+cd Datasikkerhet
+v 
+cd Datasikkerhet
+c
+c
+cd Datasikkerhet
+cd
+clear
+v .tmux.conf
+c
+cd Datasikkerhet
+v .
+c
+cd
+c
+cd config
+v nu
+c
+v nushell/
+c
+cd ..
+c
+v starship.toml 
+c
+cd config
+c
+cd Datasikkerhet
+c
+pwd
+c
+v .tmux.conf
+cd Datasikkerhet
+glow
+c
+v
+ls
+cd ..
+ls
+cd .
+rm -rf Oblig3
+clea
+ls
+c
+ls
+cd ..
+ls
+rm -rf Oblig3
+c
+ls
+mkdir Oblig3
+c
+ls
+cd Oblig3/
+ls
+c
+git clone git@git.app.uib.no:Isak.Hansen/oblig3-myfs.git
+c
+,s
+ls
+c
+cd oblig3-myfs/
+ls
+v myfs_1.py 
+c
+rm myfs_*
+c
+ls
+lazygit
+ls
+c
+v .
+c
+ls
+rm myfs_*
+ls
+rm test*
+ls
+clear
+:qa
+cd
+q
+clear
+cd
+^cd
+v .
+ls
+c
+ls
+cd Oblig3
+ls
+clear
+cd oblig3-myfs/
+ls
+clear
+cd Oblig3/oblig3-myfs/
+ls
+clear
+v
+c
+alias m = python3 main.py
+c
+m
+xxd test1.fs 
+c
+m
+clear
+git log | jc --git-log | from json | table
+git log | jc --git-log | from json | select commit
+git log | jc --git-log | from json | select commit | get 13
+git log | jc --git-log | from json | select commit | get 13 | pbcopy
+clear
+c
+git status
+c
+git log | jc --git-log | from json | select commit | get 13 | into string
+git log | jc --git-log | from json | select commit | get 13
+c
+git diff 1da39844d067824cfb721c64188db3f7a4d86155
+cd Downloads/
+cd Downloads
+c
+ls
+q
+c
+ls
+mkdir testing
+c
+ls
+c
+v
+python3 isak.py
+cd testing/
+ls
+c
+alias i = python3 isak.py
+c
+i
+xxd isak.fs 
+c
+i
+c
+i
+xxd isak.fs 
+c
+i
+c
+ls
+c
+cd ~/d
+c
+mv `~/Downloads/myfs 4B.py` ./idris/
+ls
+ls idris
+c
+cd idris
+cp ../isak.py .
+ls
+c
+ls
+v .
+c
+ls
+i
+ls
+clear
+xxd isak.fs 
+c
+v isak.py 
+c
+i
+c
+v .
+ls
+c
+v .
+c
+v .
+c
+i
+alias i = python3 idris.py
+c
+i
+c
+v .
+c
+cd ..
+ls
+clear
+i
+alias i = python3 isak.py
+c
+i
+cd testing/idris/
+ls
+c
+c
+diff myfs.py idris/myfs.py 
+c
+diff myfs.py idris/myfs.py | bat
+c
+v nvim/
+c
+cp .tmux.conf .
+c
+cp ../.tmux.conf .
+c
+ls -l
+c
+ls -la
+c
+v .tmux.conf
+clear
+cd ..
+v .tmux.conf
+cd .config
+c
+v .tmux.conf 
+rm .tmux.conf
+c
+cd ..
+v .tmux.conf 
+c
+ln
+man ln
+c
+cd .confif
+cd config
+c
+mkdir tmux
+c
+cp ~/.tmux.conf .
+c
+cd tmux
+c
+ls
+c
+ln -s ~/.config/tmux/tmux.conf ~/.tmux.conf 
+ln -s ~/.tmux.conf  ~/.config/tmux/tmux.conf
+c
+ls
+cd
+c
+v .tmux.conf 
+c
+i
+cd Oblig3/oblig3-myfs/testing/idris/
+c
+ls
+cd 
+c
+cd Oblig3/oblig3-myfs/testing/idris/
+c
+xxd idris.fs 
+xxd isak.fs 
+c
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 ../main.py
+c
+python3 ../main.py
+python3 isak.py
+c
+cd testing/
+c
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+v tmux.conf 
+c
+cd ..
+c
+v nvim
+c
+v nvim
+c
+v nvim
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 idris.py
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 idris.py
+c
+c
+bat idris.py 
+bat isak.py 
+c
+c
+v isak.py 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 idris.py
+xxd idris.fs 
+xxd isak.fs 
+c
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 idris.py
+c
+cd Oblig3/oblig3-myfs/testing/idris/
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd idris.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+python3
+c
+xxd idris.fs 
+c
+c
+x
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+v isak.py 
+c
+cd ..
+c
+cd ..
+python3 main.py
+c
+python3 main.py
+c
+cd solutions/
+ls
+cd ../testing/
+c
+ls
+python3 isak.py
+c
+cd ..
+c
+python3 main.py
+c
+python3 main.py
+bat balls.txt
+c
+python3 main.py
+c
+python3 main.py
+c
+bat balls.txt
+c
+cd testing
+ls
+clear
+rm *.fs
+c
+ls
+python3 isak.py
+c
+cd ..
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+c
+python3 main.py
+bat balls.txt 
+cat balls.txt
+c
+cd testing/
+ls
+clear
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+cd ..
+c
+python3 main.py
+c
+diff testing/myfs.py solutions/myfs_2.py 
+c
+diff testing/myfs.py solutions/myfs_1.py | bat
+c
+cd testing/
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+cd ..
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+git status
+git diff
+c
+ls
+v .
+c
+c
+python3 idris.py
+c
+xxd idris.fs 
+c
+python3 idris.py
+xxd idris.fs 
+c
+python3 idris.py
+c
+python3 idris.py
+c
+python3 idris.py
+c
+python3 isak.py
+cd testing/
+c
+python3 isak.py
+c
+python3 isak.py
+c
+xxd idris.fs 
+c
+ln
+c
+man ln
+c
+xxd idris.fs 
+c
+xxd idris.fs 
+c
+v .
+clear
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+cc
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+git diff
+c
+cd ..
+python3 main.py
+c
+python3 main.py
+c
+xxd test_remove_not_zeroed_out.fs 
+c
+xxd test_hard_link.fs 
+c
+python3 main.py
+c
+cd solutions/
+c
+cd ../testing
+c
+python3 isak.py
+c
+python3 isak.py
+k
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+xxd isak.fs 
+c
+python3 isak.py
+c
+python3 isak.py
+c
+python3 isak.py
+cd ..
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+cd testing/
+c
+ls
+c
+python3 isak.py
+xxd isak.fs 
+c
+xxd isak.fs 
+python3 isak.py
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd isak.fs 
+c
+python3 isak.py
+c
+xxd isak.fs 
+cd
+cd testing
+c
+cd ..
+ls
+clear
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+python3 main.py
+c
+diff solutions/myfs_4A.py solutions/myfs_4B.py 
+c
+diff solutions/myfs_4A.py solutions/myfs_4B.py | bat
+c
+brew install atuin
+atuin
+brew uninstall autin
+brew uninstall atuin
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+c
+atuin
+v nushell/
+clar
+v nushell/
+atuin
+v nushell/
+clear
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+mkdir ~/.local/share/atuin/
+atuin init nu | save ~/.local/share/atuin/init.nu
+cd 
+clear
+cd .atuin
+ls
+cd bin/
+cd atuin
+ls
+clear
+v nushell/
+clear
+atuin init nu | save ~/.local/share/atuin/init.nu
+v nushell/
+clear
+mkdir ~/.local/share/atuin/
+clear
+halla
+clear
+cd ~/.local/share/atuin/
+ls
+v .
+clear
+cd
+halla
+c
+cmatrix
+sh <(curl -L https://nixos.org/nix/install)
+c
+nix
+c
+v atuin/
+clear
+curl -L https://nixos.org/nix/install | sh -s -- --daemon
+clear
+nix
+sudo systemctl disable nix-daemon.socket nix-daemon.service
+sudo systemctl daemon-reload
+clear
+sudo rm -rf /etc/nix /etc/profile.d/nix.sh /etc/tmpfiles.d/nix-daemon.conf /nix ~root/.nix-channels ~root/.nix-defexpr ~root/.nix-profile<\n>
+v .
+clear
+v .tmux.conf 
+clear
+sudo umount /nix
+curl -L https://nixos.org/nix/install | sh
+rm -rf nix
+clear
+rm -rf nix
+clear
+rm -rf /nix
+mount | grep nix
+umount /dev/disk3s7
+sudo umount /dev/disk3s7
+diskutil unmount
+clear
+cd .config
+clear
+cd nvim
+ls
+v .
+clear
+cd ..
+clear
+ls
+nvim
+lazygit
+c
+lazygit
+clear
+git init
+lazygit
+clear
+ls
+rm -rf Ryujinx/
+clear
+ls
+v .
+ls
+ls ..
+v .
+clear
+v .
+c
+cd config
+clear
+v tmux
+c
+cd ..
+clear
+ls
+cd .tmux
+ls
+clear
+cd ..
+rm -rf .tmux/
+clear
+ls
+cd config
+ls
+cd tmux
+ls
+mkdir ~/.tmux
+ls ~/.tmux
+cp plugins ~/.tmux
+cp plugins ~/.tmux --recursive
+clear
+:qa
+v .tmux.conf 
+v tmux
+cd config
+cd tmux
+ls
+rm -rf plugins
+clear
+ls
+clear
+cd ..
+clear
+v tmux
+cd ..
+clear
+v .tmux
+clear
+cd config
+man fxf
+man fzf
+fzf --color="bg: 5"
+fzf --color='bg:#4B4B4'
+fzf --color='bg:-1'
+fzf --color='bg:237'
+$env.color
+$env
+/default
+clear
+$env
+v tmux
+clear
+c
+cd .tmux
+v .
+clear
+cd config
+clear
+v ../.wezterm.lua 
+clear
+$env
+c
+brew services restart sketchybar
+clear
+brew services start sketchybar
+ls
+ls | grep sketchybar
+cd
+clear
+mkdir josean
+cd josean
+clear
+git clone git@github.com:josean-dev/dev-environment-files.git
+clear
+ls
+cd dev-environment-files/
+ls
+cd .config/
+ls
+clear
+mv sketchybar/ ~/.config
+clear
+cd config
+clear
+ls
+brew services restart sketchybar
+clear
+v sketchybar/
+clear
+ls
+v aerospace/
+man fzf
+cd config
+cl
+clear
+brew services restart sketchybar
+v sketchybar/
+clear
+cd config
+clear
+git reset
+clear
+v .
+clear
+cd sketchybar/
+clear
+brew services restart sketchybar
+clear
+nix-shell -p cowsay
+clear
+nix-shell -p cowsay
+clear
+nix-shell -p ponysay
+clear
+ps
+clear
+ps | where name =~ sketchybar
+ce
+clear
+btop
+clear
+nix-shell -p cowsay
+clear
+sysctl -n hw.logicalcpu
+clear
+system_profiler SPHardwareDataType | grep "Total Number of Cores"
+system_profiler SPHardwareDataType | grep "Logical"
+clear
+cd python
+ls
+bat avg.py
+bat varian
+bat varians
+bat varians -p
+clear
+cd stat
+clear
+ls
+clear
+start `Modern Mathematical Statistics with Applications.pdf`
+clear
+cd INF113
+clear
+ls
+clear
+vmstat
+clear
+cd /
+clear
+ls
+clear
+ls /proc
+clear
+ls | where name =~ proc
+clear
+ls
+clear
+cd
+clear
+cd 113
+clear
+ls
+cd Oblig3/
+ls
+clear
+cd oblig3-myfs/
+ls
+clear
+cd ../../Oblig2/
+clear
+ls
+docker compose up
+clear
+tldr docker
+docker exec -it oblig bash
+clear
+docker compose up
+cd /
+c
+ls
+cd bin
+ls
+cat ls
+clear
+ls
+cat ls
+clear
+bat ls
+clear
+ls
+bat sh
+bat sh --h
+clear
+bat sh --human
+bat -p cat 
+clear
+bat -A bash 
+c
+xxd bash 
+c
+cd
+clear
+cd /root
+clear
+cd /usr
+ls
+clear
+cd /home
+clear
+ls
+clear
+ls
+ls -la
+ls -a
+clear
+cd
+clear
+pwd
+cd ..
+ls
+ls -la
+clear
+cd -
+clear
+cd -
+clear
+cd -
+clear
+ls
+c
+reset
+cleae
+c
+jobs
+clear
+vim
+clear
+ps 
+clear
+ps | where name =~ sketchybar
+clear
+ps | where name =~ tmux
+clar
+clear
+cd c
+clear
+ls
+v as.c
+clear
+gcc as.c 
+ls
+./a.out
+clear
+v as.c
+clear
+gcc as.c 
+clear
+./a.out
+clear
+tldr gcc
+gcc -S as.c
+ls
+clear
+v as.s
+clear
+cd
+clear
+cd config
+clear
+ls
+clear
+v aerospace/
+clear
+cd nvim
+git status
+v .
+clear
+ls
+brew list | grep ripgrep
+clear
+brew list | ripgrep ripgrep
+ripgrep
+clear
+brew install ripgrep
+brew reinstall ripgrep
+clear
+ripgrep
+where ripgrep
+v .
+clear
+find ripgrep
+clear
+cd
+clear
+find ripgrep
+fd ripgrep
+ls | where name =~ zsh
+ls | where name =~ .zsh
+clear
+ls -a | where name =~ zsh
+bat .zsh_history 
+bat .zshrc-e 
+ls -a | where name =~ zs
+bat antigen.zsh 
+clear
+ripgrep
+clear
+chsh -s zsh
+clear
+use '/Users/isakhansen/Library/Application Support/nushell/config.nu' *
+cd `~/Library/Application Support/nushell/config.nu`
+cd `~/Library/Application Support/nushell/`
+ls
+clear
+v .
+use '/Users/isakhansen/Library/Application Support/nushell/config.nu' *
+v .
+clear
+cd config
+clear
+v nushell/
+clear
+source  nushell/config.nu
+clear
+v
+br
+clear
+source .tmux.conf
+v
+clear
+v .tmux.con
+v .tmux.conf
+clear
+source .tmux.conf
+tmux source-file ~/.tmux.conf
+clear
+pcat Amethyst.zip 
+clear
+br -s
+clear
+br
+clear
+ls
+cd Oblig1/
+ls
+clear
+v .
+cd ../Oblig3/
+clera
+clear
+ls
+br
+clear
+cd config
+clear
+ls
+cd broot
+clear
+v .
+clear
+ls
+clear
+cd ..
+clear
+br
+clear
+v broot
+clear
+br
+clear
+cd
+clear
+br
+clear
+mutool
+clear
+imgcat
+^imgcat
+clear
+wezterm
+clear
+wezterm imgcat
+clear
+cd stat
+clear
+ls
+wezterm imgcat "Modern Mathematical Statistics with Applications.pdf" 
+cd Documents
+clear
+cd ~/Documents/
+clear
+wezterm imgcat "Midlertidig Tinghus_Strandgaten 197_C. Sunds gate 42_U.etg-6.etg_rev2.pdf" 
+clear
+wezterm imgcat screenshot.jpg 
+c
+brew install mutool
+clear
+br
+clear
+ls
+clear
+br
+clear
+cd config
+clear
+ls
+v nvim
+clear
+git status
+clear
+git status
+c
+cd nvim
+clear
+git status
+clear
+v .
+clear
+v .
+clea
+clear
+v
+clear
+lazygit
+clear
+v .
+clear
+lazygit
+clear
+lazygit
+clear
+v
+ls
+cd config
+ls
+tree
+ls
+cd nvim
+nvim
+c
+ls
+clear
+btop
+v
+clear
+brew list | rg ff
+brew list | grep ff
+clear
+brew install ffprobe
+which ffprobe
+clear
+which ff
+which ffmpeg
+which ffprobe
+clear
+brew list | rg youtube
+clear
+c
+aerospace
+brew list | rg aerospace
+clear
+aerospace --version
+clear
+c
+cd config
+v karabiner/
+clear
+c
+v /etc/pam.d/sudo 
+clear
+sudo v /etc/pam.d/sudo
+sudo nvim /etc/pam.d/sudo
+clear
+sudo nvim /etc/pam.d/sudo
+clear
+ls
+echo hei
+clear
+y
+clear
+source ~/.config/nushell/config.nu
+clear
+y
+clear
+cd
+clear
+c
+y
+source ~/.config/nushell/config.nu
+c
+y
+clear
+cd nvim
+clear
+git status
+clear
+y
+c
+git clone git@github.com:omerxx/dotfiles.git
+ls
+cd dotfiles/
+ls
+cd nvim
+clear
+ls
+clear
+v .
+clear
+v .
+lazygit
+clear
+v .
+clear
+cd ..
+clear
+v .
+cler
+clear
+v ../../.wezterm.lua 
+cd
+clear
+v .
+clear
+v .wezterm.lua 
+cd config
+c
+v .
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+cd ..
+clear
+cd config
+clear
+v nushell/
+v nvim
+clear
+v nushell/
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+c
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+clear
+c
+v .
+clear
+v .
+clear
+c
+clear
+v .
+clear
+y
+c
+cd ..
+clear
+v .
+c
+cd nvim
+c
+lazygit
+git diff d205c01bc3d5 acd861e4b9a0
+c
+clear
+v .
+ls
+cd git
+pwd
+cd learn
+clar
+clear
+mkdir learngit
+cd learngit
+clear
+cd ..
+cd learngit
+clear
+cd Downloads
+clear
+ls
+cd dotfiles/
+z
+cd -
+cleear
+c
+y
+clear
+ls
+cd nvim
+clear
+ls
+clear
+c
+ls
+clear
+v .
+clear
+cx
+clear
+git init
+clear
+ls
+clear
+ls -la
+clear
+v .git
+clear
+git add README.md
+clear
+v README.md
+clear
+git add README.md
+clear
+git commit -m "init"
+git branch -M main
+clear
+git remote add origin git@github.com:isak79/testrepo.git
+git push -u origin main
+clear
+v somefile.py
+v .
+clear
+git checkout origin/main 
+lazygit
+clear
+v .
+ls
+clear
+cd ..
+ls
+rm -rf learngit
+clear
+git clone git@github.com:isak79/testrepo.git
+ls
+clear
+ls
+rm -rf testrepo/
+clear
+git clone git@github.com:isak79/testrepo.git --bare
+cd testrepo.git/
+ls
+clear
+v .
+clear
+ls
+lazygit
+clear
+git worktree add main
+cd main/
+ls
+lazygit
+clear
+cd ..
+ls
+cd worktrees/
+ls
+clear
+git worktree add newbranch
+cd newbranch/
+clear
+v .
+clear
+v .
+cd ..
+clear
+v .
+clear
+cd ..
+git log
+git worktree add main
+cd main
+ls
+clear
+v somefile.py 
+clear
+cd ..
+git worktree add newbranch
+cd main/
+clear
+ls
+clear
+cd ..
+clear
+ls
+git log
+clear
+cd worktrees/
+ls
+cd newbranch/
+ls
+clear
+ls
+v .
+clear
+cd ../main/
+clear
+v .
+cd ..
+clear
+ls
+rm -rf newbranch/
+clear
+cd .
+ls
+cd ..
+clear
+ls
+rm -rf main
+clear
+cd worktrees/
+ls
+cd main/
+ls
+clear
+cd ..
+rm -rf main/
+ls
+clear
+cd ..
+ls
+cd ..
+clear
+ls
+rm -rf testrepo.git/
+clear
+ls
+git clone git@github.com:isak79/testrepo.git --bare
+clear
+cd testrepo.git/
+clear
+ls
+clear
+ls
+v HEAD 
+clear
+ls
+v .
+clear
+git worktree add newbranch
+ls
+cd newbranch/
+ls
+clear
+v .
+clear
+cd .
+clear
+c 
+cd ..
+clear
+git worktree add main
+clear
+ls
+cd main
+ls
+cd ..
+clear
+cd newbranch/
+clear
+eza
+clear
+v .
+clear
+lazygit
+clea
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+yu
+clear
+cd Downloads
+clear
+ls
+clear
+cd dotfiles/
+clear
+ls
+clear
+cd nvim
+clear
+v .
+clear
+v .
+clear
+cd ..
+clear
+v .
+clear
+v .
+ls
+clear
+cd testrepo.git/anotherbranch/
+clear
+python3 somefile.py
+clear
+v .
+clear
+cd ..
+clear
+ls worktrees/
+cd worktrees/
+cd anot
+clear
+ls
+cd ..
+clear
+y
+:qa
+clear
+ls
+y
+clear
+y
+clear
+cd .config
+cd niz
+clear
+cd nix
+clear
+cd ..
+cd config
+clear
+ls | where name =~ nix
+clear
+mkdir -p ~/.config/nix-darwin
+clear
+cd .config
+clear
+mkdir nix-darwin
+cd nix-darwin/
+clear
+ls
+nix flake init -t nix-darwin
+ls
+sed -i '' "s/simple/$(scutil --get LocalHostName)/" flake.nix<\n>
+tldr sed
+clear
+cd /etc/
+ls
+clear
+cd nix
+ls
+v nix.conf 
+clear
+cd config
+clear
+env 
+ckear
+cl
+c
+env
+clear
+$env
+clear
+env | sg nix
+env | rg nix
+clear
+v flake.nix 
+ls
+clear
+y
+cd config
+clear
+v /etc/pam.d/sudo 
+sudo v /etc/pam.d/sudo 
+sudo nvim /etc/pam.d/sudo 
+clear
+sudo nvim /etc/pam.d/sudo 
+clear
+sudo nvim /etc/pam.d/sudo 
+clear
+v flake.nix 
+darwin-rebuild switch --flake .
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+ls
+darwin-rebuild switch --flake .
+clear
+ls ~/.nix-defexpr/channels/nix-darwin
+ls ~/.nix-defexpr/
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+clear
+nix-build https://github.com/LnL7/nix-darwin/archive/master.tar.gz -A installer<\n>./result/bin/darwin-installer
+clear
+c
+cd /etc/nix/
+ls
+clear
+v nix.conf 
+bat nix.conf 
+nix show-config | grep experimental-features
+clear
+nix show-config | grep experimental-features
+nix config show | grep experimental-features
+c
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+ls /nix/store/cipl9iha6bf08g7zm98lxm0c1rwwg1kh-source/nix-darwin/flake.nix
+ls /nix/store/cipl9iha6bf08g7zm98lxm0c1rwwg1kh-source/nix-darwin/
+ls /nix/store/cipl9iha6bf08g7zm98lxm0c1rwwg1kh-source/
+c
+echo hello | nix run "nixpkgs#ponysay"
+c
+nix develo
+nix develop
+nix build github:LnL7/nix-darwin<\n>./result/sw/bin/darwin-installer
+nix develop
+clear
+cd
+clear
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | \<\n>  sh -s -- install
+clear
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+clear
+darwin-rebuild switch --flake .
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | \<\n>  sh -s -- install
+clear
+darwin-rebuild switch --flake .
+nix run nix-darwin -- switch --flake .
+cd /nix/store/
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+cd 9jnq2jclc0z4a2r6pshy95sng81nb00s-source/
+ls
+v .
+clear
+pwd
+ls
+nix flake update
+cd config
+clear
+ls
+cd nix-darwin/
+ls
+clear
+rm *
+ls
+clear
+nix flake init -t nix-darwin
+sed -i '' "s/simple/$(scutil --get LocalHostName)/" flake.nix<\n>
+y
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+darwin-rebuild switch
+nix run nix-darwin
+clear
+darwin-rebuild switch
+clear
+cat /etc/nix/nix.conf
+nix --version
+clear
+git status
+clear
+cd ..
+clear
+lazygit
+clear
+cd ..
+cd config
+clear
+cd nix
+clear
+ls
+cd config
+clear
+cd nix-darwin/
+clear
+ls
+rm *
+clear
+ls
+clear
+nix flake init -t nix-darwin
+ls
+rm *
+clear
+ls | where name =~ ba
+bat bash.bashrc 
+diff bashrc bash.bashrc 
+diff bashrc bash.bashrc | bat
+clear
+ls
+ls | where name =~ ba
+sudo mv bashrc bashrc.backuo-before-nix
+sudo mv bashrc.backuo-before-nix bashrc.backup-before-nix
+clear
+ls | where name =~ zsh
+diff zshrc zshrc.backup-before-nix 
+diff zshrc zshrc.backup-before-nix | bat
+bat zshrc 
+clear
+sudo rm zshrc.backup-before-nix 
+clear
+sudo mv zshrc zshrc.backup-before-nix
+clear
+cd
+cd nix-darwin/
+ls
+clear
+nix run nix-darwin -- switch --flake .
+clear
+cd config
+cd nix-darwin/
+ls
+clear
+darwin-rebuild switch
+bat flake.nix 
+clear
+v flake.nix 
+clear
+cd 
+clear
+cd nix-darwin/
+clear
+ls
+darwin-rebuild switch --flake .
+clear
+nix run nix-darwin -- switch --flake .
+clear
+cd config
+cd nix-darwin/
+ls
+clear
+cd ..
+clear
+v .gitignore 
+cd nix-darwin/
+ls
+ls -la
+clear
+cd ..
+rm -rf .git
+clear
+cd nix-darwin/
+ls
+clear
+rm flake.nix
+clear
+nix flake init -t nix-darwin
+ls
+sed -i '' "s/simple/$(scutil --get LocalHostName)/" flake.nix
+clear
+ls
+cd 
+clear
+rm -rf nix-darwin/
+mkdir n
+clear
+cd n
+ls
+clear
+nix flake init -t nix-darwin
+ls
+cd ..
+rm -rf n
+clear
+cd config
+clear
+cd nix-darwin/
+ls
+clear
+sed -i '' "s/simple/$(scutil --get LocalHostName)/" flake.nix<\n>
+clear
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin<\n>
+ls
+v flake.nix 
+ls
+clear
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+scutil --get LocalHostName
+c
+v flake.nix 
+clear
+nix run nix-darwin -- switch --flake ~/.config/nix-darwin
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+cd
+cd .nix-profile
+nix-env --switch-profile ~/nix-profile
+clearr
+clear
+cd .nix-profile
+cd
+clear
+cd /etc
+ls
+ls | where name =~ zsh
+v zshrc 
+clear
+cd 
+clear
+z
+v .
+clear
+cd
+cd config
+clear
+cd nix-darwin/
+ls
+clear
+cd Downloads
+clear
+cd dotfiles/
+ls
+clear
+v flake.nix 
+$env.path
+clear
+cd
+c
+v .
+cd
+clear
+$env.path
+v .zshrc
+darwin-rebuild
+clear
+darwin-rebuild
+clear
+clear
+bat /etc/pam.d/sudo
+cd .config
+clear
+cd nix-darwin/
+c
+ls
+clear
+v flake.nix 
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+sudo
+sudo echo hei
+clear
+bat /etc/pam.d/sudo
+clear
+sudo echo hei
+c
+c
+c
+c
+v .
+clear
+ls
+clear
+python3 newfile.py
+clear
+v .
+clear
+ls
+clear
+ls
+cd ..
+ls
+rm -rf itxbergen-frontend/
+clear
+git clone --bare git@github.com:echo-karriere/itxbergen-frontend.git
+cd itxbergen-frontend.git/
+clear
+v .
+clear
+cd internationalization/
+ls
+v .
+cd ..
+clear
+ls
+v .
+clear
+ls
+v .
+clear
+ch 180 3
+ch 12 3
+ch 15 2
+ch 52 5
+clear
+cd config
+cd DSIK
+clear
+brew leaves
+neofetch
+clear
+brew leaves | rg chrome
+clear
+cd Downloads
+clear
+ls
+cd dotfiles/
+clear
+ls
+cd nix-darwin/
+ls
+clear
+ls
+clear
+ls
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+v .
+clear
+y
+clear
+cd dotfiles/
+clear
+ls
+clear
+cd
+clear
+y
+clear
+nix --version
+ls ~/.nixpkgs/darwin-configuration.nix
+clear
+nix-env -q | grep darwin
+ls /etc/nix
+clear
+darwin
+darwin-rebuild 
+clear
+btop
+which rg
+which chrome
+clear
+brew uninstall ripgrep
+clear
+which rg
+clear
+nix-env -iA nixpkgs.ripgrep
+nix-env
+clear
+nix-env --help
+v flake.nix 
+clear
+which vim
+clear
+which nvim
+clear
+ls
+darwin-rebuild switch --flake .
+clear
+darwin-rebuild switch --flake .
+clear
+which rg
+clear
+rg
+rg hei
+clear
+rg ripgrep
+clear
+rg b
+c
+grep g
+clear
+^grep g
+clear
+rg g
+clear
+pbat
+pcat
+clear
+pcat flake.nix 
+pcat | ^grep h
+clear
+^cat flake.nix 
+^cat flake.nix | ^grep h
+^cat flake.nix | rg h
+clear
+ls /nix/store
+c
+ls /nix/store | rg ripgrep
+clear
+ls /nix/store | rg nvim
+clear
+y
+clear
+cd .
+cd ..
+clear
+rg lt
+bat h | rg h
+clear
+rg
+cd downloads
+clear
+ls
+clear
+rg
+cd
+rg
+rg
+z
+clear
+rg
+clear
+rg
+clear
+which nix
+clear
+which nix
+which rg
+$env.path
+clear
+$env.path
+clear
+v .zsh_sessions/
+clear
+v .zshrc-e 
+clear
+v .zshrc.backup 
+clear
+cd /etx
+cd /etc
+clear
+ls
+clear
+cd zsh/
+ls
+clear
+$env.path
+clear
+$env.path
+jabbalabba
+jabbalabba
+clear
+clear
+$env.path
+$env.path
+clear
+clear
+$env.path | rg nix
+$env.path | rg nix
+clear
+clear
+$env.path | ^grep nix
+$env.path | ^grep nix
+v flake.nix 
+clear
+cd ../nushell/
+clear
+ls
+clear
+v config.nu 
+clear
+v config.nu 
+v flake.nix 
+clear
+darwin-rebuild switch --flake .
+z
+cd -
+clear
+darwin-rebuild switch --flake .
+clear
+brew install ripgrep
+clear
+rg
+clear
+cd ../nushell/
+v config.nu 
+clear
+$env.path | rg nix
+$env.path | rg nix
+cd .nix-profile
+cd
+clear
+cd .nix-profile
+^cd .nix-profile
+clear
+cd /nix/var/nix/profiles/default/bin
+ls
+clear
+v env.nu 
+nix
+clear
+darwin-rebuild
+clear
+cd
+clear
+darwin-rebuild
+clear
+which darwin-rebuild
+clear
+touch before.txt
+clear
+cd
+clear
+$env.path | save before.txt
+rm before.txt
+clear
+$env.path | save before.txt
+clear
+darwin-rebuild
+clear
+z
+clear
+$env.path | save after.txt
+clear
+diff before.txt after.txt 
+clear
+diff before.txt after.txt | bat
+~ ❯ : darwin-rebuild<\n>Error: nu::shell::external_command<\n><\n>  × External command failed<\n>   ╭─[entry #13:1:1]<\n> 1 │ darwin-rebuild<\n>   · ───────┬──────<\n>   ·        ╰── Command `darwin-rebuild` not found<\n>   ╰────<\n>  help: `darwin-rebuild` is neither a Nushell built-in or a known external command<\n><\n>~ ❯ : zsh<\n>~ ❯ nu<\n>~ ❯ : darwin-rebuild<\n>darwin-rebuild [--help] {edit | switch | activate | build | check | changelog}<\n>               [--list-generations] [{--profile-name | -p} name] [--rollback]<\n>               [{--switch-generation | -G} generation] [--verbose...] [-v...]<\n>               [-Q] [{--max-jobs | -j} number] [--cores number] [--dry-run]<\n><\n><\n>)
+clear
+$env.path
+diff before.txt after.txt | bat
+c
+clear
+darwin-rebuild
+clear
+darwin-rebuild
+clear
+$env.path
+$env.path
+c
+c
+echo cool
+echo cool
+clear
+clear
+echo hei
+echo banan
+join -
+clear
+clear
+nix-shell
+clear
+nix-shell -p cowsay
+clear
+nix-shell -p cowsay
+clear
+nix-shell
+nix-shell
+nix-shell -p cowsay
+cd downloads
+clear
+cd dotfiles/
+clear
+ls
+clear
+v ,
+c
+nix-shell -p cowsay
+clear
+cd nushell/
+clear
+ls
+cd nix
+clear
+mkdir nix
+cd nix
+clear
+ls
+clear
+cd nix
+cd nix/
+ls
+cd ..
+clear
+ls
+mv nix ..
+cd ..
+clear
+cd nix
+clear
+ls
+clear
+v nix.conf
+v .
+clear
+v env.nu 
+nix
+clear
+nix-shell
+clear
+cd ../nix
+ls
+v nix.conf 
+clear
+ls -la /Users/
+clear
+cd ../nix-darwin/
+clear
+ls
+clear
+bat /etc/nix/nix.conf 
+clear
+cd /etc
+clear
+ls
+clear
+ls | where name =~ zsh
+ls -la | where name =~ zsh
+bat zshenv
+. /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+clear
+nix
+clear
+nix
+clear
+. /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+clear
+source /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+bat /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+clear
+pbat /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+pcat /nix/store/6dcl26rkyr4pahshl9xhmf2zsf9r4j5a-set-environment
+clear
+nix
+clear
+tmux
+clear
+nix
+clear
+c
+nic
+nix
+clear
+nix-shell
+nix
+clear
+nix-shell -p cowsay
+clear
+nix-shell -p cowsay
+clear
+v /etc/nix/nix.conf 
+clear
+sudo nix-shell -p cowsay
+clear
+nix-shell -p cowsay
+clear
+c
+clear
+qa
+clear
+ls users
+v flake.nix 
+clear
+darwin-rebuild switch --flake .
+v flake.nix 
+clear
+darwin-rebuild switch --flake .
+clear
+nix-shell -p cowsay
+clear
+nix-shell -p cowsay
+clear
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs<\n>
+clear
+nix-shell -p cowsay
+clear
+nix-channel --update
+clear
+nix-shell -p cowsay
+clear
+echo hei | nix run "nixpkgs#ponysay"
+clear
+echo hei | ponysay
+clear
+nix develop --help
+c
+nix develop
+clear
+brew install direnv
+clear
+cd nix
+clear
+cd 
+clear
+cd learn
+cd nix/
+clear
+ls
+rm *
+clear
+ls
+clear
+cd learn
+clear
+cd nix
+clear
+nix develop "github:DeterminateSystems/zero-to-nix#example"
+clear
+nix flake init
+ls
+clear
+nix develop
+cd ../nix-darwin/
+clear
+ls
+clear
+v flake.nix 
+clear
+darwin-rebuild switch --flake .
+clear
+v flake.nix 
+clear
+cd learn
+cd nix
+clear
+ks
+ls
+clear
+v flake.nix 
+clear
+v flake.nix 
+clear
+nix develop
+clear
+v flake.nix 
+clear
+nix develop
+clear
+v flake.nix 
+clear
+nix develop
+clear
+nix develop
+clear
+v flake.nix 
+clear
+sudo echo hei
+clear
+bat /etc/pam.d/sudo
+tmux
+clear
+sudo echo hei
+clear
+tmuxA
+clear
+clar
+clear
+ls
+mkdir mydevelopshell
+mv flake.nix flake.lock mydevelopshell/
+ls
+clear
+mkdir "omerxx goapp"
+ls
+clear
+cd `omerxx goapp/`
+clear
+nix shell --help
+c
+nix
+c
+cd
+ls
+hei
+c
+nix shell github:omerxx/goflake -c hello
+ls
+nix shell github:omerxx/goflake -c hello
+clear
+cd ..
+cd mydevelopshell/
+nix develop
+clear
+cd Oblig2/
+ls
+clera
+clear
+docker compose up
+docker ps
+docker exec -it oblig oblig
+docker exec -it oblig bash
+clear
+v
+v
+tmux a
+clear
+c
+$env | explore
+clear
+ls
+bat Oblig1/
+clear
+cd Oblig3/
+ls
+cd oblig3-myfs/
+ls
+clear
+bat b.txt 
+clear
+open b.txt
+clear
+tmux a
+clear
+c
+nix
+clear
+git log | jc --git-log | from json | select commit | get 13
+git log | jc --git-log | from json 
+clear
+insec
+clear
+insect
+celar
+clear
+ls
+l
+clear
+ls
+clear
+l
+clear
+l
+cd
+l
+clear
+ls
+clear
+tmux
+clear
+ls | expore
+ls | explore
+clear
+ls | explore
+clear
+ls **/@
+clear
+ls **/@
+ls **/*
+clear
+l @
+clear
+l **7*
+l **/*
+clear
+l **/*
+clear
+z
+z -
+clear
+^ls 
+clear
+^ls **/*
+clear
+glob **/*.{lua} --depth 2
+ls
+cd lua
+ls
+clear
+cd ..
+glob **/*.{lua} --depth 4
+clear
+zi
+cd -
+clear
+zi
+clear
+z_
+z -
+clear
+ssh remarkable
+clear
+tmux 
+cear
+clear
+tmux a
+clear
+tmux a
+clear
+cd nvim
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v aerospace/aerospace.toml 
+c
+ps | where name =~ aerospace/
+ps | where name =~ aerospace
+ps
+ps | where name =~ space
+ps | where name =~ work
+clear
+v aerospace/aerospace.toml 
+clear
+hei
+c
+v nushell/
+c
+clear
+v
+clear
+nvim nushell
+clear
+v .
+clear
+> keybindings list --modifiers
+clear
+keybindings list --modifiers
+keybindings list
+c
+zi
+c
+clear
+c
+clear
+c
+clear
+zi
+c
+zi
+clear
+cd -
+clear
+tmux a
+clear
+cd
+clear
+c
+c
+clear
+keybindings list | where type == events
+c
+clear
+cd learn
+clear
+ls
+cd git
+clear
+v:
+clear
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+clear
+v .zshenv
+clear
+c
+clear
+rust
+cd config
+clear
+cd nushell/
+clear
+v .
+clear
+tmux
+clear
+cd ..
+celar
+clear
+v .
+clear
+cargo install evcxr_repl
+clear
+cargo install bacon
+c
+cargo install tokio
+clear
+rustup default stable-aarch64-apple-darwin 
+clear
+cd rust
+clear
+rustc main.rs 
+clear
+ls
+./main
+clear
+v main.rs
+clear
+cargo new myproject
+clear
+cd myproject/
+ls
+clear
+ls
+cd ..
+clear
+cd myproject/
+clear
+cd myproject/
+clear
+cargo run
+clear
+v .
+clear
+cargo run
+c
+cargo run
+clear
+cargo build
+ls
+cd ..
+ls
+rm main*
+clear
+ls
+clear
+cd myproject/
+clear
+ls
+cd src/
+ls
+clear
+cargo run
+clear
+rustfmt main.rs
+clear
+cd ..
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+cc
+c
+cargo run
+clear
+ls
+cd target/
+ls
+clear
+cd debug/
+ls
+./myproject
+clear
+l
+l -la
+clear
+ls
+clear
+ls -la
+cd ..
+clear
+y
+cd -
+clear
+cargo check 
+clear
+carapace --help 
+c
+clear
+c
+c
+cargo --version 
+clear
+cargo run
+cargo build
+clear
+cd target/debug/
+ls
+cp myproject ~
+cd
+clear
+./myproject
+clear
+c
+rm ~/myproject
+clear
+cargo build --release
+cd myproject/
+ls
+clear
+cd release/
+clear
+ls
+l
+clear
+./myproject
+clear
+v .
+clear
+cd ..
+clear
+cargo new guessing_game
+clear
+cd guessing_game/
+clear
+l
+c
+cargo run
+clear
+cd myproject/
+clear
+cd ..
+clear
+cd guessing_game/
+clear
+ls
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo build
+clear
+v .
+clear
+cd ..
+celar
+cd myproject/
+clear
+ls
+clear
+cd ../guessing_game/
+clear
+cd ../myproject/
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+clear
+cargo run
+c
+v .
+clear
+cd ..
+clear
+cd guessing_game/
+clear
+ls
+clear
+cd ../myproject/
+clear
+cargo run
+c
+cd ../guessing_game/
+clear
+cargo run
+clear
+cargo doc --open 
+c
+clear
+cargo doc --open 
+clear
+cargo run
+c
+cd ..
+clear
+v nvim
+v .
+clear
+v .
+clera
+clear
+v .
+clear
+cargo run
+clear
+cargo run
+clear
+v nix-darwin/
+clera
+clear
+darwin-rebuild switch --flake .
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+c
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo build --release
+clear
+cd target/release/
+ls
+clear
+y
+clear
+./guessing_game
+clear
+v .
+clear
+cd ..
+clear
+ls -l
+cd ..
+clear
+ls
+cd learnnext/
+ls
+clear
+cd ..
+ls -l
+cd rust
+ls
+clear
+ls
+clear
+cd ..
+ls
+clear
+cd rust
+clear
+ls
+clear
+cargo new variables
+clear
+cd variables/
+clear
+ls
+clear
+cd ..
+cd .
+cd ..
+cd variables/
+clear
+ls
+clear
+cargo r
+clear
+cargo run
+clear
+v .
+clear
+cargo r
+c
+cargo r
+clear
+cd ..
+clear
+./guessing_game/target/release/guessing_game
+clear
+./guessing_game/target/release/guessing_game
+c
+v .
+clear
+cd ../guessing_game/
+clear
+cd ..
+clear
+cd guessing_game/
+clear
+cargo run
+c
+cargo build --release
+clear
+./guessing_game/target/release/guessing_game
+c
+cd ../variables/
+v .
+cd ..
+clear
+c
+cargo run
+rustc explain E0384
+c
+rustc --explain E0384
+c
+./guessing_game/target/release/guessing_game
+c
+cargo run
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo build
+c
+y
+clear
+cargo new functions
+clear
+cd ../functions/
+clear
+y
+clear
+cargo run
+c
+cargo run
+c
+v functions/
+clear
+v functions/
+clear
+v nvim
+clear
+c
+c
+c
+c
+git status
+v .
+clear
+git diff
+c
+cargo run
+c
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+v .
+clear
+v .
+clear
+v .
+c
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+cd ..
+clear
+cd ..
+ls
+cd learnReact/
+clear
+ls
+c
+v .
+clear
+c
+cd python
+clear
+ls
+clear
+v .
+clear
+v .
+celar
+v .
+clear
+v --version
+v .
+clear
+ls
+clear
+v my-app/
+clear
+v .
+clear
+v .
+clear
+v .
+c
+v .
+clear
+v .
+clear
+v .
+clear
+c
+cargo run
+c
+cargo run
+c
+v .
+clear
+v .
+clear
+v .
+clear
+cargo run
+cd ../functions/
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+clear
+v .
+clear
+cd ..
+clear
+v counter.rs
+rustc counter.rs
+v counter.rs
+clear
+rustc counter.rs
+v counter.rs
+ls
+clear
+./counter
+clear
+v counter.rs
+clear
+rustc counter.rs
+clear
+./counter
+clear
+rustc counter.rs
+v counter.rs
+rustc counter.rs
+clear
+./counter
+clear
+ls
+rm counter
+clear
+mkdir ~/test
+clear
+mv counter.rs ~/test/
+clear
+cd
+clear
+cd test
+clear
+ls
+clear
+cd ~/test
+clear
+ls
+v counter.py
+v counter.rs 
+clear
+clear
+ls
+rustc counter.rs
+clear
+ls
+clear
+p3
+clear
+ls
+clear
+python3 counter.py
+./counter
+clear
+clear
+v counter.rs 
+v counter.py 
+clear
+clear
+rustc counter.rs
+clear
+./counter
+python3 counter.py
+clear
+clear
+./counter
+python3 counter.py
+clear
+clear
+ls
+rm *
+clear
+ls
+clear
+cd ..
+rmdir test
+clear
+cd tests/
+ls
+cd starship-custom/
+ls
+clear
+cd ..
+clear
+ls
+rmdir starship-custom/
+clear
+cd ..
+rmdir tests
+clear
+mkdir ~/test
+clear
+cd ~/test
+clear
+ls
+clear
+v counter.rs
+clear
+cd functions/
+ls
+clear
+v counter.rs
+clear
+rustc counter.rs
+clear
+v counter.py
+clear
+python3 counter.py
+clear
+cd test
+clear
+rustc counter.rs
+clear
+ls
+clear
+./counter
+python3 counter.py
+clear
+clear
+python3 counter.py
+./counter
+clear
+clear
+cargo run
+clear
+v .
+clear
+cd ..
+clear
+cargo new ownership
+clear
+cd ownership/
+clear
+clerar
+clear
+cargo run
+clear
+v .
+clear
+cd Downloads
+clear
+ls
+clear
+cd nvim
+clear
+git status
+clear
+git diff
+c
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+c
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+c
+v .
+v example.lua
+clear
+v .
+clear
+v .
+clear
+git status
+clera
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+git status
+git diff
+q
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+c
+c
+c
+c
+git status
+c
+git status
+clear
+v .
+clear
+v .
+clear
+v .
+v .
+c
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+v .
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+__zoxide_z 
+__zoxide_z -
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+v .
+clear
+v ..
+cd ..
+clear
+cargo new structs
+clear
+cd structs/
+cleara
+clear
+c
+cargo run
+cd ../structs/
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+clear
+c
+cargo run
+c
+v .
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+clear
+cargo run
+c
+cargo run
+clear
+cargo run
+clear
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+cargo run
+c
+v .
+clear
+v .
+c
+v .
+clear
+v .
+clear
+v
+cargo run
+c
+cargo run
+c
+v .
+clear
+cd ..
+clear
+cd ..
+clear
+ls
+cd rust
+clea
+c
+ls
+cd ..
+clear
+dust
+du
+c
+cd rist
+cd rust
+clear
+cargo new project
+clear
+cd project
+clear
+cd ../project
+clear
+cargo run
+c
+v .
+clear
+cd ..
+clear
+cd ../project/
+clear
+c
+v nushell/
+clear
+v nvim
+clear
+v nvim
+clear
+c
+c
+c
+lazygit
+c
+v .
+c
+fiff
+clear
+git show head
+c
+git lgo
+clear
+git log
+c
+git log | jc --git-log | from json 
+c
+git diff ce8f6d43862c42acab4e62ffe4e92fe4721a434a
+c
+c
+v ../guessing_game/
+clear
+kill
+clear
+c
+echo hei
+bruh
+clear
+echo hei
+cd sessionc
+cd sessionx
+clear
+ls
+clear
+v sessionx.tmux 
+clear
+v clear
+clear
+v sessionx.tmux 
+clear
+v .
+clear
+cd floax
+clear
+cd
+clear
+rg floax
+clear
+fd floax
+clear
+cd tmux
+ls
+clear
+ls
+cd tmux-floax/
+clear
+ls
+clear
+tmux display-popup 
+clear
+tmux choose-tree 
+tmux command-prompt 
+clear
+tmux customize-mode 
+clear
+tmux display-message --help
+tmux display-message hei
+clear
+tmux display-message nigga
+clear
+tmux if-shell 
+clear
+tmux list-keys 
+clear
+tmux list-keys | detect columns 
+c
+tmux copy-mode 
+clear
+tmux list-buffers 
+clear
+tmux display-popup ls
+clear
+tmux display-popup -E ls | fzf
+ls
+clear
+tmux display-popup -E 'ls | fzf'
+clear
+tmux display-popup -E '^ls | fzf'
+tmux display-popup -E 'l | fzf'
+c
+cd (tmux display-popup -E '^ls | fzf')
+clear
+tmux displau
+tmux display
+clear
+cd sessionx
+clear
+v .
+clear
+y
+clear
+man tmux
+tmux display-popup -E echo hei
+tmux display-popup -E -E echo hei
+clear
+tmux display-popup echo hei
+tmux popup
+clear
+tmux display-popup
+hei
+clear
+tmux popup
+tmux popup echo hei
+clear
+tmux popup -B echo hei
+tmux menu
+clear
+tmux menu hei
+tmux menu hei hallo
+tmux menu
+clear
+tmux menu "hei" "hallo"
+c
+clear
+cd
+clear
+man tmux | save t.txt
+clear
+v t.txt 
+clear
+rm t.txt
+clear
+man tmux | save t.md
+clear
+v t.md 
+rm t.md
+clear
+tmux popup -s bg=default
+tmux popup -s bg=default fg=default
+tmux popup -s bg=default -s fg=default
+tmux popup -s "bg=default fg=default"
+tmux popup -s fg=default
+clear
+ers/isakhansen/.tmux/plugins/tmux-floax
+clear
+tmux-sessionx
+tmux-sessionx popup
+clear
+cd ownership/
+c
+v:
+c
+cd ownership/
+clear
+c
+clear
+c
+clear
+c
+cd ownership/
+c
+cc
+c
+cd guessing_game/
+clar
+c
+clear
+c
+v:
+c
+v .
+clez
+clear
+v .
+c
+cd ..
+clear
+cargo new restaurant --lib
+clear
+cd restaurant/
+cd ../restaurant/
+clear
+c
+v .
+clear
+cargo build
+ls
+clear
+ls */** depth -2
+c
+cargo ls
+clear
+cargo --list
+c
+clear
+ripgrep
+clear
+rg
+clear
+cargo build
+c
+cargo build
+c
+tmux popup
+tmux popup -s fg=default
+c
+tmux popup -s fg=default
+c
+tmux popup -s fg=default -S 
+man tmux
+c
+tmux popup -s fg=default
+clear
+tmux popup -s fg=default -S double
+tmux popup -s fg=default
+tmux popup -s fg=default -S rounded
+tmux popup -s fg=default -S heavy
+clear
+tmux popup -s fg=default -S simple
+clear
+cargo build
+c
+clear
+cd /
+clear
+ls
+ls src/
+clear
+cargo build
+c
+v .
+clear
+cd ..
+celar
+clear
+cargo new collections
+clear
+cd collections/
+clear
+c
+cd collections/
+clear
+cd collections/
+clear
+c
+clear
+c
+v .
+clear
+c
+cc
+c
+v .
+clear
+cd ..
+celar
+clear
+rg debug
+clear
+c
+clearc
+c
+v .
+clear
+cd ..
+celar
+clear
+cargo new errorhandling
+clear
+cd errorhandling/
+clear
+c
+v .
+clear
+cd guessing_game/
+clear
+cargo run
+c
+cargo run
+clear
+cargo run
+clear
+cargo run
+c
+cargo run
+c
+rustc src/main.rs 
+clear
+rustc src/main.rs 
+c
+cc
+c
+v .
+clear
+cd .
+cd ..
+clear
+cargo run RUST_BACKTRACE=1
+cargo run `RUST_BACKTRACE=1`
+RUST_BACKTRACE=1
+c
+RUST_BACKTRACE=1 cargo run
+c
+RUST_BACKTRACE=1 cargo run
+c
+ls src/
+clear
+ls
+ls src
+c
+bat hello.txt 
+clear
+git status
+c
+v .
+v:
+c
+ls
+c
+git status
+clear
+c
+rm hello.txt
+c
+rm hello.txt
+c
+echo hei
+tmux popup -s fg=default -S simple
+tmux popup -s fg=default echo hei
+clear
+tmux popup -s fg=default echo hei
+tmux popup -s fg=default
+clear
+clear
+tmux popup -s fg=default
+clear
+tmux popup
+c
+v nushell/
+clear
+echo hei
+clear
+ps | where name =~ tmux
+c
+v nushell/
+clear
+c
+clear
+v .
+clear
+v .
+clear
+v nushell/
+clear
+c
+c
+cd Isak.Hansen_wordle/
+clear
+cd src/
+ls
+cd ..
+cleara
+clear
+cd Isak.Hansen_wordle/
+clear
+cd ..
+clear
+v ../.tmux.conf 
+clear
+c
+:qa
+tmux
+clear
+rg sessionx
+clear
+cd sessionx
+clear
+ls
+cd ..
+clear
+ls
+rm -rf sessionx
+clear
+ls
+rm -rf sessionx
+clear
+ls
+rm -rf tmux-sessionx/
+clear
+ls
+clear
+v ~/.tmux.conf 
+clear
+cd
+clear
+v ../.tmux.conf 
+clear
+v .tmux.conf
+clear
+v .
+c
+break 
+clear
+c
+v .
+clear
+tmux
+clear
+tmu
+c
+tmux
+clear
+c
+tmux
+clear
+c
+v ../.tmux.conf 
+cd Downloads
+ls
+cd dotfiles/
+ls
+clear
+cd
+cler
+clear
+cd sessionc
+cd sessionx
+clear
+ls
+v
+clear
+tmux
+clear
+tmiux
+clear
+c
+c
+tmux
+c
+v ../.tmux.conf 
+clear
+c
+cd
+clear
+cd sessionx
+clear
+v .
+clear
+tmux list-buffers 
+c
+tmux list-sessions
+clear
+tmux display-message nigga
+c
+tmux-prev
+clear
+tmux prev
+fzf-tmux
+fzf --color='bg:237'
+fzf --color='bg:-1'
+fzf-tmux --color='bg:30'
+fzf-tmux --color='bg:-1'
+c
+v ../.tmux.conf 
+clear
+c
+c
+v .
+clear
+v .
+git status
+clear
+v:
+c
+v ../.tmux.conf 
+clear
+tmux
+clear
+c
+c
+fzf-tmux
+v .
+clear
+v .
+clea
+clear
+fzf-tmux --color='bg:-1'
+fzf-tmux --color='pointer:9, bg:-1'
+fzf-tmux --color='pointer:9'
+fzf-tmux --color='bg:-1'
+fzf-tmux --color 'bg:-1'
+fzf-tmux --color 'bg:30'
+fzf-tmux --color 'pointer: 9'
+fzf-tmux --color 'spinner: 9'
+fzf-tmux --color 'spinner:9'
+v .
+clear
+fzf-tmux  "--color pointer:9,spinner:92,marker:46"
+fzf-tmux  --color pointer:9,spinner:92,marker:46
+echo "test" | fzf --color="bg:default"
+echo "test" | fzf --color="bg:-1"
+echo "test" | fzf --color="bg:30"
+clear
+echo "test" | fzf --color="bg:0"
+echo "test" | fzf --color="bg:1"
+echo "test" | fzf --color="bg:-2"
+echo "test" | fzf --color="bg:-1"
+clear
+$env.TERM
+clear
+tmux popup
+tmux popup -s fg=default
+cd floax
+clear
+c
+c
+c
+ls
+ls | sort-by date
+clear
+ls | sort-by modified
+cd collections/
+clea
+clear
+c
+clearc
+c
+cd
+clear
+cd
+clear
+cd
+clear
+cd Downloads
+clear
+cd
+clear
+v .
+c
+v:
+c
+clear
+v nushell/
+clear
+v nvim
+c
+tmux
+c
+y
+c
+y
+c
+v .
+c
+y
+c
+v nvim
+clear
+v nvim
+clear
+v .
+y
+c
+y
+c
+y
+c
+y
+c
+y
+hy
+y
+c
+y
+v
+c
+v 
+c
+y
+c
+v 
+c
+y
+c
+(<\n><\n>echo hei)
+clear
+y
+c
+v
+c
+v
+c
+git status
+c
+tmux
+cd git
+clear
+c
+mkdir git
+clear
+cd git
+clear
+git init --bare
+ls
+clear
+v .
+cd ..
+clear
+rm -rf git
+clear
+mkdir git
+cd git
+clear
+touch somefile.rs
+clear
+v somefile.rs 
+clera
+clear
+rustc somefile.rs 
+ls
+clera
+clear
+./somefile
+c
+git init --bare
+ls
+clear
+v .
+clear
+git worktree add 
+clear
+git worktree add main
+clear
+ls
+git worktree add ./main
+clear
+git worktree add ./main/
+clear
+ls
+clear
+mv somefile.rs ..
+clear
+ls
+clear
+cd ..
+rm -rf git
+clear
+mkdir git
+mv somefile.rs git
+clear
+cd git
+clear
+git init
+clear
+ls
+clear
+ls -a
+v .
+clear
+mkdir main
+clear
+mv * main
+clear
+ls
+clear
+cd main/
+ls
+clear
+ls -a
+clear
+cd:.
+cd ..
+clear
+v:
+c
+v .
+clear
+cd main/
+ls
+cd ..
+clear
+cd:
+clear
+cd ..
+clear
+rm -rf git
+clear
+mkdir git
+cd git
+clear
+v .
+clear
+git worktree init
+clear
+cd:.
+clear
+cd ..
+clear
+cd testrepo.git/
+clear
+ls
+v .
+clear
+v .
+clear
+ls
+v .
+clear
+cd ..
+rm -rf testrepo.git/
+clera
+clear
+cd git
+clear
+ls
+clear
+v .
+clear
+ls
+mkdir main
+clear
+mv * main
+clear
+ls
+ls -a
+clear
+v .
+clear
+git init --bare
+clear
+ls
+clear
+v .
+clear
+cd ..
+clear
+rm -rf git
+clear
+git clone --bare git@github.com:isak79/testrepo.git
+clear
+v .
+clear
+cd testrepo.git/
+clear
+git status
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+cd ..
+clear
+mkdir git
+clear
+git init --bare
+ls
+clear
+ls
+clear
+ls
+v HEAD 
+clear
+ls
+cd api
+cd ..
+clear
+ls
+cat description 
+rm HEAD config description
+clear
+cd git
+clear
+git init --bare
+clear
+ls
+clera
+clear
+mkdir worktrees
+clear
+git worktree add worktrees/branch1 branch1
+git worktree add ./worktrees/branch1 branch1
+c
+v .
+clear
+git branch branch1
+ls
+clear
+git branch add branch1
+clear
+git branch branch
+c
+git branch -a
+clear
+git clone . ./git-working
+clear
+cd git-working/
+ls
+clear
+v .
+clear
+cd ..
+clear
+cd ..
+clear
+rm -rf git
+clear
+mkdir git
+clear
+v somefile.rs 
+clear
+rustc somefile.rs 
+clear
+mv somefile* git
+clear
+cd git
+ls
+./somefile
+clear
+git init
+clear
+v .
+clear
+ls
+clear
+cd ..
+clear
+git clone git ./git2
+clear
+rm -rf git2
+clear
+git clone --bare git ./git2
+clear
+cd git2
+clera
+clear
+v .
+ls
+cd worktrees/
+ls
+clear
+cd worktrees/
+ls
+cd ..
+clear
+cd ..
+rm -rf git2
+clear
+git clone --bare git ./git2
+clear
+cd git2
+clear
+v .
+clear
+v .
+clear
+cd ../git
+clear
+ls
+clear
+v .
+clear
+cd ..
+c
+rm -rf git
+clear
+cd git2
+clear
+v .
+clear
+v .
+cd ..
+clear
+c
+vef
+c
+v
+clear
+ls
+cd wo
+cd -
+clear
+cd worktrees/
+ls
+cd anotherbranch/
+ls
+v .
+clear
+cd learn
+clear
+ls
+mkdir newgit
+clear
+cd newgit/
+clear
+ls
+clear
+git init --bare
+clear
+ls
+clear
+git branch new
+git branch new main
+clear
+clear
+cd newgit/
+cd ../newgit
+clear
+v
+git branch main
+clear
+ls
+c
+cd ..
+rm -rf newgit
+clear
+mkdir newgit
+clear
+cd newgit/
+clear
+c
+git branch main
+c
+cd ..
+clear
+git clone newgit newgit2
+clear
+cd newgit/
+clear
+git clone newgit ./newgit2
+clear
+ls
+cd ..
+clear
+ls | where name =~ new
+cd newgit
+clera
+ls
+clear
+ls -a
+clear
+cd ..
+rm newgit
+clear
+ls
+clear
+rm -rf testrepo.git/
+clear
+mkdir git
+cd git
+clear
+ls
+clear
+mkdir nonbare
+clear
+cd nonbare/
+clear
+git init
+clear
+v .
+clear
+v somefile.rs 
+clear
+cd ..
+clear
+ls
+git clone --bare nonbare ./bare
+clear
+cd bare/
+ls
+clear
+v
+clear
+cd ..
+rm -rf nonbare/
+clear
+mv bare/ ..
+clear
+cd ..
+ls
+ls bare
+clear
+ls git
+rmdir git
+clear
+y
+clear
+v bare
+rmdir bare
+clear
+rm -rf bare
+clear
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd sketchybar/
+ls
+clear
+mv sketchybar sketchybarr
+cd ..
+clear
+mv sketchybar sketchybarr
+ls
+cd dotfiles/
+ls
+mv sketchybar ~/.config
+clear
+ls
+ls | where name =~ sketchy
+clear
+brew services restart sketchybar
+clear
+brew services restart sketchybar
+clear
+brew services restart sketchybar
+c
+x
+c
+v aerospace/aerospace.toml 
+clear
+cd ..
+c
+v aerospace/
+clear
+cd ..
+clear
+aerospace list-workspaces
+clear
+aerospace
+clear
+^aerospace
+clear
+cd
+clear
+fd aerospace
+flatten-workspace-tree b
+clear
+balance-sizes
+clear
+fd aerospace
+brew search aerospace
+brew list aerospace
+brew uninstall aerospace
+clear
+v nix-darwin/
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+brew search aerospace
+brew list aerospace
+cd config
+clear
+v nix-darwin/
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+fd aerospace
+cd
+clear
+fd aerospace
+c
+v nix-darwin/
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+brew install aerospace
+clear
+aerospace
+q
+c
+flatten-workspace-tree b
+clear
+aerospace list-workspaces
+aerospace list-workspaces --all
+clear
+c
+x
+c
+c
+c
+c
+cd config
+clear
+v sketchybar/
+clear
+cd ..
+clear
+cdhmod 755 plugins/cpu.sh
+chmod 755 plugins/cpu.sh
+clear
+brew services restart sketchybar
+v sketchybar/
+clear
+aerospace list-workspaces 
+aerospace list-workspaces --focused
+aerospace list-workspaces --monitor
+clear
+aerospace flatten-workspace-tree b
+aerospace flatten-workspace-tree
+man aerospace
+c
+aerospace -h
+c
+aerospace -h | detect columns 
+tmux
+c
+cd ..
+clear
+v
+ls
+clear
+cd sketchybarr/
+ls
+clear
+c
+x
+c
+c
+cd ..
+clear
+cd sketchybarr/
+clear
+c
+brew services restart sketchybar
+cd config
+clear
+ls
+mv sketchybar sketchybarrr
+mv sketchybarr sketchybar
+clear
+brew services restart sketchybar
+mv sketchybar sketchybarr
+mv sketchybarrr sketchybar
+brew services restart sketchybar
+clear
+celar
+clear
+chmod 755 items/volume.sh 
+brew services restart sketchybar
+v
+clear
+ls
+clear
+cd dotfiles
+clear
+v
+clear
+chmod 755 plugins/volume.sh 
+clear
+brew services restart sketchybar
+clear
+brew services restart sketchybar
+cd config
+clear
+cd config
+cd sketchybar/
+clear
+brew services restart sketchybar
+c
+brew services restart sketchybar
+c
+aerospace
+c
+aerospace list-workspaces 
+aerospace list-workspaces --focused
+clear
+y
+ya pack -a yazi-rs/plugins:chmod
+clear
+y
+c
+v
+clear
+aerospace list-workspaces --focused
+c
+brew services restart sketchybar
+c
+c
+c
+brew services restart sketchybar
+y
+brew services restart sketchybar
+ers/isakhansen/.config/sketchybarr
+clear
+brew services restart sketchybar
+v .wezterm.lua 
+clear
+cd config
+clear
+brew services restart sketchybar
+c
+brew services restart sketchybar
+c
+brew services restart sketchybar
+c
+brew services restart sketchybar
+c
+brew services restart sketchybar
+ps | where name =~ sketchy
+clear
+c
+y
+c
+ers/isakhansen/learn/rust/guessing_game
+c
+v
+clear
+cd ..
+ls
+clear
+cd ../generics
+clear
+cd .
+cd:.
+c
+cd ..
+cd generics
+ls
+y
+ls
+cd generics
+clear
+ls
+c
+cd ..
+clear
+rg unused
+c
+brew services restart sketchybar
+tmux
+c
+v .
+clear
+cd ..
+ls
+clear
+cd tmux
+ls
+rm tmux.conf
+clea
+clear
+ls
+clear
+cd plugins/
+ls
+clear
+man stow
+stow
+^stoow
+clear
+^stow
+clear
+cd ..
+clear
+cd ..
+clear
+v nic
+v nix
+clear
+v nix-darwin/
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+stow
+c
+man stow
+clear
+cd ..
+clear
+mkdir dotfiles
+ls test
+rm -rf test
+clear
+ls test
+lcear
+clear
+v dotfiles
+clear
+cd config
+clear
+ls
+ls test
+clear
+cd dotfiles/
+clear
+ls
+clear
+stow --target ~/.config
+clear
+stow --target ~/.config .
+clear
+ls
+clear
+ls
+cd test
+clear
+ls
+touch hei.txt
+cd test
+ls
+clear
+ls
+clear
+clear
+ls
+stow list
+clear
+cd ..
+celar
+clear
+stow list
+clear
+ls
+clear
+man stow
+clear
+touch balls.txt
+clear
+ls
+cd ..
+clear
+ls
+ls balls
+clear
+stow --target ~/.config .
+ls
+v balls.txt 
+clear
+v balls.txt 
+rm balls.txt
+clear
+ls
+v balls.txt 
+stow --target ~/.config .
+clear
+ls
+clear
+ls
+rm balls.txt
+clear
+v aerospace/
+clear
+v sketchybarr
+ls
+clear
+ls wezterm
+ls .wezterm
+clear
+v .wezterm.lua 
+clear
+mv .wezterm.lua dotfiles/
+stow --target ~/.config .
+clear
+ls
+clear
+ls -la
+clear
+ls
+cøear
+clear
+ls wezterm
+clear
+ls | where name =~ wez
+stow --target ~ .
+ls | where name =~ .wez
+cp .wezterm.lua ~
+clear
+ls
+clear
+ls -la
+stow --target ~ .
+ls
+ls -la
+clear
+cd config
+ls
+mv nvim ~/dotfiles/
+v
+clear
+ls
+stow --target ~/.co
+clear
+stow --target ~/.config .
+v .
+ls
+cd tmux
+ls
+clear
+cd ..
+clear
+ls
+clear
+ls
+ls nushell/
+clear
+cd nushell/
+ls
+clear
+cd ..
+ls
+clear
+ls
+rmdir test
+ls
+l
+mv sketchybar sketchybar/ ~/dotfiles/
+ls
+ls
+clear
+cd sketchybar/
+ls
+clear
+cd ..
+clear
+rm -rf sketchybar/
+mv sketchybar sketchybar/ ~/dotfiles/
+ls
+ls
+cd sketchybarr/
+ls
+clear
+ls
+cd dotfiles/
+clear
+ls
+c
+cd sketchybar/
+clear
+cd ..c
+cd ..
+clear
+ls
+clear
+ls
+c
+ls
+cd:.
+clear
+cd ..
+cd dotfiles/
+ls
+cp dotfiles ~/dotfiles/
+cp sketchybar/ ~/dotfiles
+clear
+cp sketchybar/ ~/dotfiles --recursive
+ls
+stow --target ~/.config .
+celar
+clear
+brew sP
+cler
+clear
+brew services restart sketchybar
+c
+cd dotfiles/
+clear
+cd ..
+ls
+ls test
+clear
+rm -rf test
+ls
+clear
+stow --target ~/.config ~/dotfile
+stow --target ~/.config ~/dotfiles
+cd dotfiles/
+clear
+cd ..
+clear
+stow --target ~/.config .
+clear
+brew services restart sketchybar
+ers/isakhansen/dotfiles/sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+ers/isakhansen/dotfiles/sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+ers/isakhansen/dotfiles/sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+ers/isakhansen/dotfiles/sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+clear
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+clear
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+clear
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+cc
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+c
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+c
+stow --target ~/.config .
+brew services restart sketchybar
+v wezterm/
+clear
+echo print
+clear
+echo <\n>print
+clear
+<\n><\n><\n>e
+clear
+cd sketchybarrc
+v sketchybarrc 
+clear
+l
+rm test
+ls
+clear
+l
+cd sketchybar/
+ls
+cd ..
+clear
+ls
+rm -rc colors.sh helper/ icons.sh items/
+rm -rf colors.sh helper/ icons.sh items/
+clear
+rm sketchybarrc
+clear
+cd sketchybarr/
+clear
+ls
+clear
+v sketchybar/
+clear
+cd sketchybar/
+ls
+cd ..
+clear
+stow --target ~/.config .
+brew services restart sketchybar
+clear
+clear
+pwd
+clear
+cd sketchybar/
+clear
+ls
+ls
+clear
+cd sketchybar/
+ls
+cp items/ ~/dotfiles/
+cp items/ ~/dotfiles/sketchybar/ --recursive 
+clear
+stow --target ~/.config .
+cd ..
+clear
+ls
+rm colors.sh
+rm -rf items/
+ls
+cp items/ ~/dotfiles/sketchybar/ --recursive 
+rm icons.sh
+clear
+clear
+ls
+nclear
+clear
+ls
+rm items
+clear
+ls
+ls
+rm sketchybarrc
+clear
+ls
+clear
+stow --target ~/.config .
+clear
+brew services restart sketchybar
+clear
+ls
+clear
+cd ..
+clear
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+stow --target ~/.config .
+brew services restart sketchybar
+c
+stow --target ~/.config .
+brew services restart sketchybar
+v .
+clear
+v .
+clear
+cd ..
+clear
+ls
+clear
+c
+cd ../lifetimes/
+clear
+c
+v errorhandling/src/main.rs
+clear
+c
+cd dotfiles
+ls
+clear
+cd config
+ls
+cd nix-darwin/
+clear
+ls
+v flake.nix 
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+cd dotfiles
+clear
+mkdir hammerspoon
+cd hammerspoon/
+clear
+mkdir .hammerspoon
+clear
+cd .hammerspoon/
+clear
+v init.lua
+ls
+clear
+cd ..
+clear
+stow ~ .
+clear
+cd ..
+clear
+rm -rf hammerspoon/
+clear
+cd ..
+clea
+clear
+ls
+clear
+touch -p hammerspoon/.hammerspoon/init.lua
+touch ./hammerspoon/.hammerspoon/init.lua
+clear
+y
+c
+cd ..
+clear
+stow ~ .
+clear
+v init.lua
+clear
+man stow
+clear
+ls
+cd ..
+ls
+cd hammerspoon/
+clear
+ls
+clear
+ln -s init.lua  ~/.hammerspoon/init.lua
+cd
+clear
+ls | where name =~ hammer
+ls | where name =~ .hammer
+clear
+cd .hammerspoon/
+ls
+bat init.lua 
+clear
+v init.lua 
+clear
+cd dotfiles/
+clear
+v init.lua 
+clear
+rm init.lua
+clear
+ls
+clear
+v init.lua 
+clear
+v init.lua 
+cler
+aclear
+clear
+defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"
+clear
+v init.lua 
+clear
+ls
+cd ..
+mv .hammerspoon/ dotfiles
+cd dotfiles/
+clears
+clear
+ls
+ls -a
+cd hammerspoon/
+ls
+cd ..
+clear
+rm hammerspoon/
+rm -rf hammerspoon/
+clera
+clear
+mv .hammerspoon/ hammerspoon
+clear
+ls
+clear
+stow --target ~/.config .
+clear
+cd config
+clear
+ls
+mv hammerspoon/ .hammerspoon
+clear
+mv .hammerspoon/ ~
+clear
+cd
+clear
+cd .hammerspoon/
+clear
+ls
+clear
+v init.lua 
+clear
+brew uninstall later
+clear
+aerospace
+c
+v init.lua 
+clear
+cd config
+clear
+cd dotfiles/
+clear
+pwd
+clear
+cd ..
+clear
+cd tmux
+clear
+v .
+clear
+cd ..
+cd dotfiles
+pwd
+clear
+ls
+cd
+clear
+v nvim
+clear
+v dotfiles/
+clear
+cd dotfiles
+clear
+v
+clear
+v tmux
+clear
+^cal 
+cal
+clear
+man cal
+c
+cal
+^cal
+clear
+c++ 
+clear
+openssl 
+c
+cd config
+clear
+cd nix-darwin/
+clear
+ls
+clear
+ers/isakhansen/.config/nix-darwin
+clear
+cd nix-darwin/
+cd config
+clear
+cd nix-darwin/
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+c
+darwin-rebuild switch --flake ~/.config/nix-darwin
+c
+clear
+c
+echo n
+echo n
+clear
+clear
+echo hei
+echo balls
+hell yeah
+hell yeah
+c
+c
+echo hell yeah
+echo hell yeah
+echo hell yeah | into str
+echo hell yeah | into str
+c
+c
+clear
+v .wezterm.lua 
+c
+v flake.nix 
+clear
+cd ..
+clear
+v nvim
+clear
+cd nvim
+clear
+git status
+clear
+v .
+clear
+v .
+clear
+v .
+clear
+cd learn
+clear
+v .
+clear
+v .
+clear
+v .
+c
+v .
+clear
+cd ..
+clear
+ls
+rm nvim
+clear
+cd dotfiles
+clear
+v nvim
+clear
+stow --target ~/.config .
+c
+stow --target ~/.config .
+clear
+pwd
+clear
+stow --target ~/.config .
+clear
+v nvim
+clear
+cd nvim
+clear
+git status
+clear
+v
+clear
+v
+clear
+v
+c
+v
+clear
+v
+clear
+v
+c
+git status
+clear
+cd learn
+clear
+v
+clear
+v
+cleasr
+clear
+ls
+cd buffers/
+ls
+clear
+v
+ls
+clear
+v
+cd
+^cd
+cd learn
+ls
+clear
+cd
+clear
+rg "My movie"
+clear
+cd ..
+clear
+ls
+clear
+cd
+clear
+ls | where name =~ Movie
+cd Movies
+clear
+ls
+cd `iMovie Library.imovielibrary/`
+ls
+clear
+cd `My Movie 1/`
+ls
+clear
+cd ..
+clear
+ls
+mv `My Movie 1/` `~/Nyttårsvideo 24:25/`
+cd `Google Drive/`
+ls
+clear
+cd
+clea
+clear
+c
+ls
+clear
+ls
+cd itxbergen-frontend.git/
+clear
+v .
+clear
+v
+clear
+cd ..
+clear
+cd learn
+clear
+cd nextjstutVercel/
+clear
+ls
+clear
+v
+clear
+v .hammerspoon/
+clera
+clear
+cd dotfiles
+clea
+clear
+v
+clear
+v
+clear
+ls
+clear
+npm run dev
+ls
+cd ..
+cd nextjstutVercel/
+clear
+npm run dev
+clear
+pnpm dev
+clear
+npm run dev
+npm run
+clear
+pnpm run dec
+pnpm run dev
+clear
+v
+clear
+ls
+clear
+cd ..
+clear
+cd learnnext/
+clear
+cd learn
+cd learnnext/
+clear
+ls
+clear
+v
+clear
+cd learn
+clear
+cd nextjstutVercel/
+c
+v
+cd .config
+clear
+clear
+pnpm dev
+clear
+ls
+v
+clear
+cd learn
+clear
+y
+clear
+ls
+clear
+v
+clear
+cd ..
+clear
+ls
+y
+clear
+npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"<\n>
+clear
+ls
+cd nextjs-blog/
+clear
+ls
+clear
+ers/isakhansen/learn/nextjs-blog
+clear
+cd nextjs-blog/
+clear
+cd nextjs-blog/
+clear
+cd learn
+clear
+cd nextjs-blog/
+clear
+v
+clear
+cd ..
+clear
+ls
+cd nextjs-blog/
+clear
+v
+cd ..
+celar
+clear
+rm -rf nextjs-blog/
+rm -rf learnnext/
+clear
+npx create-next-app@latest tailwindkomponenter<\n>
+c.ear
+c
+cd tailwindkomponenter/
+clear
+cd
+npm run dev
+clear
+cd ..
+clear
+ls
+cd tailwindkomponenter/
+clear
+v
+clearr
+clear
+cd learn
+clear
+ls
+cd tailwindkomponenter/
+clear
+ls
+cd sketchybar/
+cd -
+clear
+cd src
+clear
+ls
+mv ~/Downloads/placeholder.png ./src/images/
+clear
+rm ./src/images/placeholder.webp
+clear
+v
+clear
+cd itxbergen-frontend.git/
+clear
+cd itxbergen-frontend.git/
+clear
+cd internationalization/
+clear
+ls
+clear
+docker compose up
+c
+docker compose up
+v
+c
+cd
+clear
+rg homecards
+clear
+fd homecards
+cleara
+clear
+y
+npm run dev
+npm run dev
+c
+clear
+c
+ls
+cd
+clear
+ers/isakhansen
+clear
+cd
+clear
+cd .tmux/
+ls
+clear
+cd
+clear
+cd Movies
+clear
+s
+ls
+cd `iMovie Library.imovielibrary/`
+ls
+mv `My Movie 1/` ~
+clear
+cd ..
+clear
+ls
+clear
+cd Movies
+clear
+ls
+mkdir Movies.imovielibrary
+clear
+cd Movies.imovielibrary/
+clear
+mv `~/My Movie 1/` .
+clear
+s
+ls
+clear
+c
+cd config
+clear
+ls
+cd nix-darwin/
+clear
+v flake.nix 
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+clear
+brew services restart sketchybar
+cd tmiux
+clear
+cd tmux
+clear
+cd plugins/tmux-sessionx/
+clear
+ls
+v
+clear
+l
+ls
+clear
+cd ..
+clear
+cd -
+clear
+c
+c
+ls
+clear
+ls
+c
+mv ~/Downloads/fuckup.webp public/
+clear
+pwd
+mv ~/Downloads/fuckup.png public/
+clear
+ls public/
+rm public/fuckup.webp
+clear
+clera
+clear
+brew install --cask ghostty
+cd config
+clear
+v nix-darwin/
+clear
+clear
+npm run dev
+cleear
+clear
+cd learn
+clear
+ls
+v nix
+clear
+cd learn
+clear
+v something.txt
+clear
+v something.txt 
+clear
+rm something.txt
+clear
+v sessionx.tmux 
+clear
+cd ..
+v
+clear
+v ghostty
+clear
+ls
+clear
+cd dotfiles
+pwd
+clear
+ls
+v wezterm/p
+v wezterm/
+clear
+cd wezterm/
+ls
+clear
+cd
+clear
+v
+clear
+cd dotfiles
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+c
+stow --target ~/.config .
+cd config
+clear
+v ghostty 
+clear
+ls
+rm ghostty/
+clear
+c
+v ghostty/
+clear
+mv ghostty/ ~
+rm -rf ghostty
+clear
+mv ~/ghostty/ .
+clear
+ls
+ls ghostty/
+clear
+cd downloads
+clear
+ls
+clear
+v dotfiles/
+clear
+cd learn
+clear
+v something.txt 
+clear
+rm something.txt
+clear
+cd ..
+clear
+v rust
+clear
+cd learn
+clera
+clear
+cargo new ettprosjekt
+cd ettprosjekt/
+cargo run
+v rust
+cd rust
+clear
+rm -rf ettprosjekt/
+clear
+cargo new ettprosjekt
+cd ettprosjekt/
+clear
+cd learn
+cd rust
+clear
+cd ettprosjekt/
+clear
+cargo run
+clear
+v
+clear
+cd ..
+cd ..
+rm -rf ettprosjekt/
+clear
+ls
+cd ..
+clear
+ks
+s
+ls
+clear
+cd git2
+ls
+clear
+v something.txt 
+ls
+clear
+v ghostty/
+clear
+cd ..
+clear
+v .tmux.conf
+clear
+cd config
+clear
+v
+clear
+ps
+c
+btop
+c
+v
+clear
+cat 
+clear
+v ghostty/
+clear
+v ghostty/
+npm run dev
+c
+v
+clear
+ls
+clear
+npm run dev
+c
+cd learn/tailwindkomponenter/
+clear
+v
+c
+npm run dev
+c
+npm run dev
+c
+ps | sort-by size
+ps
+ps | sort-by mem
+c
+clear
+c
+c
+c
+c
+c
+npm run dev
+clear
+cd learn
+clear
+ls
+clear
+npx create-next-app@latest hø
+npx create-next-app@latest what
+cd what
+clear
+npm run dev
+cd what
+clear
+v
+cd ..
+clear
+rm -rf what
+clear
+say matt
+clear
+say -v ralph VIKTOR!!!
+say -v ralph "JON ER EN!!!"
+say -v sarah "JON ER EN!!!"
+say -v sarah "JON ER EN raring!!!"
+clear
+say -v ralph bruh
+clear
+man say
+say -v ?
+say -v Rocko (German (Germany)) "ich haise jonas"
+say -v Rocko "ich haise jonas"
+c
+c
+cd ..
+clear
+v .hammerspoon/
+cd config
+ls
+ls | where name =~ hammer
+cd hammerspoon
+ls
+cd ..
+clear
+cd config
+ls | where name =~ hammer
+cd hammerspoon
+cd -
+rm hammerspoon
+cd:.
+clear
+cd ..
+mv .hammerspoon/ ~/.config
+clear
+cd config
+clear
+ls
+cd ..
+ls
+ls | where name =~ hammer
+ls | where name =~ .hammer
+clear
+cd config
+ls
+cd .hammerspoon/
+cd ..
+clear
+mv .hammerspoon/ hammerspoon/
+clear
+v nvim
+clear
+v
+clear
+v
+cat
+clear
+v ../.wezterm.lua 
+clear
+v ghostty/
+clear
+v nvim
+clear
+v nvim
+clear
+git status
+clear
+cat
+clear
+cat
+clear
+v
+clear
+cd learn
+clear
+v noe.py
+clear
+python3 noe.py
+clear
+rm noe.py
+clear
+cd ..
+clear
+v .wezterm.lua 
+clear
+clear
+cd learn
+clear
+ls
+v .wezterm.lua 
+clear
+cd downloads
+clear
+c
+v dotfiles/
+clear
+cd 
+clear
+v .wezterm.lua 
+clear
+cd config
+clear
+v ghostty/
+clear
+v tailwindkomponenter/
+clear
+cd tailwindkomponenter/
+c
+ls
+clear
+ech o
+c
+v
+cd errorhandling/
+clear
+c
+v
+clear
+cd ..
+clear
+npm run dev
+clear
+npm run build-css
+npm run
+c
+npm run dev
+clear
+npm run dev
+ear
+clear
+npm run dev
+clear
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+cd tailwindkomponenter/
+clear
+cd app/
+ls
+clear
+cd public
+cd ..
+clear
+cd ..
+celar
+clear
+cd public
+clear
+mv `~/Downloads/Calendar Line Icon.svg`
+c
+mv `~/Downloads/Calendar Line Icon.svg` .
+clear
+rm `Calendar Line Icon.svg`
+clear
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+myip
+npm run dev
+c
+npm run dev
+c
+npm run dev
+c
+v
+clear
+cd generics
+c
+cd ../generics/
+clear
+say -v ralph nigga with a tie
+c
+v 
+c
+c
+v .wezterm.lua 
+clear
+cd config
+clear
+v nvim
+clear
+npm run dev
+c
+v
+c
+v
+clear
+ps
+c
+ps | where name =~ nvim
+btop
+ps | where name =~ activity
+c
+cd ..
+clear
+cargo new adder --lib 
+cd adder/
+clear
+cd adder
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cargo test 
+c
+cd
+clear
+mkdir MAT121
+clear
+cd MAT121/
+clear
+mv `~/Downloads/The Manga Guide to Linear Algebra.pdf` .
+clear
+ls
+clear
+open `The Manga Guide to Linear Algebra.pdf`
+c
+start `The Manga Guide to Linear Algebra.pdf`
+clear
+cd ..
+clear
+mkdir Sem4
+mv MAT121/ Sem4/
+clear
+cd Sem4/
+ls
+clear
+npm run dev
+cc
+c
+cd
+clear
+cd Sem4/
+clear
+cd MAT121/
+clerar
+clear
+ls
+clear
+start `The Manga Guide to Linear Algebra.pdf`
+mv `~/Downloads/Linear Algebra and Its Applications.pdf` .
+celar
+clear
+ls
+clear
+start `Linear Algebra and Its Applications.pdf`
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/112233445' -i -X GET
+clear
+http get 'https://data.brreg.no/enhetsregisteret/api/enheter/920' -i -X
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013' -i -X
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013' -i -X GET
+clear
+http get 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013'
+c
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013' -i -X GETa 
+clear
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013' -i -X GET | from json
+curl 'https://data.brreg.no/enhetsregisteret/api/enheter/920853013' -i -X GET
+clear
+clear
+cd 
+clear
+cd itx
+clear
+ls
+cd itxbergen-frontend.git/
+clear
+v
+cd ..
+clear
+rm -rf itxbergen-frontend.git/
+clear
+git clone --bare git@github.com:echo-karriere/itxbergen-frontend.git
+clear
+cd itxbergen-frontend.git/
+clear
+cd itxbergen-frontend.git/
+clear
+cd itx
+clear
+cd cards/
+clear
+npm run dev
+ls
+c
+docker compose up
+clear
+c
+c
+c
+cd itx
+clear
+c
+cd nix-darwin/
+clear
+ls
+clear
+v flake.nix 
+clear
+darwin-rebuild switch --flake ~/.config/nix-darwin
+c
+brew install --cask docker
+brew uninstall docker
+clear
+brew uninstall docker
+clear
+brew install --cask docker
+clear
+c
+cd itx
+clear
+cd cards
+clear
+docker compose up
+c
+v
+docker compose up
+c
+cd ..
+clear
+cd components
+c
+cd cards
+clear
+cd itx
+clear
+cd cards
+clear
+cd public/
+clear
+ls
+clear
+cp ~/learn/tailwindkomponenter/public/fuckup.png
+cp ~/learn/tailwindkomponenter/public/fuckup.png .
+clear
+docker compose up
+c
+cd ..
+celar
+clear
+v
+clear
+cd cards/
+cd ..
+clear
+ls
+v
+clear
+v
+clear
+v
+c
+v
+clear
+cd components/
+clear
+docker compose up
+c
+docker compose up
+c
+docker compose up
+c
+v
+clear
+docker compose up
+v
+c
+clear
+cd ..
+cd om-itx/
+clear
+v
+clear
+docker compose up
+c
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+cd ..
+clear
+ls
+cd nextjs-blog/
+clear
+ls
+v
+clear
+cd ..
+rmdir nextjs-blog/
+cd nextjs-blog/
+clear
+ls -a
+cd .next/
+clear
+ls
+cd ..
+cd .
+cd ..
+clear
+rm -rf nextjs-blog/
+clear
+ls
+clea
+clear
+v
+clear
+v
+clear
+cd ..
+clear
+cd om-itx
+clear
+cd public/
+clear
+ls
+clear
+mv ~/Downloads/omitxbilde.png .
+clear
+ls
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+cd om-itx/
+clear
+v
+clear
+npm install
+docker compose up
+c
+c
+v
+clear
+cd ..
+clear
+v
+clear
+cd
+c
+cd Sem4/
+clear
+ls
+cd MAT121/
+clear
+start `Linear Algebra and Its Applications.pdf`
+clear
+cd ..
+mkdir Exphil
+clear
+cd Exphil/
+clear
+mv `~/Downloads/Karlsen 2015.pdf`
+mv `~/Downloads/Karlsen 2015.pdf` .
+clear
+start `Karlsen 2015.pdf`
+docker compose up
+c
+brew services restart sketchybar
+c
+c
+c
+cd ..
+clear
+cd ..
+clear
+c
+start `Karlsen 2015.pdf`
+c
+c
+v
+c
+v
+c
+docker compose up
+v
+clear
+c
+docker compose up
+c
+docker compose up
+c
+v
+c
+c
+cd ..
+clear
+ls
+cd dotfiles
+clear
+ls
+v
+clear
+v
+c
+ssh remarkable
+c
+ssh remarkable
+c
+v
+clear
+docker compose up
+c
+cd ..
+clear
+docker compose up
+c
+v
+clear
+cd ../components/
+clear
+docker compose up
+c
+v
+clear
+v
+clear
+docker compose up
+cd ../om-itx/
+clear
+cd:.
+c
+cd ..
+c
+cd components/
+clear
+ls
+clear
+docker compose up
+c
+npm run dev
+clear
+v docker-compose.yml 
+v Dockerfile 
+clear
+npm dev
+npm run dev
+clear
+v
+clear
+v ..
+clear
+cd ..
+clear
+v
+clear
+docker compose up
+c
+v
+clear
+cd ..
+celar
+clear
+cd public/
+clear
+cd om-itx/
+clear
+cd public/
+clear
+mv ~/Downloads/Fredric.png .
+clear
+docker compose up
+c
+v
+clear
+v
+clear
+v
+clear
+cd MAT121/
+clear
+cd Sem4/
+clear
+ls
+clear
+start `Linear Algebra and Its Applications.pdf`
+clear
+cd ..
+clear
+ls
+clear
+ls
+clear
+mkdir INF102 kont
+clear
+ls
+rmdir kont
+clear
+mv INF102/ 'INF102 kont'
+clear
+cd `INF102 kont/`
+clear
+mvn
+clear
+man mvn
+clear
+man maven
+clear
+mv `~/Downloads/INF102 Course Material (1).pdf`
+mv `~/Downloads/INF102 Course Material (1).pdf` .
+clear
+start `INF102 Course Material (1).pdf`
+cd Sem3
+cd SEM3
+clear
+cd
+clear
+fd Sem3
+clear
+rg sem
+c
+fd sem
+clear
+find Sem3
+fd Sem3
+clear
+cd skole
+clear
+cd sem
+clear
+ls
+clear
+cd ..
+clear
+cd cloud
+clear
+l
+clear
+cd INF113
+clear
+cd:.
+clear
+cd ..
+ls
+cd INF102/
+clea
+rl
+clear
+ls
+pwd
+cd 
+clear
+mv Sem4/ DSIK
+clear
+cd DSIK
+clear
+ls
+v
+clear
+cd `Sem4/INF102 kont/`
+clear
+ls
+clear
+v
+clear
+cd `Eksamen H20/`
+clear
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+clear
+ls
+rm -rf my-app/
+clear
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=kodeoppgaver -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+clear
+als
+ls
+clear
+cd kodeoppgaver/
+clear
+cd INF102 kont
+clear
+ls
+clear
+cd `Eksamen H20/`
+clear
+ls
+cd kodeoppgaver/
+clear
+mvn exec:java -Dexec.mainClass="com.mycompany.app.Main"
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.Main"
+c
+v nvim
+clear
+cd nvim
+clear
+rg -r
+rg -e
+clear
+cd downloads
+clear
+git clone git@github.com:tjdevries/advent-of-nvim.git
+cd advent-of-nvim/
+clear
+ls
+cd nvim
+clear
+v
+clear
+cd ..
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v
+clear
+cd nvim
+clear
+cd ..
+clear
+v
+clear
+cd nvim
+clear
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+v
+c
+clear
+q
+v
+clear
+stow --target ~/.config .
+cd config
+cd ~/.config
+clear
+ls
+v
+clear
+ls
+rm lua init.lua lazy-lock.json
+clear
+ls
+cd helper
+lw
+clear
+rm helper
+clear
+ls
+rm colors.sh
+clear
+ls
+c
+v
+clear
+v
+clear
+v
+clear
+v
+celar
+clear
+v
+ls
+clear
+v
+c
+v
+c
+v
+clear
+git status
+clear
+cd om-itx/
+clear
+git status
+clear
+cd ..
+clear
+v
+clear
+cd Exphil/
+clear
+cd Sem3
+cd Sem4
+cd
+clear
+cd Sem
+clear
+cd
+clear
+ls
+c
+cd Sem
+clear
+ls
+cd ..
+clear
+ls
+cd
+celar
+clear
+ls
+c
+cd DSIK
+clear
+ls
+cd Sem4/
+clear
+ls
+cd Exphil/
+clear
+start `Karlsen 2015.pdf`
+clear
+cd ..
+c
+ls | to json
+clear
+ls | to json
+c
+cd Exphil/
+clear
+v Ekstra kortsvarsoppgave 1
+clear
+ls
+clear
+v 'Ekstra kortsvarsoppgave 1'
+clear
+v nvim
+clear
+cd dotfiles
+clear
+v 'Ekstra kortsvarsoppgave 1.txt'
+clear
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+clear
+start `Karlsen 2015.pdf`
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+c
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+clear
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+c
+start `Ekstra kortsvarsoppgave 1.txt`
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+c
+wc -w "Ekstra kortsvarsoppgave 1.txt" 
+c
+start `Ekstra kortsvarsoppgave 1.txt`
+sudo echo hei
+clear
+v 'Ekstra kortsvarsoppgave 1.txt'
+clear
+c
+echo hei
+c
+for
+liste = ["hei" "din" "penis"]
+var liste = ["hei" "din" "penis"]
+clear
+var liste = ["hei" "din" "penis"]
+clear
+let liste = ["hei" "din" "penis"]
+clear
+for l in liste
+liste | each { |l| echo $l}
+$liste | each { |l| echo $l}
+$liste 
+clear
+start `Ekstra kortsvarsoppgave 1.txt`
+c
+cd ..
+ls
+mkdir INF143A
+cd INF143A/
+clear
+ls
+clear
+mv `~/Downloads/Historical Ciphers.pdf`
+mv `~/Downloads/Historical Ciphers.pdf` .
+clear
+ls
+clear
+start `Historical Ciphers.pdf`
+clear
+v nvim
+clear
+v
+v nvim/
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v nvim
+stow --target ~/.config .
+clear
+v nvim
+stow --target ~/.config .
+clear
+v nvim
+clear
+v nvim
+clear
+v nvim
+c
+clear
+c
+ls
+pwd
+clear
+v
+clrrasr
+clear
+v
+clear
+nvim --version
+brew update nvim
+brew upgrade
+c
+nvim --version
+clear
+ls
+clear
+v Oblig1/
+clear
+ls
+mkdir Oblig1
+clear
+cd Oblig1/
+clear
+mv ~/Downloads/MA1.pdf .
+clear
+ls
+start MA1.pdf
+clear
+v
+clear
+cd Oblig1/
+clear
+ls
+c
+p3 oppgave1.py
+clear
+python3 oppgave1.py
+clear
+v oppgave1.py
+clear
+c
+v nvim
+clear
+v nvim
+clrar
+clear
+v
+stow
+c
+cd ..
+clear
+stow --target ~/.config .
+clear
+cd Exphil/
+clear
+cd ..
+clear
+cd ..
+ls
+cd Sem4/
+ls
+cd Exphil/
+clear
+v "Ekstra kortsvarsoppgave 1.txt" 
+clear
+v oppgave1.py
+clear
+ls
+clea
+c
+v Function.java 
+clear
+python3 oppgave1.py
+c
+python3 oppgave1.py
+c
+python3 oppgave1.py
+c
+clear
+cd ..
+clear
+c
+c
+c
+tmux
+clear
+c
+cd ..
+clear
+v
+clear
+cd public/
+clear
+mv `~/Downloads/Waves Light Top.svg` .
+clear
+cd ..
+c
+v
+clear
+cd public/
+clear
+mv ~/Downloads/person.png .
+clear
+cd public/
+clear
+rm person.png
+clear
+mv ~/Downloads/person.png .
+mv ~/Downloads/person.jpg .
+clear
+docker compose up
+c
+ls
+c
+myip
+docker compose up
+c
+tmux
+c
+c
+ps
+c
+btop
+clear
+brew uninstall geogebra 
+brew uninstall opear
+brew uninstall opera
+clear
+v
+v nvim
+clear
+stow --target ~/.config .
+clear
+c
+v
+clear
+v nvim
+clear
+v nvim
+clear
+ls
+v nvim
+clear
+cd nvim
+c
+v
+clear
+v
+clear
+v
+clear
+brew uninstall bitwarden 
+clear
+hx nvim/
+clear
+cd ..
+clear
+v
+cd components/
+clea
+clear
+npm install
+clear
+cd ..
+clear
+v
+cd ..
+c
+cd ../components/
+clear
+git config pull.rebase false
+clear
+v
+celar
+clear
+ls
+clear
+mv `~/Downloads/Philosophy of Science A New Introduction 2013.pdf` .
+mv `~/Downloads/Philosophy of Science A New Introduction.pdf` .
+clear
+ls
+clear
+c
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+clear
+cd
+clear
+tmux
+clear
+c
+c
+c
+cd
+clear
+tmux
+clear
+tmux
+v ghostty/
+clear
+ls
+c
+ls
+c
+ls
+cle
+clear
+cd dotfiles
+clear
+cd dotfiles
+clear
+stow --target ~/.config .
+clear
+v "Kortsvaroppgave Popper og Duhem.txt" 
+clear
+cd ..
+clear
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+clear
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+c
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+c
+ls
+v "Ekstra kortsvarsoppgave 1.txt" 
+start `Ekstra kortsvarsoppgave 1.txt`
+ls
+brew install pandoc
+clear
+pandoc "Ekstra kortsvarsoppgave 1.txt" ek.pdf
+ls
+pandoc "Ekstra kortsvarsoppgave 1.txt" ek
+c
+tldr pandoc
+pandoc "Ekstra kortsvarsoppgave 1.txt" -o ek.pdf
+c
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+c
+wc -w "Kortsvaroppgave Popper og Duhem.txt" 
+c
+v "Kortsvaroppgave Popper og Duhem.txt" 
+clear
+start `Kortsvaroppgave Popper og Duhem.txt`
+pwd
+cd
+clear
+v .ssh/
+ls
+cd Oblig1/
+clear
+python3 oppgave1.py
+clear
+mv `~/Downloads/Cipher Output 1.txt` .
+c
+clear
+cd Downloads
+clear
+ls
+mv `~/Downloads/cipher_in1.txt` .
+clear
+c
+ls
+ls
+clear
+mv `~/Downloads/Obligatorisk Oppgave 1 (1).txt'` .
+mv `~/Downloads/Obligatorisk Oppgave 1 (1).txt` .
+clear
+s
+ls
+clear
+v "Obligatorisk Oppgave 1 (1).txt" 
+clear
+v
+clear
+ls
+clear
+cat cipher_in_1.txt 
+clear
+pcat cipher_in_1.txt 
+clear
+pcat cipher_in_1.txt | python3 oppgave1.py
+clear
+python3 oppgave1.py
+cd 143
+clear
+cd Oblig1/c
+cd Oblig1/
+clear
+pcat cipher_in_1.txt | pbcopy
+python3 oppgave1.py 1011001111110000<\n>
+clear
+python3 oppgave1.py 1011001111110000<\n>
+python3 oppgave1.py 1011001111110000
+clear
+python3 oppgave1.py 1011001111110000
+c
+python3 oppgave1.py 1011001111110000
+clear
+python3 oppgave1.py 1011001111110000
+clear
+python3 oppgave1.py 1011001111110000 == pcat `Cipher Output 1.txt`
+c
+(python3 oppgave1.py 1011001111110000) == (pcat `Cipher Output 1.txt`)
+clear
+cat "Cipher Output 1.txt" 
+cat cipher_in_1.txt 
+clear
+cat oppgave1.py 
+clear
+cat "Cipher Output 1.txt" 
+clear
+pcat cipher_in_1.txt 
+clear
+v oppgave1.py 
+clear
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+clear
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+python3 oppgave1.py 1101011011010001000010001000
+c
+clear
+cd Oblig1/
+clear
+ls
+cd oppgave1.py
+clear
+python oppgave1.py 1000000000000000000000000001
+python3 oppgave1.py 1000000000000000000000000001
+cd Oblig1/
+c
+cd Oblig1/
+python3 oppgave1.py 1000000000000000000000000001
+cmatrix
+c
+cd Oblig1/
+clear
+ls
+python3 oppgave1.py 1000000000000000000000000001
+c
+python3 oppgave1.py 1000000000000000000000000001
+c
+python3 oppgave1.py 1000000000000000000000000001
+c
+cd dotfiles
+clear
+cd dotfiles
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+v nvim
+clear
+v nvim
+cd nvim
+clear
+v
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+clear
+v
+cd Oblig1/
+clear
+cd dotfiles
+clear
+v nvim
+cd dotfiles
+clear
+stow --target ~/.config .
+clear
+v nvim
+clear
+stow --target ~/.config .
+cd nvim
+clear
+v
+clear
+c
+stow --target ~/.config .
+v
+c
+v nvim
+clear
+cd dotfiles
+clear
+v
+v
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v
+clear
+stow --target ~/.config .
+clear
+v
+clear
+stow --target ~/.config .
+clear
+v nvim
+clear
+cd ..
+c
+docker compose up
+c
+v nvim
+stow --target ~/.config .
+clear
+myip
+cd ..
+clear
+cd components/
+clear
+v
+cleaer
+clear
+cd ..
+celar
+clear
+docker compose up
+c
+v
+clear
+v nvim
+clear
+v nvim
+clear
+v
+clear
+ls
+clear
+cd Oblig1/
+clear
+watch oppgave1.py
+watch --help
+clear
+watch --help
+watch oppgave1.py {python3 oppgave2.py}
+clear
+watch .  {python3 oppgave2.py}
+clear
+python3 oppgave2.py
+c
+python3 oppgave2.py
+clear
+watch .  {python3 oppgave2.py}
+c
+watch .  {python3 oppgave2.py} -d {100}
+c
+watch .  {python3 oppgave2.py} -d 100
+clear
+watch .  {python3 oppgave2.py} -d 500
+c
+mut last_run = 0<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        last_run = $now<\n>    }<\n>}
+clear
+mut last_run = 0<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        last_run = $now<\n>    }<\n>}
+c
+# Create a temporary file to store the last run timestamp<\n>let timestamp_file = "last_run_timestamp.txt"<\n><\n># Initialize the timestamp file if it doesn't exist<\n>if not ($timestamp_file | path exists) {<\n>    echo 0 | save $timestamp_file<\n>}<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    let last_run = (open $timestamp_file | into int)<\n><\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        echo $now | save $timestamp_file<\n>    }<\n>}
+clear
+# Create a temporary file to store the last run timestamp<\n>let timestamp_file = "last_run_timestamp.txt"<\n><\n># Initialize the timestamp file if it doesn't exist<\n>if not ($timestamp_file | path exists) {<\n>    echo 0 | save $timestamp_file<\n>}<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    let last_run = (open $timestamp_file | into int)<\n><\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        echo $now | save $timestamp_file<\n>    }<\n>}
+c
+let last_run = 0<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        last_run = $now<\n>    }<\n>}
+c
+let mut last_run = 0<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        last_run = $now<\n>    }<\n>}
+c
+mut last_run = 0<\n><\n>watch . {<\n>    let now = (date now | date to-record | get timestamp)<\n>    if ($now - $last_run) > 1 {<\n>        python3 oppgave2.py<\n>        last_run = $now<\n>    }<\n>}
+c
+watch .  {python3 oppgave2.py} -d 500
+c
+watch oppgave2.py {<\n>    python3 oppgave2.py<\n>}
+c
+echo oppgave2.py | entr python3 oppgave2.py
+cd Oblig1/
+clear
+echo oppgave2.py | entr clear python3 oppgave2.py
+cd Oblig1/
+clear
+tldr entr
+man entr
+clear
+echo oppgave2.py | entr clear python3 oppgave2.py
+cd Oblig1/
+clear
+echo oppgave2.py | entr python3 oppgave2.py
+cd Oblig1/
+celar
+clear
+echo oppgave2.py | entr 'clear && python3 oppgave2.py'
+ls
+cd Oblig1/
+cela
+clear
+ls
+mv ~/Downloads/Ma
+c
+mv `~/Downloads/Obligatorisk Oppgave 1.pdf`
+mv `~/Downloads/Obligatorisk Oppgave 1.pdf` .
+clear
+ls
+start `Obligatorisk Oppgave 1.pdf`
+docker compose up
+c
+clear
+python3 oppgave2.py
+ls
+clear
+cd Oblig1/
+clear
+python3 oppgave2.py
+ls
+cat output.txt 
+c
+python3 oppgave2.py
+clear
+cat output.txt 
+c
+python3 oppgave2.py
+cat output.txt 
+c
+python3 oppgave3_encrypt.py
+python3 oppgave3_encrypt.py hei
+clear
+python3 oppgave3_encrypt.py hei
+clear
+python3 oppgave3_encrypt.py hei
+c
+python3 oppgave3_encrypt.py hei
+cat oppgave3_encrypt.py 
+c
+cat oppgave3_encrypt.py 
+c
+python3 oppgave3_encrypt.py hei
+clear
+python3 oppgave3_encrypt.py hei
+c
+echo hei | save input.txt
+clear
+python3 oppgave3_encrypt.py input.txt
+clear
+cd Downloads
+clear
+ls
+clear
+mv `~/Downloads/Cipher Key - Obligatorisk Oppgave 1.txt` .
+clear
+mv `~/Downloads/Obligatorisk*`.
+clear
+mv `~/Downloads/Obligatorisk Oppgave 1 Cipher.txt`.
+mv `~/Downloads/Obligatorisk Oppgave 1 Cipher.txt` .
+clear
+mv `~/Downloads/Obligatorisk Oppgave 1.txt` .
+clear
+ls
+cd oppgave3/
+clear
+tmux
+c
+tmux a
+clear
+ls
+echo key | save key.txt
+clear
+python3 oppgave3_encrypt.py key.txt input.txt
+clear
+mv ../input.txt .
+clear
+python3 oppgave3_encrypt.py key.txt input.txt
+clear
+python3 oppgave3_encrypt.py key.txt input.txt
+c
+cd:.
+clear
+cd ..
+ls
+cat output.txt 
+c
+ls
+c
+python3 oppgave1.py 1000000000000000000000000001
+c
+python3 oppgave1.py 1000000000000000000000000001
+c
+python3 oppgave1.py 1000000000000000000000000001
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3
+c
+python3
+clear
+python3 test.py
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+d
+c
+cmatrix
+c
+cmatrix
+c
+cmatrix
+c
+cmatrix
+c
+cmatrix
+c
+cmatrix 
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+python3 test.py
+v test.py
+clear
+python3 test.py
+clear
+v test.py
+clear
+python3 test.py
+clear
+python3 test.py
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+c
+ls
+bat output.txt 
+c
+cd oppgav3
+clear
+cd oppgave3/
+clera
+clear
+ls
+clear
+python3 oppgave3_encrypt.py
+clear
+python3 oppgave3_encrypt.py input.txt `Obligatorisk Oppgave 1 Cipher.txt` output.txt
+clear
+ls
+cat output.txt 
+clear
+rm output.txt
+clear
+ls
+clear
+mv `~/Downloads/Cipher Input 1.txt` .
+clear
+mv `~/Downloads/Cipher Input 2.txt` .
+clear
+ls
+v
+clear
+ls
+clear
+v
+clear
+l
+c
+mv `~/Downloads/Cipher Output 2.txt` .
+clear
+ls
+mv `~/Downloads/Cipher Output 1.txt` .
+clear
+v
+clear
+cd ..
+clear
+python3 oppgave2.py
+clear
+cat output.txt 
+c
+ls
+clear
+cd oppgave2/
+clear
+ls
+clear
+python3 oppgave2.py
+ls
+cat exoutput.txt 
+clear
+mv `~/Downloads/Sample File.txt` .
+clear
+cat "Sample File.txt" 
+c
+cat exoutput.txt 
+cd Oblig1/
+cd oppgave2/
+ls
+clear
+cd Oblig1/oppgave2/
+clear
+c
+python3 oppgave2.py
+clear
+cat exoutput.txt 
+cat "Sample File.txt" 
+clear
+clear
+python3 oppgave2.py
+cat exoutput.txt 
+clear
+c
+python3 oppgave2.py
+cat exoutput.txt 
+cd Oblig1/oppgave2/
+clear
+cat exoutput.txt 
+cat exoutput.txt 
+clear
+ls
+l
+clear
+ls
+cat "Sample File.txt" 
+clear
+q
+c
+nix
+clear
+cat "Sample File.txt" 
+clear
+c
+ls
+l
+c
+python3 oppgave2.py
+cat exoutput.txt 
+c
+c
+cat exoutput.txt 
+rm exoutput.txt
+clear
+ls
+clear
+python3 oppgave2.py
+clear
+l
+^cat output.txt 
+clear
+^bat output.txt 
+c
+python3 ../test.py
+v
+c
+cd ..
+clear
+python3 oppgave1.py 1001
+clear
+v
+clear
+start `Obligatorisk Oppgave 1.pdf`
+clear
+ls
+c
+python3 oppgave1.py 1001
+cd oppgave1/
+clear
+python3 oppgave1.py 1001
+python3 oppgave1.py 1001c
+cc
+c
+python3 oppgave1.py 1001c
+c
+python3 oppgave1.py 1001
+c
+python3 oppgave1.py 1001
+clear
+v
+clear
+python3 oppgave1.py 1001
+c
+cd ../oppgave2/
+clear
+python3 oppgave2.py
+c
+python3 oppgave2.py
+ls
+cat output.txt 
+c
+cd Downloads
+clear
+ls
+clear
+mv ~/Downloads/oppgave1m.py .
+clear
+mv oppgave1.py oppgave1m.py
+mv ~/Downloads/oppgave1m.py .
+clear
+ls
+c
+v
+clear
+v
+clear
+cd oppgave3/
+clear
+mv `~/Downloads/Message (1).txt` .
+clear
+ls
+cd ../oppgave3/
+clear
+ls
+clear
+cd ..
+clear
+cd ../oppgave1/
+clear
+ls
+clear
+python3 oppgave1.py 1000000000000000000000000001
+c
+python3 oppgave1.py 1000000000000000000000000001
+(python3 oppgave1.py 1000000000000000000000000001) == 10000000000000000000000000011011101001111011000110101010110110101001110010100010110000111110010111001100101011010101100111000111000001110101111111100001101110010111011011001111100111001010011110000010101101111001110110100000101100011000111100111110001111000101100101010110110001100011111001000110100100110011001101110111011100100000111001011000001001110010101010101100001100110111100000100111110100011010001010101010011101010011001001100011001101101101101010100111001111110011001111001011010000110001<\n>
+c
+v resultat.txt
+clear
+python3 oppgave1.py 1000000000000000000000000001 | save hmmm.txt
+clear
+cd 143
+clear
+cd Oblig1/oppgave1/
+clear
+ls
+clear
+cd Oblig1/oppgave1/
+clear
+cat hmmm.txt 
+cat resultat.txt 
+clear
+clear
+cat hmmm.txt 
+cat resultat.txt 
+c
+c
+c
+clear
+cd ..
+clear
+v .tmux.conf 
+clear
+v
+clear
+cd oppgave2
+clear
+ls
+cd oppgave2
+clear
+cat "Sample File.txt" 
+c
+insec
+insect
+clear
+v
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v
+clear
+v
+clear
+v nvim
+stow --target ~/.config .
+clear
+v .
+clear
+v
+clear
+v
+clear
+ps
+c
+ps | sort-by mem
+btop
+c
+c
+cd
+clear
+mkdir qrcodegenerator
+cd qrcodegenerator/
+clear
+v index.html
+clear
+npm init
+clear
+ls
+npm run dev
+npm run
+clear
+ls -a
+cd itxl
+clear
+cd itx
+clear
+ls
+v package.json 
+v package.json 
+clear
+rm package.json
+clear
+npm init -y
+clear
+npm install -g live-server
+clear
+ls
+npm dev
+clear
+npm run
+clear
+npm install server
+clear
+ls -a
+rm node*
+rm -rf node*
+clear
+ls
+rm -rf package*
+clear
+ls
+deno init
+clear
+ls
+deno run deno.json 
+clear
+deno serve
+clear
+deno run --allow-net --allow-read server.ts
+deno run --allow-net --allow-read main.ts
+docker compose up
+clear
+v
+clear
+v
+clear
+v
+v nvim
+clear
+stow --target ~/.config .
+v .
+clear
+v
+clear
+docker compose up
+c
+v nvim
+clear
+stow --target ~/.config .
+clear
+ls
+clear
+pip3 install galois
+v
+clear
+c
+ls
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+v
+clear
+v
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+ls
+cd Oblig1/oppgave2/
+clear
+ls
+cd ..
+clearr
+clear
+ls
+cd oppgave2/
+clear
+ls
+c
+cat "Sample File.txt" 
+c
+python3 oppgave2.py
+clear
+cat output.txt 
+clear
+ls
+cat "Sample File.txt" 
+cat exampleoutput.txt 
+clear
+(pcat `Sample File.txt`) == (pcat exampleoutput.txt)
+c
+cd Oblig1/oppgave2/
+clear
+ls
+clear
+v exampleoutput.txt 
+clear
+(pcat `Sample File.txt`) == (pcat exampleoutput.txt)
+c
+rm exampleoutput.txt
+clear
+v exampleoutput.txt 
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+c
+python3 oppgave2.py
+ls
+clear
+(pcat exampleoutput2.txt) == (pcat exampleoutput.txt)
+clear
+python oppgave2.py 110000 resultat.txt
+c
+python3 oppgave2.py 110000 resultat.txt
+c
+python3 oppgave2.py 110000 resultat.txt
+c
+python3 oppgave2.py 1100001 resultat.txt
+c
+cat resultat.txt 
+c
+python3 oppgave2.py 1100001 resultat1.txt
+ls
+rm exampleoutput2.txt
+python3 oppgave2.py 1100001 resultat1.txt
+ls
+rm exampleoutput.txt
+clear
+(pcat resultat.txt) == (pcat resultat1.txt)
+cd Oblig1/oppgave2/
+clear
+os
+ls
+clear
+cd Oblig1/oppgave2/
+clear
+cat resultat1.txt 
+cat resultat.txt 
+clear
+clear
+python3 oppgave2.py 1100001 resultat1.txt
+python3 oppgave2.py resultat.txt
+python3 oppgave2.py 1100001 resultat.txt
+cat resultat.txt 
+cat resultat1.txt 
+clear
+c
+clear
+python3 oppgave2.py 1100001 resultat.txt
+python3 oppgave2.py 1000011 resultat.txt
+clear
+ls
+python3 oppgave2.py 1000011 resultat1.txt
+ls
+cat resultat1.txt 
+cat resultat.txt 
+python3 oppgave2.py 110000 resultat1.txt
+c
+cd Oblig1/oppgave3/
+clear
+als
+ls
+clear
+v
+clear
+cd ../oppgave3
+clear
+python3 test.py
+c
+python3 test.py
+v oppgave3_encryptm.py 
+clear
+cd Oblig1/oppgave3/
+ca
+clear
+ls
+python3 test.py
+c
+python3 test.py
+clear
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 oppgave3_encrypt.py
+python3 oppgave3_encrypt.py input.txt `Obligatorisk Oppgave 1 Cipher.txt` output.txt
+ls
+clear
+mv `~/Downloads/Cipher Input 1.txt` .
+mv `~/Downloads/Cipher Key.txt` .
+clear
+mv `~/Downloads/Cipher Output 1.txt` .
+clear
+ls
+clear
+cd ../oppgave3/
+clear
+ls
+python3 `Cipher Input 1.txt` `Cipher Key.txt` førstetest.txt
+clear
+python3 `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+ls
+ls | where name =~ test
+c
+python3 `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+ls
+ls | where name =~ test
+c
+python3 `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+ls
+cat test.txt 
+cat cipher_out1.txt 
+c
+clear
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+cat test.py 
+clear
+cat test.txt 
+clear
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` testmin.txt
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` testd.txt
+clear
+cat testmin.txt 
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` testd.txt
+clear
+ls
+c
+v
+clear
+v
+clear
+git init
+clear
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test2.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test2.txt
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test2.txt
+ls
+cat testmin.txt 
+cat test2.txt 
+c
+ls | where name =~ test
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` testd.txt
+clear
+cat testd.txt 
+cat "Cipher Output 1.txt" 
+c
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test5.txt
+cat test5.txt 
+cat  "Cipher Output 1.txt" 
+c
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+ls
+clear
+ls
+rm oppgave3_encryptm.py
+clear
+ls
+rm test.txt test2.txt test.txt testmin.tx
+rm test.txt test2.txt test.txt testmin.txt
+clear
+ls
+rm testd.txt
+clear
+ls
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+cat test.txt 
+cat "Cipher Output 1.txt" 
+c
+ls
+pcat cipher_in1.txt | pbcopy
+pcat "Cipher Key.txt" 
+pcat "Cipher Key.txt" | pbcopy 
+pcat "Cipher Output 1.txt" 
+pcat "Cipher Output 1.txt" | pbcopy 
+clear
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+pcat test.txt 
+pcat cipher_out1.txt 
+clear
+pcat test.txt | pbcopy 
+clear
+pcat oppgave3_encrypt.py 
+pcat oppgave3_encrypt.py | pbcopy
+python3 oppgave3_encrypt.py `Cipher Input 1.txt` `Cipher Key.txt` test.txt
+pcat test.txt 
+pcat cipher_out1.txt 
+clear
+ls
+pcat test.txt 
+clear
+ls
+c
+(pcat test.txt) == (pcat `Cipher Output 1.txt`)
+clear
+python3 oppgave3_encrypt.py cipher_in2.txt `Cipher Key.txt` test2.txt
+clear
+ls
+(pcat test2.txt) == (pcat cipher_out2.txt)
+clear
+v
+clear
+git status
+clear
+v
+clear
+docker compose up
+c
+docker compose up
+clear
+v
+clear
+v
+clear
+cd om-itx/
+clear
+git pull
+cd ..
+clear
+git pull
+clear
+cd om-itx/
+git status
+clear
+cd ..
+clear
+rm itxbergen-frontend.git/
+rm -rf itxbergen-frontend.git/
+clear
+git clone --bare git@github.com:echo-karriere/itxbergen-frontend.git
+clear
+cd itxbergen-frontend.git/
+clear
+cd itxbergen-frontend.git/
+cd itx
+clear
+cd itxbergen-frontend.git/
+cd homepage/
+clear
+docker compose up
+cd ../nettverking/
+clear
+docker compose up
+clear
+docker compose up
+c
+git status
+clear
+v
+clear
+ls
+rm test.txt
+clear
+python3 oppgave3_encrypt.py cipher_in2.txt `Cipher Key.txt` testencrypt.txt
+python3 oppgave3_encrypt.py testencrypt.txt `Cipher Key.txt` testdecrypt.txt
+clear
+cat testdecrypt.txt 
+python3 oppgave3_decrypt.py testencrypt.txt `Cipher Key.txt` testdecrypt.txt
+c
+python3 oppgave3_decrypt.py testencrypt.txt `Cipher Key.txt` testdecrypt.txt
+clear
+cat testdecrypt.txt 
+cat cipher_in2.txt 
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 test.py
+c
+python3 oppgave3_decrypt.py testencrypt.txt `Cipher Key.txt` testdecrypt.txt
+clear
+cat testdecrypt.txt cipher_in2.txt 
+c
+v
+clear
+v
+v
+clear
+v
+cd om-itx/
+clear
+cd ..
+clear
+docker compose up
+clear
+c
+cd ..
+clear
+ls
+mkdir oppgave4
+clear
+cd oppgave4/
+clear
+cd ../oppgave4/
+clear
+pip3 install pycryptodome
+python3 -m pip install --upgrade pip
+c
+v
+clear
+pip3 install pycryptodome
+clear
+v
+c
+cd ../oppgave2/
+clear
+python3 oppgave2.py 1100001 resultat.txt
+python3 oppgave2.py 1100001 resultat2.txt
+clear
+(pcat resultat.txt) == (pcat resultat2.txt)
+v oppgave3_encryptm.py 
+clear
+cd ../oppgave2/
+clear
+cd Oblig1/oppgave2/
+clear
+cat resultat2.txt 
+cat resultat.txt 
+pcat resultat.txt 
+c
+python3 oppgave2.py 1000011 resultat.txt
+clear
+(pcat resultat.txt) == (pcat resultat2.txt)
+c
+python3 oppgave2.py 110000 resultat.txt
+(pcat resultat.txt) == (pcat resultat2.txt)
+c
+cat resultat.txt 
+c
+python3 oppgave2.py 110000 resultat.txt
+ls
+clear
+cd Downloads
+clear
+ls
+mv `Result (1).txt` resultidris.txt
+mv ~/Downloads/resultidris.txt .
+clear
+(pcat resultat.txt) == (pcat resultidris.txt)
+clear
+rm resultidris.txt
+c
+python3 oppgave2.py 110000 resultat.txt
+ls
+rm resultat1.txt
+clear
+(pcat resultat.txt) == (pcat resultat2.txt.txt)
+(pcat resultat.txt) == (pcat resultat2.txt)
+clear
+cd ../oppgave4/
+clear
+python3 oppgave4.py
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+pip3 install bitarray
+c
+v
+clear
+pip3 install bitarray
+c
+python3 oppgave4.py
+cat oppgave4.py 
+c
+cat oppgave4.py 
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+v
+clear
+cd ..
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+cd Oblig1/oppgave4/
+clear
+ls
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+cd Oblig1/oppgave4/
+clear
+ls
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+cd oppgave4/
+clear
+python3 oppgave4.py
+cd Oblig1/oppgave4/
+clear
+ls
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c@
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+clear
+python3 oppgave4.py
+clear
+c
+clear
+python3 oppgave4.py
+c
+v
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v nvim
+clear
+cd nvim
+clear
+v
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v
+clear
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+v
+clear
+stow --target ~/.config .
+clear
+v
+clear
+cd oppgave4/
+clear
+ls
+clear
+python3 oppgave4.py
+c
+v
+clear
+cd om-itx/
+clear
+cd ..
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+python3 oppgave4.py
+c
+v oppgave4.py 
+clear
+cd ..
+clear
+cd ..
+clear
+cd oppgave1/
+clear
+ls
+python3 oppgave1.py resultat2.txt
+l
+ls
+clear
+oppgave1.py 1000000000000000000000000001
+python3 oppgave1.py 1000000000000000000000000001
+clear
+python3 oppgave1.py 1000000000000000000000000001 | save resultat2.txt
+clear
+python3 oppgave1.py 1000000000000000000000000001
+ls ~/Downloads/
+mv `~/Downloads/LSFR 500 Iterations.txt` .
+clear
+(pcat resultat2.txt) == (pcat `LSFR 500 Iterations.txt`)
+(pcat resultat2.txt) == (pcat resultat.txt)
+cat resultat.txt 
+clear
+cat "LSFR 500 Iterations.txt" 
+cat resultat2.txt 
+cat resultat.txt 
+c
+python3 oppgave1.py 1000000000000000000000000001 | save resultat2.txt
+rm resultat2.txt
+python3 oppgave1.py 1000000000000000000000000001 | save resultat2.txt
+clear
+(pcat resultat2.txt) == (pcat resultat.txt)
+(pcat resultat2.txt) == (pcat `LSFR 500 Iterations.txt`)
+clear
+cd ../oppgave4
+clear
+ls
+clear
+python oppgave4.py 
+python3 oppgave4.py 
+c
+ls -a
+clear
+python3 oppgave4.py 
+c
+python3 oppgave4.py 
+c
+python3 oppgave4.py 
+c
+python3 oppgave4.py | save outputoppg4.txt
+c
+cd:.
+clear
+cd ..
+clear
+cd oppgave2/
+clear
+python3 oppgave2.py 110000 resultat.txt
+ls
+(pcat resultat.txt) == (pcat `Sample File.txt`)
+cat resultat.txt 
+cat "Sample File.txt" 
+c
+v
+clear
+cd ../oppgave3/
+clear
+ls
+c
+cd oppgave3/
+c
+ls
+rm testdecrypt.txt testencrypt.txt
+clear
+python3 oppgave3_decrypt.py cipher_in1.txt `Cipher Key.txt` testencrypt.txt
+(pcat testencrypt.txt) == (pcat cipher_out1.txt)
+python3 oppgave3_encrypt.py cipher_in1.txt `Cipher Key.txt` testencrypt.txt
+(pcat testencrypt.txt) == (pcat cipher_out1.txt)
+python3 oppgave3_decrypt.py testencrypt.txt `Cipher Key.txt` testdecrypt.txt
+(pcat testdecrypt.txt) == (pcat cipher_in1.txt)
+clear
+v
+clear
+cd 113
+clear
+cd ..
+clear
+cd ..
+clear
+cd Sem3/
+l
+cd INF113/
+clear
+ls
+start ndt.png
+clear
+cd ../..
+clear
+cd .DS_Store
+clear
+v
+clear
+y
+cleaerra
+clear
+cd Sem4
+clear
+mkdir 'IN113 kont'
+clear
+cd `IN113 kont/`
+clear
+ls
+clear
+mv `~/Downloads/INF113 21H Exam.zip` .
+clear
+ls
+clear
+say -v ralph johannes vig
+say -v bad new johannes vig
+say -v bad johannes vig
+say -v bad johannes vig | save ??.txt
+ls
+cat ??.txt 
+say -v bad johannes vig
+rm '??.txt'
+clear
+say -v ralph gay nigger
+clear
+say -v ralph gay nigger
+clear
+say -v ralph okay+
+say -v ralph okay?
+say -v ralph okay!
+say -v ralph okay?
+say -v ralph okay!
+say -v ralph okay
+clear
+v
+clear
+l
+c
+l
+^ls
+clear
+^cd Oblig1/
+clear
+cd ..
+clear
+_atuin_search_cmd 
+clear
+v
+clear
+ls
+cd ..
+clkear
+clear
+cd nushell/
+c
+v
+clear
+v config.nu 
+cklear
+clear
+cd ..
+clear
+yes
+clear
+man yes
+c
+clear
+cd ..
+clear
+sh echo hei
+clear
+cd
+cd -
+clear
+cd Sem4
+clear
+cd `IN113 kont/`
+ls
+cd 21H-exam/
+start solution.pdf
+ls -i
+clear
+ls
+clear
+^ls -i
+clear
+l -i
+l
+clear
+l -l
+clear
+stat solution.pdf 
+l -i
+df -hi
+c,ear
+clear
+ls
+mkdir test
+cd test
+clear
+cd test/
+clear
+echo "hallaballa" | save halla.txt
+clear
+cat halla.txt 
+clear
+cd ..
+clear
+l -l
+clear
+ls
+ls -l
+clear
+chmod 600 test/
+clear
+cd test/
+clear
+ls test
+clear
+chmod 755 test/
+clear
+ls
+ls -l
+mkdir test2
+clear
+ls
+clear
+ls -l
+rmdir test/
+rm -rf test/ test2/
+clear
+ls
+clear
+v
+clear
+chmod 600 test/
+clear
+cat test/halla.txt
+clear
+v
+clear
+rm -r test/
+rm -rf test/
+clear
+chmod 700 test/
+clear
+rm -rf test/
+clerar
+clear
+ls
+clear
+man fsck
+c
+l
+clear
+mv `~/Downloads/INF113 24H Introduction to Operating Systems.pdf` .
+clear
+start `INF113 24H Introduction to Operating Systems.pdf`
+ls
+clear
+mv `INF113 24H Introduction to Operating Systems.pdf` `../IN113 kont/`
+clear
+ls
+cd `Eksamen H20/`
+ls
+cd ..
+clear
+cd `IN113 kont/`
+l
+clear
+start `INF113 24H Introduction to Operating Systems.pdf`
+docker compose up
+clear
+clear
+cd Downloads
+c
+ls
+clear
+mv ~/Downloads/24H.pdf .
+clear
+start 24H.pdf
+mv `~/Downloads/Inf113 Response.pdf`
+mv `~/Downloads/Inf113 Response.pdf` .
+clear
+mkdir 24h
+clear
+mv 24H.pdf 24h/
+clear
+mv `Inf113 Response.pdf` 24h/
+clear
+cd 24h/
+clear
+ls
+¨clear
+clear
+start `Inf113 Response.pdf`
+mv `~/Downloads/INF113 22H Exam.pdf` .
+clear
+mv `INF113 22H Exam.pdf` ..
+clear
+cd ..
+clear
+start `INF113 22H Exam.pdf`
+vmstat
+^vmstat
+clear
+ls
+skcd 24h/
+cd 24h
+clear
+ls
+start 24H.pdf
+cd ..
+clear
+start `INF113 22H Exam.pdf`
+cd 24h/
+clear
+ls
+start `Inf113 Response.pdf`
+man strace
+clear
+tldr strace
+clear
+ls
+start `INF102 Course Material (1).pdf`
+ls
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab1_inf102.git
+clear
+ls
+clear
+cd lab1_inf102/
+clear
+ls
+clear
+cd nvim
+clear
+pwd
+clear
+ls
+clear
+cd nvim
+clear
+v
+clear
+cd ..
+clear
+stow --target ~/.config .
+clear
+v
+pwd
+clear
+cd lab1_inf102/
+ls
+clear
+mvn test
+c
+mvn test
+c
+v
+clear
+cd ..
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab2_inf102.git
+cd ../lab2_inf102/
+clear
+c
+v
+clear
+cd lab2_inf102/
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+cd learn
+clear
+mkdir java
+clear
+cd java
+clear
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=kodeoppgaver -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+clear
+cd kodeoppgaver/
+clear
+ls
+clear
+v
+clear
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.App"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.App"
+cd learn/java
+clear
+ls
+cd kodeoppgaver/
+clear
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.App"
+c
+mvn exec:java -q -Dexec.mainClass="com.mycompany.app.App"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+v
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+ce
+,e
+cl
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+cc
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+v
+clear
+ls
+clear
+cd lab2_inf102/
+clear
+ls
+clear
+ls
+clear
+cd nvim
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+clear
+v
+stow --target ~/.config .
+c
+v
+clear
+c
+stow --target ~/.config .
+clear
+v
+clear
+v
+clear
+stow --target ~/.config .
+clear
+v
+clear
+cd local
+clear
+fd local
+clear
+cd
+clear
+fd local
+c
+fd local/share/nvim
+c
+y
+clear
+y
+clear
+v
+clea
+clear
+stow --target ~/.config .
+clear
+cd lab2_inf102/
+clear
+ls
+clear
+v
+clear
+v
+clear
+cd lab2_inf102/
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+cd ..
+clear
+cd ../Sem3/
+clear
+cd INF102/
+ls
+cd lab1_inf102/
+clear
+v
+clear
+cd ../lab2_inf102/
+clear
+v
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -X -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -X -Dexec.mainClass="INF102.lab2.list.Test"
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab2.list.Test"
+c
+v
+clea
+clear
+cd ..
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab3_INF102.git
+c,ear
+clear
+cd lab3_INF102/
+clear
+ls
+clear
+cd ../lab3_INF102/
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberguesser.Test"
+c
+mvn exec:java -q -X -Dexec.mainClass="INF102.lab3.numberguesser.Test"
+c
+mvn exec:java -q -X -Dexec.mainClass="INF102.lab3.numberguesser.Test"
+c
+mvn exec:java -q -X -Dexec.mainClass="INF102.lab3.numberGuesser.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+v
+clear
+cd ..
+clear
+cd lab3_INF102/
+clear
+ls
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+cd ..
+clear
+cd Sem3/
+clear
+cd INF102/
+clear
+cd lab3_INF102/
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+pwd
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab3.numberGuesser.Main"
+c
+v
+clear
+cd ..
+c
+cd ..
+cd `INF102 kont/`
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab4_inf102.git
+clear
+ls
+cd lab4_inf102/
+clear
+ls
+clear
+cd ..
+clear
+cd lab4_inf102/
+clear
+mvn exec:java -q -Dexec.mainClass="INF102.lab4.sorting.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab4.sorting.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab4.sorting.Test"
+c
+mvn exec:java -q -Dexec.mainClass="INF102.lab4.sorting.Test"
+c
+v
+clear
+cd ../lab4_inf102/
+clear
+v
+clear
+cd ..
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab-5-inf-102.git
+clear
+sl
+ls
+v
+clear
+cd lab5_inf-102/
+clear
+v
+clear
+cd ..
+clear
+cd lab-5-inf-102/
+clear
+ls
+clear
+mvn test
+cd ..
+clear
+cd lab5_inf-102/
+clear
+mvn test
+c
+mvn test
+c
+v
+clear
+cd ..
+clear
+rm -rf lab5_inf-102/
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab-5-inf-102.git
+clear
+cd ..
+cd
+cd lab-5-inf-102/
+clear
+cd lab-5-inf-102/
+clear
+mvn test
+c
+mvn test
+c
+mvn test
+c
+mvn test
+c
+mvn test
+c
+mvn test
+c
+v
+clear
+cd .
+clear
+cd ..
+clear
+git clone git@git.app.uib.no:ii/inf102/24h/students/lab-6-inf-102.git
+clear
+cd lab-6-inf-102/
+clear
+cd ../lab-6-inf-102/
+clear
+v
+clear
+mvn exec:java -q -Dexec.mainClass="labyrinth.Main"
+clear
+mvn exec:java -q -Dexec.mainClass="labyrinth.Main"
+mvn exec:java -q -X -Dexec.mainClass="labyrinth.Main"
+c
+mvn exec:java -q -X -Dexec.mainClass="labyrinth.LabyrinthMain"
+c
+mvn test
+c
+mvn exec:java -q -X -Dexec.mainClass="labyrinth.LabyrinthMain"
+c
+mvn exec:java -q -Dexec.mainClass="labyrinth.LabyrinthMain"
+c
+mvn exec:java -q -Dexec.mainClass="labyrinth.LabyrinthMain"
+clear
+mvn exec:java -q -Dexec.mainClass="labyrinth.LabyrinthMain"
+c
+v
+clear
+cd ..
+clear
+ls
+start `INF102 Course Material (1).pdf`
+ls
+clear
+start `INF102 Course Material (1).pdf`
+start INF102chat.pdf
+c
+cd config
+v
+clear
+v
+c
+cd Downloads
+clear
+ls
+mv ~/Downloads/idriseksamen.pdf
+mv ~/Downloads/idriseksamen.pdf .
+clear
+mv idriseksamen.pdf ..
+clear
+cd ..
+clear
+ls
+clear
+cd itxbergen-frontend.git/
+clear
+cd om-itx/
+clear
+cd ..
+clear
+docker compose up
+clear
+v
+clear
+cd itxbergen-frontend.git/
+cd om-itx/
+clear
+git lon
+git log
+clear
+git status
+clear
+v
+docker compose up
+c
+cd om-itx/
+git status
+clear
+cd ../main
+clear
+git pull
+git config pull.rebase false  # merge
+git pull
+clear
+cd ..
+clear
+v
+clear
+git pull
+c
+git status
+v
+clear
+clear
+docker compose up
+clear
+v
+clear
+v
+npm install
+cd om-itx/
+clear
+npm install
+clear
+cd ..
+clear
+v
+clear
+cd om-itx/
+clear
+docker compose up
+git reset --soft HEAD~1
+clear
+cd ..
+clear
+v
+git status
+cd om-itx/
+git status
+clear
+cd ..
+clear
+v
+clear
+cd om-itx/
+clear
+git pull
+clear
+v
+clear
+git pull
+clear
+cd ..
+clear
+clear
+docker compose up
+clear
+v
+clear
+git reset HEAD .
+clear
+v
+clear
+v
+clear
+docker compose up
+clear
+git reset --soft HEAD~1
+clear
+v
+docker compose up
+clear
+docker compose up
+clear
+cd ../components/
+clear
+docker compose up
+c
+v
+clear
+v
+clear
+v
+clear
+v
+clear
+ls
+v
+clear
+ls | where name =~ stilling
+clear
+docker compose up
+clear
+cd ..
+clear
+cd stillingsannonser/
+clear
+docker compose up
+c
+v
+clear
+cd stillingsannonser/
+clear
+npm install
+clear
+cd ..
+clear
+v
+clear
+v
+clear
+cd om-itx/
+clear
+git pull
+c
+v
+git status
+nvim
+clear
+git merge --abort
+nvim
+git fetch --all
+git pull origin/om-itx
+git branch -r
+git branch
+git pull
+nvim
+git merge --abort
+clear
+git merge origin/main
+git merge origin main
+git merge main
+cd itxbergen-frontend.git/
+clear
+docker compose up
+c
+c
+cd itxbergen-frontend.git/om-itx/
+clear
+git pull main
+lazygit
+git pull main
+git pull origin main
+clear
+git merge origin main
+git merge main
+clear
+git fetch --all
+git pull origin main
+docker compose up
+c
+v
+clear
+v
+clear
+cd ..
+clear
+v
+clear
+docker compose up
+c
+cd ../stillingsannonser/
+clear
+cd itxbergen-frontend.git/stillingsannonser/
+clear
+git merge main
+v
+docker compose up
+c
+v
+clear
+cd itxbergen-frontend.git/
+clear
+v
+cd main
+clear
+npm install
+clear
+cd ..
+clear
+v
+clear
+v
+clear
+v
+clear
+docker compose up
+c
+cd itxbergen-frontend.git/
+clear
+cd itxbergen-frontend.git/stillingsannonser/
+clear
+cd itxbergen-frontend.git/
+clear
+diff stillingsannonser/ om-itx/
+diff components/ homepage/
+clear
+git push
+v
+clear
+c
+ls
+clear
+cd public
+clear
+mv ~/Downloads/statensvegvesen.png .
+clear
+docker compose up
+c
+docker compose up
+c
+docker compose up
+c
+v
+clear
+cd ../main
+clear
+git status
+lazygit
+clear
+cd ..
+cd stillingsannonser/
+clear
+cd stillingsannonser/
+cd ..
+clear
+cd nvim/
+clear
+mv ~/Downloads/knowit.png .
+clear
+v
+clear
+v
+clear
+docker compose up
+clear
+cd ../main
+clear
+git pull
+clear
+docker compose up
+c
+cd itxbergen-frontend.git/
+clear
+cd itxbergen-frontend.git/stillingsannonser/
+clear
+docker compose up
+clear
+v
+clear
+v
+clear
+docker compose up
+c
+ls
+clear
+git clone git@github.com:echo-karriere/ixb-web.git
+clear
+ls
+cd ixb-web/
+clear
+ls
+clear
+cd itxbergen-frontend.git/
+cd stillingsannonser/
+clear
+npm install ReactSelect
+clear
+npm i --save react-select
+docker compose up
+npm i --save react-select
+clear
+v
+cleare
+clear
+cd stillingsannonser/
+clear
+npm i --save react-select
+clear
+docker compose up
+yarn add react-select<\n>
+c
+cd learn
+ls
+cd itxbergen-frontend.git/
+clear
+cd stillingsannonser/src/
+clear
+tree
+cd app/
+clear
+tree
+ls
+cd stillingsannonser/
+ls
+clear
+pwd
+v
+clear
+ls
+pwd
+v
+clear
+ls
+clear
+cd ..
+clear
+v
+clear
+docker compose up
+clear
+docker compose up
+clr
+clear
+cd itxbergen-frontend.git/
+cd stillingsannonser/
+clear
+git status
+btop
+c
+v
+clear
+v
+clear
+cd itxbergen-frontend.git/main/
+clear
+git pull
+clear
+docker compose up
+c
+v
+clear
+cd itxbergen-frontend.git/stillingsannonser/
+clear
+git status
+clear
+http get https://ixb.sanity.studio/desk/event;b4a8c799-dd7b-41d2-b87b-3da5884e6ca7
+c
+http get "https://ixb.sanity.studio/desk/event;b4a8c799-dd7b-41d2-b87b-3da5884e6ca7"
+c
+sanity
+sanity projects
+npm update @sanity/cli
+clear
+sanity projects
+sanity projects list
+sanity login
+clear
+sanity projects list
+clear
+sanity 
+sanity help
+clear
+v
+clear
+cd ../stillingsannonser/
+clear
+npm install @sanity/client
+npm audit fix
+c
+cd learn
+clear
+mkdir s
+cd s
+clear
+npm init
+clear
+ls
+npm install @sanity/client
+ls
+clear
+v sanity.js
+npm run
+clear
+v
+clear
+npm run test 
+clear
+ls
+npm sanity.js
+clear
+npm help
+clear
+sanity debug
+cleare
+clear
+cd learn
+clera
+c
+cd s/
+clear
+node sanity.js 
+npm install @sanity/client
+clear
+node sanity.js 
+c
+node sanity.js 
+c
+node sanity.js 
+c
+node sanity.js 
+c
+node sanity.js 
+c
+node sanity.js 
+c
+node sanity.js 
+s
+ls
+c
+curl -v -X POST \<\n>  -H "Content-Type: application/json" \<\n>  -H "Authorization: Bearer skXWCa9CWNqXaFyHfHOuH8PAtxYwuKUf09dyvzeUSo1nFq7y4o6QYJBMkZQayhFSoawW2lU4kq94CFfo1bSmJpt1ULIrjC9Nj7kHgNTAhFauGMS7m03SFppY6oxcgUKRJo2qDjTLZnjhAO1PKO6VpyDUFmaclBM7ICj9kAt4kaFfascdTbnD" \<\n>  -d '{"query": "*[_type == \"article\" && slug.current == \"f*ck-up-night\"]{ title, body, \"slug\": slug.current, publishedAt }"}' \<\n>  https://your-project-id.api.sanity.io/v1/data/query/production
+clear
+v
+clear
+v
+clear
+v
+clear
+cd nettverking/
+clear
+git merge main
+v
+clear
+cd itx
+clear
+cd itxbergen-frontend.git/
+clear
+v
+clear
+git merge main
+git merge origin main
+cd itxbergen-frontend.git/
+v
+clear
+c
+v
+clear
+v
+clear
+npm install
+c
+v
+clear
+cd ../stillingsannonser/
+clear
+v
+clear
+git merge origin main
+git merge main
+cd itxbergen-frontend.git/
+clear
+v
+clear
+cd ..
+clear
+clear
+git status
+git clone git@github.com:echo-karriere/itxbergen-frontend.git
+ls
+cd itxbergen-frontend/
+clear
+v
+clear
+cd ..
+clear
+cd itxbergen-frontend/
+git pull
+clear
+v
+git pull
+clear
+v
+npm install
+clear
+cd itxbergen-frontend/
+clear
+docker compose up
+v
+clear
+git pull
+clear
+v
+clear
+cd ..
+clear
+c
+cd ..
+clear
+cd itx
+clear
+ls
+cd ixb-web/
+clear
+l
+docker compose up
+v
+npm run build
+clear
+cd ..
+clear
+ls
+rm -rf itxbergen-frontend.git/
+l
+clear
+cd itxbergen-frontend/
+clear
+clear
+cd itxbergen-frontend/
+clear
+l
+clear
+cd itxbergen-frontend/
+clear
+v
+clear
+docker compose up
+c
+docker compose up
+v
+clera
+clear
+git pull
+c
+clear
+git pull
+clear
+docker compose up
+clear
+git pull
+clear
+docker compose up
+c
+v
+clear
+git pull
+clear
+v
+clear
+git pull
+clear
+v
+git pull
+v
+git pull
+git config pull.rebase false
+clear
+git pull
+clear
+v
+clear
+v
+clear
+git pull
+clear
+v
+clear
+v
+git pull
+clear
+git pull
+clear
+v
+git pull
+clear
+v
+clear
+git pull
+clear
+v
+git pull
+git push
+git status
+cler
+clear
+v
+git fetch
+clear
+v
+c
+v
+git pull
+clear
+v
+cd itxbergen-frontend/
+clear
+npm install hamburger-react<\n>
+c
+clear
+npm install hamburger-react
+clear
+npm install hamburger-react<\n>
+clear
+v
+clearv
+clear
+npm install
+docker compose up
+c
+brew uninstall neovide
+clear
+npm i
+cd ..
+clear
+cd itxbergen-frontend/
+clear
+npm i
+clear
+npm list hamburger-react
+rm -rf node_modules package-lock.json<\n>
+npm install
+clear
+docker compose up
+clear
+docker compose up
+clear
+cat Dockerfile 
+clear
+npm run dev
+clear
+docker compose up
+brew services restart sketchybar
+clear
+v
+clear
+cd itxbergen-frontend/
+docker compose up
+clear
+npm run build
+npm start
+clear
+v
+clear
+v
+clear
+npm run build
+clear
+npm run dev
+c
+v
+npm run dev
+clear
+npm run dev
+clear
+npm run build
+clear
+npm start
+clear
+v
+clear
+git status
+clear
+npm run dev
+clear
+git build
+clear
+top
+htopp
+htop
+clear
+brew install htop
+htopp
+htop
+clear
+v
+clear
+ls
+clear
+ps
+clear
+v
+clear
+jvigateDown
+: TmuxNavigateUp
+: : TmuxNavigateLeft
+v
+clear
+git status
+clear
+npm run dev
+clear
+v
+clear
+lazygit
+clear
+git pull
+clear
+v
+clear
+git log
+clear
+git revert --no-commit e298184d3380be10bc0baa1c44049be90dc0c7e2..head
+clear
+git commit
+clear
+git push
+clear
+npm run dev
+clear
+v
+clear
+git status
+clear
+lazygit
+clear
+v
+clear
+npm run dev
+clear
+npm run dev
+cd itxbergen-frontend/
+c
+v
+clea
+clear
+v
+clear
+git pull
+clear
+git checkout main
+clear
+git pull
+clear
+git checkout spacingissues 
+clear
+git merge main
+clear
+git checkout main
+clear
+npm run dev
+clear
+git status
+clear
+git status
+git fetch
+git pull
+git branch
+git pull origin main
+nvim
+clear
+lazygit
+git pull
+clear
+npm run dev
+c
+v
+clear
+v
+clear
+cd ixb-web/
+clear
+ls
+clear
+v
+cler
+clear
+npm run dev
+clear
+npm run dev
+c
+v
+clear
+v
+cd itxbergen-frontend/
+clear
+cd public
+clear
+mv `~/Downloads/ITx Bergen Ellipse.ico` .
+clear
+npm run dev
+clear
+npm run dev
+clear
+git merge main
+clear
+git merge main
+clear
+git checkout main
+clear
+git checkout main
+clear
+git pull
+clear
+v
+clear
+git pull
+clear
+git checkout main
+git pull
+clear
+npm run dev
+clear
+cd ..
+clear
+rm -rf itxbergen-frontend/
+clear
+npm run dev
+clear
+cd ..
+clear
+ls
+clear
+ls
+rm -rf itxbergen-frontend/
+ls
+ls
+clear
+c
+git clone git@github.com:echo-karriere/itxbergen-frontend.git
+cd itxbergen-frontend/
+clear
+v
+clear
+npm run dev
+clear
+npm install
+c
+npm run dev
+c
+npm run dev
+clear
+ls
+start `Kortsvaroppgave Popper og Duhem.txt`
+clear
+brew update
+clear
+brew upgrade
+clear
+cd nushell
+v config.nu
+clear
+v Oblig1/
+cd nushell
+clear
+ls
+clear
+v
+clear
+v env.nu
+v nushell
+clear
+nvim Oblig1/
+clear
+v sketchybar/
+clear
+npm run dev
+clear
+ls
+clear
+v kortsvaroppgaveEtikk.txt
+clear
+wc -w kortsvaroppgaveEtikk.txt 
+start kortsvaroppgaveEtikk.txt
+start kortsvaroppgaveEtikk.pdf
+start kortsvaroppgaveEtikk.txt 
+start kortsvaroppgaveEtikk.pdf 
+clear
+ls
+start kortsvaroppgaveEtikk.pdf 
+start kortsvaroppgaveEtikk.txt 
+clear
+v kortsvaroppgaveEtikk.txt 
+clear
+start kortsvaroppgaveEtikk.txt
+ls
+pcat "Kortsvaroppgave Popper og Duhem.txt" | pbcopy
+start `Kortsvaroppgave Popper og Duhem.txt`
+clear
+v kortsvaroppgaveEtikk1.txt 
+celar
+clear
+wc -w kortsvaroppgaveEtikk1.txt
+clear
+start kortsvaroppgaveEtikk1.txt
+wc -w kortsvaroppgaveEtikk1.txt
+clear
+mkdir Oblig2
+clear
+cd Oblig2/
+clear
+python3 oppgave1_encrypt.py
+clea
+c
+cd Downloads
+clear
+ls
+clear
+ls
+cd Downloads
+clear
+ls
+clear
+lls
+ls
+clear
+cd Downloads
+ls
+clear
+ls
+cd Downloads
+ls
+clear
+mv `~/Downloads/Obligatorisk Oppgave 2.pdf` .
+clear
+v
+clear
+cd Oblig2/
+clear
+ls
+clear
+start `Obligatorisk Oppgave 2.pdf`
+ls
+clear
+v
+clear
+cd oppgave1/
+clear
+ls
+cd ..
+clear
+start `Obligatorisk Oppgave 2.pdf`
+c
+cd ..
+c
+mv `~/Downloads/Obligatorisk Oppgave 2.zip` .
+clear
+man zip
+cd data/
+ls
+clear
+v
+clear
+cd ..
+clear
+v
+clear
+cd Oblig2/
+clear
+ls
+cd oppgave1/
+clear
+ls
+clear
+v
+clear
+ls
+clear
+ls
+clear
+pwd
+clear
+v
+clear
+pwd
+clear
+ls
+clear
+cd ..
+cleaar
+cd ..
+clear
+cd Oblig1/
+ls
+cd ../Oblig2/
+clear
+ls
+cd oppgave1/
+clear
+ls
+clear
+cd ..
+clear
+ls
+cd data
+ls
+clear
+ls
+mv moo* ../oppgave1/
+clear
+ls
+cd ../oppgave1/
+clear
+ls
+c
+python3 oppgave1 decrypt.py ciphertext key iv output file
+ls
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+cat oppgave1.py 
+bat cache --build
+clear
+cat oppgave1.py 
+cat oppgave1_encrypt.py 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cat moo_in 
+pcat moo_in 
+clear
+cd ..
+y
+clear
+y
+clear
+cd oppgave1/
+clear
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cd Oblig2/
+clear
+cd data/
+clear
+ls
+bat cipher.py 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+cat moo_iv 
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+clear
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+l
+ls
+l
+clear
+cd itxbergen-frontend/
+ls
+clear
+git pull
+clear
+git status
+clear
+v
+clear
+c
+cd Downloads
+clear
+ls
+tldr zip
+cd data
+clear
+ls
+bat moo_key 
+bat moo_iv 
+clear
+cd ..
+rm -rf data/
+clear
+ls
+cd oppgave1/
+ls
+rm moo*
+ls
+cd ..
+clear
+cd oppgave2/
+clear
+cd ..
+clear
+mv ~/Downloads/
+mv ~/Downloads/ .
+clear
+ls
+mv Downloads/ ~
+cd
+clear
+cd Downloads/
+ls
+ls Downloads/
+cd Downloads/
+clear
+mv * ~/Downloads/
+clear
+ls
+cd ..
+rmdir Downloads/
+ls
+clear
+cd Downloads
+clear
+ls
+cd -
+mv ~/Downloads/data .
+clear
+ls
+cd data
+clear
+ls
+mv moo* ../oppgave1/
+cd ../oppgave1/
+clear
+:q
+clear
+ls
+bat moo_key 
+bat moo_iv 
+c
+v
+v moo_key 
+clear
+bat moo_in 
+clear
+bat moo_iv 
+clear
+bat moo_key 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+bat moo_iv 
+c
+bat moo_iv 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+cat moo_key 
+cd data
+clear
+ls
+bat moo_key 
+ls
+rm moo*
+clear
+mv ~/Downloads/data/moo* .
+clear
+ls
+bat moo_in 
+bat moo_iv 
+bat moo_key 
+bat moo_out 
+clear
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+ls
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+ls
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+ls
+clear
+rm moo*
+clear
+ls
+mv ~/Downloads/data/moo* .
+clear
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+clear
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cat out.txt 
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cat out.txt 
+clear
+cat out.txt 
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+bat out.txt 
+bat moo_out 
+c
+bat moo_out 
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cc
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+k
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+cat out.txt
+cat moo_out 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cat out.txt 
+cat moo_out 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+bat out.txt 
+cmp moo_out out.txt 
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+c
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+cmp moo_out out.txt 
+clear
+cat out.txt 
+cat moo_out 
+clear
+python3 oppgave1_decrypt.py moo_out moo_iv moo_key in.txt
+cmp in.txt moo_in 
+c
+python3 oppgave1_decrypt.py moo_out moo_iv moo_key in.txt
+cmp in.txt moo_in 
+c
+cat in.txt 
+cat moo_in 
+clear
+v
+clear
+cd ixb-sanity/
+ls
+cd ..
+clear
+cd ixb-web/
+clear
+v
+clear
+npm install next-sanity @sanity/image-url
+npm audit fix
+npm install @sanity/client<\n>
+clear
+npm --version
+npm ls next
+v
+clear
+npm install next-sanity @sanity/image-url
+c
+ls
+cd ..
+clear
+cd oppgave2/
+clear
+ls
+clear
+cd ..
+clear
+ls
+clear
+cd data
+ls
+mv elg* ../oppgave2
+cd ../oppgave2
+cøear
+clear
+ls
+cd ../oppgave2/
+clear
+ls
+c
+l
+c
+npm run dev
+npm run dev
+brew services restart sketchybar
+clear
+ls
+cd Oblig2/
+clear
+cd oppgave2/
+clear
+s
+c
+ls
+cat elg_message 
+cat elg_output 
+cat elg_parameters 
+cat elg_private 
+cat oppgave2.py 
+c
+ls
+v elg_parameters 
+c
+python3 oppgave2.py
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat elg_parameters 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat elg_private 
+cat elg_message 
+c
+cat elg_output 
+clear
+cat out.txt 
+clear
+cd Oblig2/
+cd oppgave2/
+clear
+ls
+clear
+cat elg_parameters 
+pcat elg_parameters | pbcopy
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+cat elg_parameters 
+cat elg_private 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+cd itxbergen-frontend/
+clear
+npm run dev
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+ls
+clear
+v
+clear
+ls
+clear
+c
+ls
+c
+cmatrix
+c
+myip
+c
+myip
+brew install --cask eddercap
+clear
+l
+ls
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+cat elg_output 
+c
+cat elg_output 
+c
+cat elg_output 
+clear
+pcat elg_output | pbcopy
+clear
+cat out.txt 
+c
+pcat out.txt  | pbcopy
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+cat elg_output 
+c
+cat elg_output_2 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+clear
+python3
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+c
+cat elg_parameters 
+cat elg_private 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+cat out.txt 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+cat elg_output_1
+clear
+cat elg_output 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+rm out.txtc
+clear
+cat elg_output 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+clear
+git status
+clear
+npm run dev
+c
+v
+clear
+cd ../oppgave3
+clea
+clear
+python3 oppgave3.py
+c
+python3 oppgave3.py
+python3 oppgave3.py+
+python3 oppgave3.py
+c
+python3 oppgave3.py
+c
+python3 oppgave3.py
+c
+python3 oppgave3.py
+c
+python3 oppgave3.py
+clear
+python3 oppgave3.py
+c
+python3 oppgave3.py nei
+clear
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample1.tt
+c
+python3 oppgave3.py sample2.tt
+c
+cat sample2
+cat sample2.tt
+c
+cat  sample1.tt 
+pcat sample1.tt | pbcopy
+c
+python3 oppgave3.py sample2.tt
+python3 sample1.tt
+python3 oppgave3.py sample1.tt
+c
+y
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+cat elg_output 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+cat elg_output 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+cat elg_output 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+cat elg_output 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+y
+c
+python3 oppgave3.py sample1.tt
+python3 oppgave3.py sample2.tt
+c
+v
+clear
+cd ../oppgave2
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txtc
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+c
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+cat elg_output 
+c
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+cd ..
+clear
+cd oppgave1/
+clear
+oppgave1.py moo_in
+python3 oppgave1.py in.txt
+python3 oppgave1_encrypt.py moo_in moo_iv moo_key out.txt
+clear
+ls
+cat out.txt 
+cmp out.txt moo_out 
+clear
+python3 oppgave1_decrypt.py out.txt moo_iv moo_key in.txt
+cmp in.txt moo_in 
+clear
+cd ..
+clear
+cd oppgave3/
+clear
+python3 oppgave3.py sample2.tt
+python3 oppgave3.py sample1.tt
+clear
+python3 oppgave3.py sample1.tt
+cd ../oppgave2/
+clear
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+python3 oppgave2.py elg_parameters elg_private elg_message out.txt
+cat out.txt 
+clear
+cat elg_output 
+clear
+c
+cat out.txt 
+cat elg_output 
+clear
+npm run dev
+clear
+v
+clear
+git merge main
+c
+ls
+cd ixb-web/
+clear
+npm create sanity@latest
+ls
+ls
+clear
+ls
+c
+ls
+cd sanity.cli.ts
+ls | where name =~ sanity
+clear
+npm run dev
+clear
+v
+cd src/sanity
+ls
+clear
+cd schemaTypes/
+clear
+ls
+cat index.ts 
+clear
+v
+cd ..
+clear
+ls
+clear
+npm run dev
+clear
+npm create sanity@latest
+cd itxbergen-cms/
+clear
+ls
+rg schemas
+clear
+cd .
+cd ..
+clear
+rg schemas
+rg logopakke
+clear
+ls
+cd itxbergen-cms/
+ls
+clear
+ls
+cd schemaTypes/
+ls
+clear
+cat index.ts 
+clear
+v
+clear
+ls
+cd nushell
+ls
+clear
+v history.txt 
+clear
+cd ..
+clear
+cd ..
+colear
+clear
+v
+c
+cd ixb-sanity/
+clear
+npm run dev
+clear
+v
+c
+git pull
+clear
+sanity login
+clear
+git pull
+clear
+cd ixb-web/
+clear
+v
+clear
+v
+c
+npm run dev
+c
+v
+c
+npm i next-sanity
+c
+v
+clear
+npm run dev
+ls
+start `Philosophy of Science A New Introduction 2013.pdf`
+start `Philosophy of Science A New Introduction.pdf`
+c
+cd itxbergen-frontend/
+clear
+cd ixb-web/
+clear
+ls
+clear
+v
+clear
+cd dotfiles
+clear
+v nvim
+clear
+stow --target ~/.config .
+clear
+stow --target ~/.config .
+clear
+v
+clear
+v
+clear
+npm run dev
+clear
+npm run dev
+c
+npm run dev
+c
+v
+clear
+npm run dev
+c
+cd ixb-sanity/
+clear
+ls
+cd schemas/
+clear
+ls
+npm list sanity
+npm list sanity-image
+clear
+npm install --save next-sanity-image
+clear
+v
+clear
+v
+clear
+git add ..
+clear
+git add .
+clear
+npm run dev
+c
+brew install --cask bbluestacks
+brew install --cask bluestacks
+clear
+brew uninstall --cask bluestacks
+brew list github
+c
+npm run dev
+clera
+clear
+v
+clear
+y
+clear
+v
+clear
+git status
+clear
+ls
+cd nvim
+clear
+ls
+git status
+clear
+v
+clear
+git status
+clear
+cd ..
+celar
+clear
+cd
+clers
+clear
+cd .tmux.conf
+clear
+^cd .tmux.conf
+clear
+ls
+clear
+ls tmux
+clear
+ls | where name =~ tmux
+ls | where name =~ .tmux
+clear
+cd .config
+clear
+ls
+clear
+cd .tmux.conf
+clear
+cd dotfiles
+clear
+ls
+ls -a
+clear
+cd
+clear
+cd .tmux
+clear
+ls
+clear
+cd
+clear
+cd ~/.tmux.conf
+clear
+cd /etc/tmux
+clear
+cd /etc
+clear
+cd tmux
+clear
+ls
+cd -
+clear
+ls | where name =~ .tmux
+clear
+cd
+clear
+cd dotfiles
+clear
+ls
+cd
+clear
+v .tmux.conf 
+clear
+cd .config
+clear
+ls
+cd dotfiles
+clear
+ls
+rm -rf wezterm
+clear
+ls
+cd nvim
+clear
+ls
+ls -a
+rm -rf .git
+clear
+ls
+ls -a
+clear
+cd ..
+clear
+cd config
+clear
+ls
+cd alfred
+clear
+ls
+git status
+clear
+clear
+cd
+clear
+ls
+clear
+cd .ssh
+clear
+ls
+cd cloud
+clear
+ls
+pwd
+cd Alfred
+clear
+ls
+clear
+cd
+clear
+cd Cloud
+clear
+cp ~/.ssh .
+cp ~/.ssh . --recursive
+cd .ssh
+clear
+ls
+clear
+cd config
+clear
+ls
+cd starship.toml
+cd
+clear
+cd starship.toml
+v starship.toml 
+celar
+clear
+cp starship.toml dotfiles
+clear
+cd dotfiles
+ls
+clear
+cd config
+clear
+ls
+c
+cd dotfiles
+ls
+clear
+ls -a
+clear
+cd 
+clear
+cp .tmux.conf dotfiles
+clear
+cd dotfiles
+clear
+ls
+ls -a
+clear
+ls
+clear
+cd config
+clear
+ls
+cp lazygit ../dotfiles --recursive
+clear
+cd dotfiles
+clear
+ls
+cd -
+clear
+cd -
+clear
+brew dump
+clear
+brew bundle dump
+ls
+cat Brewfile 
+c
+cd config
+clear
+ls
+cp raycast/ ../dotfiles/ --recursive
+cd dotfiles
+clear
+ls
+cd -
+clear
+ls
+cp ghostty/ ../dotfiles/ --recursive
+clear
+ls
+cp yazi/ ../dotfiles/ --recursive
+clear
+ls
+cd sanity/
+ls
+cat config.json 
+c
+ls
+cd ..
+clear
+ls
+cp carapace/ ../dotfiles
+cp carapace/ ../dotfiles --recursive 
+clear
+ls
+cd -
+clear
+cd dotfiles
+clear
+ls
+clear
+git init
+clear
+git remote add origin git@github.com:isak79/dotfiles.git
+git branch -M main
+git push -u origin main
+ls
+clear
+v
+clear
