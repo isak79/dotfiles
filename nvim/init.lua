@@ -1,4 +1,2 @@
-require("isak.core")
-require("isak.lazy")
-
-vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
