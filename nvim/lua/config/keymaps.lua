@@ -6,3 +6,4 @@ vim.api.nvim_set_keymap("n", "<C-l>", ":TmuxNavigateRight<CR>", { silent = true 
 vim.api.nvim_set_keymap("n", "<C-h>", ":TmuxNavigateLeft<CR>", { silent = true })
 vim.api.nvim_set_keymap("n", "<C-k>", ":TmuxNavigateUp<CR>", { silent = true })
 vim.api.nvim_set_keymap("n", "<leader>P", ":TypstPreview<CR>", { silent = true })
+vim.keymap.set("n", "<leader>e", "<cmd>lua require('mini.files').open()<CR>", { silent = true })
