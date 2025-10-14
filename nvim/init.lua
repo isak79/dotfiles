@@ -4,6 +4,7 @@ vim.o.wrap = false
 vim.o.signcolumn = "yes"
 vim.o.tabstop = 2
 vim.o.swapfile = false
+vim.o.shiftwidth = 2
 vim.o.winborder = "rounded"
 vim.g.mapleader = " "
 vim.o.smartindent = true
@@ -26,27 +27,21 @@ vim.pack.add({
 	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/christoomey/vim-tmux-navigator" },
 	{ src = "https://github.com/Saghen/blink.cmp" },
+	{ src = "https://github.com/mason-org/mason.nvim" },
 })
 
--- fuzzy = { implementation = "prefer_rust_with_warning" }
--- fuzzy.prebuilt_binaries.force_version = true
--- fuzzy.implementation = "rust"
-
--- vim.api.nvim_create_autocmd('LspAttach', {
--- 	group = vim.api.nvim_create_augroup('my.lsp', {}),
--- 	callback = function(args)
--- 		local client = assert(vim.lsp.get_client_by_id(args.data.client_id))
--- 		if client:supports_method('textDocument/completion') then
--- 			-- Optional: trigger autocompletion on EVERY keypress. May be slow!
--- 			local chars = {}; for i = 32, 126 do table.insert(chars, string.char(i)) end
--- 			client.server_capabilities.completionProvider.triggerCharacters = chars
--- 			vim.lsp.completion.enable(true, client.id, args.buf, { autotrigger = true })
--- 		end
--- 	end,
+-- require "blink.cmp".setup({
+-- 	fuzzy = { implementation = "lua" },
+-- 	keymap = { preset = 'default' },
+-- 	completion = { documentation = { auto_show = false } },
+-- 	appearance = {
+-- 		nerd_font_variant = 'mono',
+-- 	},
 -- })
--- vim.cmd [[set completeopt+=menuone,noselect,popup]]
-
-require "blink.cmp".setup()
+require("mason").setup()
+require "blink.cmp".setup({
+	fuzzy = { implementation = "lua" },
+})
 require "mini.pick".setup()
 require("oil").setup({
 	lsp_file_methods = {
@@ -72,9 +67,12 @@ vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls" })
 vim.lsp.config("lua_ls", {
 	settings = {
-		Lua = { workspace = { library = { vim.api.nvim_get_runtime_file("", true) } }
-		}
-	}
+		Lua = {
+			workspace = {
+				library = { vim.api.nvim_get_runtime_file("", true), }
+			},
+		},
+	},
 })
 
 vim.cmd("colorscheme catppuccin")
