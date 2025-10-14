@@ -28,6 +28,7 @@ vim.pack.add({
 	{ src = "https://github.com/christoomey/vim-tmux-navigator" },
 	{ src = "https://github.com/Saghen/blink.cmp" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
+	{ src = "https://github.com/kdheepak/lazygit.nvim" },
 })
 
 -- require "blink.cmp".setup({
@@ -63,17 +64,17 @@ vim.keymap.set('n', '<leader>f', ":Pick files<CR>")
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
 vim.keymap.set('n', '<leader>e', ":Oil --float<CR>")
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
+vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>")
+vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>")
 
 vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls" })
 vim.lsp.config("lua_ls", {
 	settings = {
 		Lua = {
-			workspace = {
-				library = { vim.api.nvim_get_runtime_file("", true), }
-			},
-		},
-	},
+			diagnostics = {
+				globals = { "vim" } }
+		}
+	}
 })
-
 vim.cmd("colorscheme catppuccin")
 vim.cmd(":hi statusline guibg=NONE")
