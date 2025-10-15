@@ -4,6 +4,8 @@ vim.keymap.set('n', '<leader>q', ':quit<CR>', {silent = true})
 vim.keymap.set('n', '<leader>nh', ':nohl<CR>', {silent = true})
 vim.keymap.set('n', 'H', ':bprev<CR>', {silent = true})
 vim.keymap.set('n', 'L', ':bnext<CR>', {silent = true})
+vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>', {silent = true})
+vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', {silent = true})
 
 
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", {silent = true})
@@ -17,4 +19,3 @@ vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", {silent = true})
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nn', ":Noice<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", {silent = true})
-

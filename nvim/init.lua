@@ -1,25 +1,4 @@
-vim.o.number = true
-vim.o.relativenumber = true
-vim.o.wrap = false
-vim.o.signcolumn = "yes"
-vim.o.tabstop = 2
-vim.o.swapfile = false
-vim.o.shiftwidth = 2
-vim.o.winborder = "rounded"
-vim.g.mapleader = " "
-vim.o.smartindent = true
-vim.o.undofile = true
-vim.o.termguicolors = true
-
-vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>', {silent = true})
-vim.keymap.set('n', '<leader>w', ':write<CR>', {silent = true})
-vim.keymap.set('n', '<leader>q', ':quit<CR>', {silent = true})
-vim.keymap.set('n', '<leader>nh', ':nohl<CR>', {silent = true})
-vim.keymap.set('n', 'H', ':bprev<CR>', {silent = true})
-vim.keymap.set('n', 'L', ':bnext<CR>', {silent = true})
-
-vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>', {silent = true})
-vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', {silent = true})
+require("isak.core")
 
 vim.pack.add({
 	{ src = "https://github.com/catppuccin/nvim" },
