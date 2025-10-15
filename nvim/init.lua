@@ -29,6 +29,7 @@ vim.pack.add({
 	{ src = "https://github.com/Saghen/blink.cmp" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
+	{ src = "https://github.com/ibhagwan/fzf-lua" },
 })
 
 -- require "blink.cmp".setup({
@@ -39,12 +40,14 @@ vim.pack.add({
 -- 		nerd_font_variant = 'mono',
 -- 	},
 -- })
+require("fzf-lua")
 require("mason").setup()
 require "blink.cmp".setup({
 	fuzzy = { implementation = "lua" },
 })
 require "mini.pick".setup()
 require("oil").setup({
+	default_file_explorer = true,
 	lsp_file_methods = {
 		enabled = true,
 		timeout_ms = 1000,
@@ -60,6 +63,8 @@ require("oil").setup({
 		border = "rounded",
 	},
 })
+vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>")
+vim.keymap.set('n', '<leader>/', ":FzfLua grep_visual<CR>")
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>")
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
 vim.keymap.set('n', '<leader>e', ":Oil --float<CR>")

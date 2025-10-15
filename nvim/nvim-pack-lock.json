@@ -4,6 +4,10 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
+    "fzf-lua": {
+      "rev": "83e4080",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
     "lazygit.nvim": {
       "rev": "2305dee",
       "src": "https://github.com/kdheepak/lazygit.nvim"
