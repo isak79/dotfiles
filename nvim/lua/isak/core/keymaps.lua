@@ -19,3 +19,5 @@ vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", {silent = true})
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nn', ":Noice<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", {silent = true})
+
+print("hei")

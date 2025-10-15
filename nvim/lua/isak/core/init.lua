@@ -1,2 +1,2 @@
-require("isak.core.keymaps")
 require("isak.core.opts")
+require("isak.core.keymaps")
