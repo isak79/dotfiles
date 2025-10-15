@@ -2,8 +2,6 @@ vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>', {silent = true})
 vim.keymap.set('n', '<leader>w', ':write<CR>', {silent = true})
 vim.keymap.set('n', '<leader>q', ':quit<CR>', {silent = true})
 vim.keymap.set('n', '<leader>nh', ':nohl<CR>', {silent = true})
-vim.keymap.set('n', 'H', ':bprev<CR>', {silent = true})
-vim.keymap.set('n', 'L', ':bnext<CR>', {silent = true})
 vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>', {silent = true})
 vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', {silent = true})
 
@@ -20,4 +18,8 @@ vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nn', ":Noice<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", {silent = true})
 
-print("hei")
+-- Buffers
+vim.keymap.set('n', 'H', ':bprev<CR>', {silent = true})
+vim.keymap.set('n', 'L', ':bnext<CR>', {silent = true})
+vim.keymap.set('n', '<leader>bd', ':bd<CR>', {silent = true})
+

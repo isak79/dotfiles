@@ -14,4 +14,7 @@ require("oil").setup({
 		max_height = 0.6,
 		border = "rounded",
 	},
+	keymaps = {
+		["q"] = { "actions.close", mode = "n" },
+	},
 })
