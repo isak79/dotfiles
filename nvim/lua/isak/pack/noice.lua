@@ -3,6 +3,7 @@ require("noice").setup({
 		enabled = true,
 		view = "cmdline_popup",
 		format = {
+			cmdline = { pattern = "^:", icon = " ", lang = "vim" },
 			search_down = {
 				view = "cmdline",
 			},
@@ -12,6 +13,6 @@ require("noice").setup({
 		},
 		hover = {
 			silent = true,
-		}
+		},
 	},
 })

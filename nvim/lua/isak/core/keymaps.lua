@@ -15,7 +15,7 @@ vim.keymap.set('n', '<leader>e', ":Oil --float<CR>", {silent = true})
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, {silent = true})
 vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", {silent = true})
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", {silent = true})
-vim.keymap.set('n', '<leader>nn', ":Noice<CR>", {silent = true})
+vim.keymap.set('n', '<leader>nn', ":Noice pick<CR>", {silent = true})
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", {silent = true})
 
 -- Buffers

@@ -34,7 +34,8 @@ vim.lsp.config("lua_ls", {
 	}
 })
 vim.cmd("colorscheme catppuccin")
-vim.cmd(":hi statusline guibg=NONE")
+
+-- vim.cmd(":hi statusline guibg=NONE")
 
 require("nvim-treesitter").setup()
 require("notify").setup()
@@ -42,4 +43,23 @@ require "mini.pick".setup()
 
 require("isak.pack.noice")
 require("isak.pack.oil")
-require("lua.isak.pack.lualine")
+-- require("lua.isak.pack.lualine")
+require("lualine").setup({
+	options = {
+		icons_enabled = true,
+		theme = "mycatppuccin",
+		component_separators = { left = '', right = '' },
+		section_separators = { left = '', right = '' },
+	},
+	sections = {
+		lualine_c = { 'buffers' },
+		lualine_x = { 'encoding', 'fileformat', 'filetype',
+			{
+				require("noice").api.statusline.mode.get,
+				cond = require("noice").api.statusline.mode.has,
+				color = { fg = "#ff9e64" },
+			}
+
+		},
+	},
+})
