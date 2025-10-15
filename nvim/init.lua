@@ -11,15 +11,15 @@ vim.o.smartindent = true
 vim.o.undofile = true
 vim.o.termguicolors = true
 
-vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>')
-vim.keymap.set('n', '<leader>w', ':write<CR>')
-vim.keymap.set('n', '<leader>q', ':quit<CR>')
-vim.keymap.set('n', '<leader>n', ':nohl<CR>')
-vim.keymap.set('n', 'H', ':bprev<CR>')
-vim.keymap.set('n', 'L', ':bnext<CR>')
+vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>', {silent = true})
+vim.keymap.set('n', '<leader>w', ':write<CR>', {silent = true})
+vim.keymap.set('n', '<leader>q', ':quit<CR>', {silent = true})
+vim.keymap.set('n', '<leader>nh', ':nohl<CR>', {silent = true})
+vim.keymap.set('n', 'H', ':bprev<CR>', {silent = true})
+vim.keymap.set('n', 'L', ':bnext<CR>', {silent = true})
 
-vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>')
-vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>')
+vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>', {silent = true})
+vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', {silent = true})
 
 vim.pack.add({
 	{ src = "https://github.com/catppuccin/nvim" },
@@ -35,6 +35,7 @@ vim.pack.add({
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/rcarriga/nvim-notify" },
 	{ src = "https://github.com/folke/noice.nvim" },
+	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 })
 
 -- require "blink.cmp".setup({
@@ -45,6 +46,7 @@ vim.pack.add({
 -- 		nerd_font_variant = 'mono',
 -- 	},
 -- })
+require("nvim-treesitter").setup()
 require("notify").setup()
 require("noice").setup({
 	cmdline = {
@@ -57,6 +59,9 @@ require("noice").setup({
 			search_up = {
 				view = "cmdline",
 			},
+		},
+		hover = {
+			silent = true,
 		}
 	},
 })
@@ -83,15 +88,18 @@ require("oil").setup({
 		border = "rounded",
 	},
 })
-vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>")
-vim.keymap.set('n', '<leader>/', ":FzfLua grep_visual<CR>")
-vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>")
-vim.keymap.set('n', '<leader>f', ":Pick files<CR>")
-vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
-vim.keymap.set('n', '<leader>e', ":Oil --float<CR>")
-vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
-vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>")
-vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>")
+vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", {silent = true})
+vim.keymap.set('n', '<leader>/', ":FzfLua grep_visual<CR>", {silent = true})
+vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>", {silent = true})
+vim.keymap.set('n', '<leader>f', ":Pick files<CR>", {silent = true})
+vim.keymap.set('n', '<leader>h', ":Pick help<CR>", {silent = true})
+vim.keymap.set('n', '<leader>e', ":Oil --float<CR>", {silent = true})
+vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, {silent = true})
+vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", {silent = true})
+vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", {silent = true})
+vim.keymap.set('n', '<leader>nn', ":Noice<CR>", {silent = true})
+vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", {silent = true})
+
 
 vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls" })
 vim.lsp.config("lua_ls", {
