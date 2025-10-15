@@ -13,6 +13,7 @@ vim.pack.add({
 	{ src = "https://github.com/rcarriga/nvim-notify" },
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
+	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 })
 
 
@@ -41,3 +42,4 @@ require "mini.pick".setup()
 
 require("isak.pack.noice")
 require("isak.pack.oil")
+require("lua.isak.pack.lualine")
