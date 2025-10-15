@@ -32,6 +32,9 @@ vim.pack.add({
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
 	{ src = "https://github.com/ibhagwan/fzf-lua" },
+	{ src = "https://github.com/MunifTanjim/nui.nvim" },
+	{ src = "https://github.com/rcarriga/nvim-notify" },
+	{ src = "https://github.com/folke/noice.nvim" },
 })
 
 -- require "blink.cmp".setup({
@@ -42,6 +45,21 @@ vim.pack.add({
 -- 		nerd_font_variant = 'mono',
 -- 	},
 -- })
+require("notify").setup()
+require("noice").setup({
+	cmdline = {
+		enabled = true,
+		view = "cmdline_popup",
+		format = {
+			search_down = {
+				view = "cmdline",
+			},
+			search_up = {
+				view = "cmdline",
+			},
+		}
+	},
+})
 require("fzf-lua")
 require("mason").setup()
 require "blink.cmp".setup({

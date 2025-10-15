@@ -20,6 +20,14 @@
       "rev": "96ee37d",
       "src": "https://github.com/nvim-mini/mini.pick"
     },
+    "noice.nvim": {
+      "rev": "38c702b",
+      "src": "https://github.com/folke/noice.nvim"
+    },
+    "nui.nvim": {
+      "rev": "de74099",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
     "nvim": {
       "rev": "af58927",
       "src": "https://github.com/catppuccin/nvim"
@@ -27,6 +35,10 @@
     "nvim-lspconfig": {
       "rev": "ac98db2",
       "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-notify": {
+      "rev": "8701bec",
+      "src": "https://github.com/rcarriga/nvim-notify"
     },
     "oil.nvim": {
       "rev": "919e155",
