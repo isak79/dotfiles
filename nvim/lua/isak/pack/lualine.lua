@@ -19,7 +19,6 @@ require("lualine").setup({
 				end,
 				color = { fg = "#ff9e64" },
 			}
-
 		},
 	},
 })

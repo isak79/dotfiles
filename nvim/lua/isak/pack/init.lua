@@ -14,6 +14,7 @@ vim.pack.add({
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
+	{ src = "https://github.com/folke/which-key.nvim" },
 })
 
 
@@ -37,6 +38,7 @@ vim.cmd("colorscheme catppuccin")
 
 -- vim.cmd(":hi statusline guibg=NONE")
 
+require("which-key").setup()
 require("nvim-treesitter").setup()
 require("notify").setup()
 require "mini.pick".setup()
