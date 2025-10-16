@@ -4,6 +4,9 @@ require "blink.cmp".setup({
 		nerd_font_variant = 'mono'
 	},
 	signature = { enabled = true },
-	completion = { documentation = { auto_show = false } },
+	completion = {
+		documentation = { auto_show = false },
+		ghost_text = { enabled = true },
+	},
 	fuzzy = { implementation = "prefer_rust_with_warning" }
 })
