@@ -20,7 +20,8 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 -- Git
 vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", { silent = true })
-vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
 
 -- Buffers
 vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
@@ -31,6 +32,8 @@ vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
 vim.keymap.set('n', '<leader>tp', ":TypstPreview<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nn', ":Noice fzf<CR>", { silent = true })
+vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
+vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 
 -- Lsp
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
