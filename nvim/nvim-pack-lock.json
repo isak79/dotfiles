@@ -4,6 +4,10 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
+    "friendly-snippets": {
+      "rev": "572f566",
+      "src": "https://github.com/rafamadriz/friendly-snippets"
+    },
     "fzf-lua": {
       "rev": "83e4080",
       "src": "https://github.com/ibhagwan/fzf-lua"

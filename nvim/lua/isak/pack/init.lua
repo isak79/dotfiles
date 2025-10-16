@@ -15,34 +15,24 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/folke/which-key.nvim" },
+	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 })
 
 
 require("fzf-lua")
 require("mason").setup()
-require "blink.cmp".setup({
-	fuzzy = { implementation = "lua" },
-})
 
-
-vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls" })
-vim.lsp.config("lua_ls", {
-	settings = {
-		Lua = {
-			diagnostics = {
-				globals = { "vim" } }
-		}
-	}
-})
 vim.cmd("colorscheme catppuccin")
 
 -- vim.cmd(":hi statusline guibg=NONE")
 
+require("isak.pack.lsp")
 require("which-key").setup()
 require("nvim-treesitter").setup()
 require("notify").setup()
 require "mini.pick".setup()
 
+require("isak.pack.blink")
 require("isak.pack.noice")
 require("isak.pack.oil")
 require("isak.pack.lualine")

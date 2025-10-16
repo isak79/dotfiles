@@ -12,7 +12,7 @@ vim.keymap.set('n', '<leader>/', ":FzfLua grep_visual<CR>", {silent = true})
 vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>", {silent = true})
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>", {silent = true})
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>", {silent = true})
-vim.keymap.set('n', '<leader>e', ":Oil --float<CR>", {silent = true})
+vim.keymap.set('n', '<leader>e', ":Oil<CR>", {silent = true})
 
 -- Git
 vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", {silent = true})
