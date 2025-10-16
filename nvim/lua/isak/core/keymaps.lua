@@ -8,6 +8,10 @@ vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', { silent = true })
 vim.keymap.set('v', '<C-j>', ":<C-u>silent! '<,'>m '>+1<CR>gv", {silent = true})
 vim.keymap.set('v', '<C-k>', ":<C-u>silent! '<,'>m '<-2<CR>gv", {silent = true})
 vim.keymap.set('n', ';', "q:", {silent = true})
+vim.keymap.set('n', 'ø', "{", {silent = true})
+vim.keymap.set('n', 'Ø', "}", {silent = true})
+vim.keymap.set('n', 'æ', ":silent Gitsigns next_hunk<CR>", {silent = true})
+vim.keymap.set('n', 'Æ', ":silent Gitsigns prev_hunk<CR>", {silent = true})
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
@@ -31,7 +35,7 @@ vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
 -- Misc
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
 vim.keymap.set('n', '<leader>tp', ":TypstPreview<CR>", { silent = true })
-vim.keymap.set('n', '<leader>nn', ":Noice fzf<CR>", { silent = true })
+vim.keymap.set('n', '<leader>nn', ":NoiceAll<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 

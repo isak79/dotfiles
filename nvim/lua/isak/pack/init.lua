@@ -18,10 +18,13 @@ vim.pack.add({
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
+	{ src = "https://github.com/nvim-mini/mini.icons" },
 })
 
 
-require("nvim-treesitter").setup()
+require("nvim-treesitter").setup({
+	ensure_installed = { "lua", "typsescript", "rust", "typsescript", "javascript" },
+})
 require("fzf-lua")
 require("mason").setup()
 
@@ -31,7 +34,6 @@ vim.cmd("colorscheme catppuccin")
 
 require("isak.pack.lsp")
 require("which-key").setup()
-require("nvim-treesitter").setup()
 require("notify").setup()
 require "mini.pick".setup()
 
