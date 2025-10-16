@@ -2,12 +2,20 @@ require("lualine").setup({
 	options = {
 		icons_enabled = true,
 		theme = "mycatppuccin",
-		component_separators = { left = '', right = '' },
-		section_separators = { left = '', right = '' },
+		component_separators = { left = '', right = '' },
+		section_separators = { left = '', right = '' },
 	},
 	sections = {
-		lualine_c = { 'buffers' },
-		lualine_x = { 'encoding', 'fileformat', 'filetype',
+		lualine_c = {
+			{
+				'buffers',
+				max_length = 40,
+				symbols = {
+					alternate_file = '',
+				},
+			},
+		},
+		lualine_x = { 'filetype',
 			{
 				require("noice").api.statusline.mode.get,
 				cond = function()
@@ -20,5 +28,7 @@ require("lualine").setup({
 				color = { fg = "#ff9e64" },
 			}
 		},
+		lualine_y = {'lsp_status'},
 	},
+	extensions = {},
 })

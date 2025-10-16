@@ -7,6 +7,7 @@ vim.keymap.set({ 'n', 'v', 'x' }, '<leader>y', '"+y<CR>', { silent = true })
 vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', { silent = true })
 vim.keymap.set('v', '<C-j>', ":<C-u>silent! '<,'>m '>+1<CR>gv", {silent = true})
 vim.keymap.set('v', '<C-k>', ":<C-u>silent! '<,'>m '<-2<CR>gv", {silent = true})
+vim.keymap.set('v', ';', "q:", {silent = true})
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
