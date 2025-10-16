@@ -15,4 +15,11 @@ require("noice").setup({
 			silent = true,
 		},
 	},
+	routes = {
+		filter = {
+			any = {
+				{ cond = function(_) return true end }
+			},
+		},
+	},
 })
