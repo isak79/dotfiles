@@ -16,9 +16,11 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/folke/which-key.nvim" },
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
+	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 })
 
 
+require("nvim-treesitter").setup()
 require("fzf-lua")
 require("mason").setup()
 
