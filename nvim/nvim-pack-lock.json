@@ -33,6 +33,10 @@
       "rev": "96ee37d",
       "src": "https://github.com/nvim-mini/mini.pick"
     },
+    "neogit": {
+      "rev": "0f48491a",
+      "src": "https://github.com/NeogitOrg/neogit"
+    },
     "noice.nvim": {
       "rev": "38c702b",
       "src": "https://github.com/folke/noice.nvim"
@@ -64,6 +68,10 @@
     "oil.nvim": {
       "rev": "919e155",
       "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "plenary.nvim": {
+      "rev": "b9fd522",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
     },
     "typst-preview.nvim": {
       "rev": "1603d37",
