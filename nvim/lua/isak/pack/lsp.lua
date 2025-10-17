@@ -11,12 +11,13 @@ vim.lsp.config("lua_ls", {
 vim.lsp.config('rust-analyzer', {
 
 	cmd = { 'rust-analyzer' },
-	filetypes = { 'rs' },
+	filetypes = { 'rust' },
 	settings = {
 		['rust-analyzer'] = {
 			diagnostics = {
-				enable = false,
+				enable = true,
 			}
-		}
-	}
+		},
+	},
+	root_markers = {".git", "Cargo.toml", "Cargo.lock", ".gitignore"},
 })
