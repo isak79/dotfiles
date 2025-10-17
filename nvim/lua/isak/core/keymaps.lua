@@ -10,17 +10,7 @@ vim.keymap.set('v', '<C-k>', ":<C-u>silent! '<,'>m '<-2<CR>gv", { silent = true 
 vim.keymap.set('n', ';', "q:", { silent = true })
 vim.keymap.set('n', 'ø', "{", { silent = true })
 vim.keymap.set('n', 'Ø', "}", { silent = true })
-SysCB = true
-vim.keymap.set('n', '<leader>c', function()
-	local cb = vim.opt.clipboard:get()[1]
-	if cb == nil then
-		vim.o.clipboard = "unnamedplus"
-		SysCB = true
-	else
-		vim.o.clipboard = ""
-		SysCB = false
-	end
-end)
+vim.keymap.set('n', 'R', ":restart<CR>", { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
@@ -44,13 +34,25 @@ vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
 vim.keymap.set('n', 'L', ':bnext<CR>', { silent = true })
 vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
 
--- Misc
-vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
+-- Notifications
 vim.keymap.set('n', '<leader>nn', ":NoiceAll<CR>", { silent = true })
-vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 
 -- Lsp
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
 vim.keymap.set("n", "gd", ":FzfLua lsp_definitions<CR>", { silent = true })
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
+vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
+
+-- Toggle clipboard
+SysCB = true
+vim.keymap.set('n', '<leader>c', function()
+	local cb = vim.opt.clipboard:get()[1]
+	if cb == nil then
+		vim.o.clipboard = "unnamedplus"
+		SysCB = true
+	else
+		vim.o.clipboard = ""
+		SysCB = false
+	end
+end)
