@@ -23,7 +23,7 @@ vim.pack.add({
 
 
 require("nvim-treesitter").setup({
-	ensure_installed = { "lua", "typsescript", "rust", "typsescript", "javascript" },
+	ensure_installed = { "lua", "typsescript", "rust", "typsescript", "javascript", "haskell" },
 })
 require("fzf-lua")
 require("mason").setup()
