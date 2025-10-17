@@ -36,6 +36,7 @@ require("isak.pack.lsp")
 require("which-key").setup()
 require("notify").setup()
 require "mini.pick".setup()
+require "mini.icons".setup()
 
 require("isak.pack.blink")
 require("isak.pack.noice")
