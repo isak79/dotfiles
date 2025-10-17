@@ -34,7 +34,6 @@ vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
 
 -- Misc
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
-vim.keymap.set('n', '<leader>tp', ":TypstPreview<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nn', ":NoiceAll<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
