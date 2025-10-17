@@ -26,6 +26,7 @@ vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
 
 -- Buffers
 vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
