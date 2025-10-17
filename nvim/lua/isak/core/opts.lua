@@ -10,6 +10,7 @@ vim.g.mapleader = " "
 vim.o.smartindent = true
 vim.o.undofile = true
 vim.o.termguicolors = true
+vim.o.clipboard = "unnamedplus"
 
 vim.api.nvim_create_autocmd("TextYankPost", {
 	callback = function ()

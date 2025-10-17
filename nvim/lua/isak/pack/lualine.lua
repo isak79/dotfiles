@@ -17,18 +17,13 @@ require("lualine").setup({
 		},
 		lualine_x = { 'filetype',
 			{
-				require("noice").api.statusline.mode.get,
-				cond = function()
-					if not require("noice").api.statusline.mode.has() then
-						return false
-					end
-					local text = require("noice").api.statusline.mode.get()
-					return string.find(text, "record") ~= nil
-				end,
-				color = { fg = "#ff9e64" },
-			}
+				function()
+					local output = SysCB and " " or " "
+					return output
+	 			end
+			},
 		},
-		lualine_y = {'lsp_status'},
+		lualine_y = { 'lsp_status' },
 	},
 	extensions = {},
 })
