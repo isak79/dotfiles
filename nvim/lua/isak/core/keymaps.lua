@@ -14,11 +14,12 @@ vim.keymap.set('n', 'R', ":restart<CR>", { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
-vim.keymap.set({'n', 'v'}, '<leader>/', ":FzfLua grep_visual<CR>", { silent = true })
+vim.keymap.set({ 'n', 'v' }, '<leader>/', ":FzfLua grep_visual<CR>", { silent = true })
 vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>", { silent = true })
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>", { silent = true })
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
+
 
 -- Git
 vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
@@ -26,8 +27,15 @@ vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gd', ":DiffviewOpen<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gh', function()
+		vim.cmd('DiffviewFileHistory %')
+	end,
+	{ silent = true })
+
 vim.keymap.set('n', 'æ', ":silent Gitsigns next_hunk<CR>", { silent = true })
 vim.keymap.set('n', 'Æ', ":silent Gitsigns prev_hunk<CR>", { silent = true })
+
 
 -- Buffers
 vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })

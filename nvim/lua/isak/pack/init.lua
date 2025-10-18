@@ -18,7 +18,8 @@ vim.pack.add({
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
-	{ src = "https://github.com/nvim-mini/mini.icons" },
+	{ src = "https://github.com/sindrets/diffview.nvim" },
+	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
 })
 
 
@@ -36,7 +37,6 @@ require("isak.pack.lsp")
 require("which-key").setup()
 require("notify").setup()
 require "mini.pick".setup()
-require "mini.icons".setup()
 
 require("isak.pack.blink")
 require("isak.pack.noice")

@@ -4,6 +4,10 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
+    "diffview.nvim": {
+      "rev": "4516612",
+      "src": "https://github.com/sindrets/diffview.nvim"
+    },
     "friendly-snippets": {
       "rev": "572f566",
       "src": "https://github.com/rafamadriz/friendly-snippets"
@@ -60,6 +64,10 @@
     "nvim-treesitter-textobjects": {
       "rev": "71385f1",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+    },
+    "nvim-web-devicons": {
+      "rev": "b8221e4",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
     "oil.nvim": {
       "rev": "919e155",
