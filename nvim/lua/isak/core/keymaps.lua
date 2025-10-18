@@ -17,7 +17,7 @@ vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
 vim.keymap.set({ 'n', 'v' }, '<leader>/', ":FzfLua grep_visual<CR>", { silent = true })
 vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>", { silent = true })
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>", { silent = true })
-vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
+-- vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 
 
