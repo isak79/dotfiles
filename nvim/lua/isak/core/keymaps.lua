@@ -21,8 +21,7 @@ vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 
 -- Git
-vim.keymap.set('n', '<leader>gg', ":Neogit<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gG', ":LazyGit<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
