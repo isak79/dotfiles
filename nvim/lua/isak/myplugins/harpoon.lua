@@ -16,10 +16,6 @@ local function set_files_auto()
 	end
 end
 
-local function set_file(n)
-	harpoon_files[n] = vim.fn.bufname('%')
-end
-
 vim.keymap.set('n', '<leader>h', function()
 	set_files_auto()
 end, { desc = "Harpoon set" })
@@ -27,34 +23,33 @@ end, { desc = "Harpoon set" })
 vim.keymap.set('n', '<leader>H', function()
 	local output = ""
 	for i, v in ipairs(harpoon_files) do
-		output = output .. (i .. " " .. v .. (i==4 and "" or "\n"))
+		output = output .. (i .. " " .. v .. (i == 4 and "" or "\n"))
 	end
 	vim.notify(output)
 end)
 
-
--- vim.keymap.set('n', '<leader>H1', function()
--- 	set_file(1)
--- end)
--- vim.keymap.set('n', '<leader>H2', function()
--- 	set_file(2)
--- end)
--- vim.keymap.set('n', '<leader>H3', function()
--- 	set_file(3)
--- end)
--- vim.keymap.set('n', '<leader>H4', function()
--- 	set_file(4)
--- end)
+local function main_fn(nr)
+	if harpoon_files[nr] == "" then
+		harpoon_files[nr] = vim.fn.bufname('%')
+	elseif harpoon_files[nr] == vim.fn.bufname('%') then
+		harpoon_files[nr] = ""
+	else
+		vim.cmd("buffer " .. harpoon_files[nr])
+	end
+end
 
 vim.keymap.set('n', '<leader>1', function()
-	vim.cmd("buffer " .. harpoon_files[1])
+	main_fn(1)
 end)
+
 vim.keymap.set('n', '<leader>2', function()
-	vim.cmd("buffer " .. harpoon_files[2])
+	main_fn(2)
 end)
+
 vim.keymap.set('n', '<leader>3', function()
-	vim.cmd("buffer " .. harpoon_files[3])
+	main_fn(3)
 end)
+
 vim.keymap.set('n', '<leader>4', function()
-	vim.cmd("buffer " .. harpoon_files[4])
+	main_fn(4)
 end)
