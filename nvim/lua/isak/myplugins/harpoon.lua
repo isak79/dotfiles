@@ -64,4 +64,19 @@ vim.keymap.set('n', '<leader>4', function()
 	main_fn(4)
 end)
 
+-- function output_fmt()
+-- 	local output = {}
+-- 	for index, value in ipairs(harpoon_files) do
+-- 		if value == "" then
+-- 			output[index] = {"_"}
+-- 		elseif value == vim.fn.bufname('%') then
+-- 			output[index] = {""..index, color = "#f5a97f"}
+-- 		else
+-- 			output[index] = {""..index}
+-- 		end
+-- 	end
+-- 	print(output[1][1])
+-- 	return output
+-- end
+
 return harpoon_files
