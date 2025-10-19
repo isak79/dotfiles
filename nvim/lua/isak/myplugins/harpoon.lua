@@ -38,6 +38,16 @@ local function main_fn(nr)
 	end
 end
 
+vim.api.nvim_create_autocmd("BufDelete", {
+	callback = function(args)
+		for index,value in pairs(harpoon_files) do
+			if value == vim.fn.bufname(args.buf) then
+				harpoon_files[index] = ""
+			end
+		end
+	end
+})
+
 vim.keymap.set('n', '<leader>1', function()
 	main_fn(1)
 end)
@@ -53,3 +63,5 @@ end)
 vim.keymap.set('n', '<leader>4', function()
 	main_fn(4)
 end)
+
+return harpoon_files
