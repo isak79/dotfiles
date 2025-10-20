@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ln -s $HOME/dotfiles/aerospace/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/sketchybar/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/ghostty/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/karabiner/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/starship.toml $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/atuin/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/.zshrc $HOME/
