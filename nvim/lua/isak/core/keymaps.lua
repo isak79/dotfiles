@@ -29,26 +29,40 @@ vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gd', ":DiffviewOpen<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gh', function()
+vim.keymap.set('n', 'æ', ":silent Gitsigns next_hunk<CR>", { silent = true })
+vim.keymap.set('n', 'Æ', ":silent Gitsigns prev_hunk<CR>", { silent = true })
 		vim.cmd('DiffviewFileHistory %')
 	end,
 	{ silent = true })
+
 vim.api.nvim_create_autocmd('FileType', {
 	pattern = "gitsigns-blame",
 	callback = function ()
 		vim.keymap.set('n', 'q', ':q<CR>', {silent = true, buffer = true})
 	end
 })
+vim.api.nvim_create_autocmd("BufEnter", {
+	callback = function()
+		local bufname = vim.fn.bufname('%')
+		if string.find(bufname, "diffview") then
+			vim.keymap.set('n', 'q', ':DiffviewClose<CR>', { silent = true, buffer = true })
+		end
+	end
+})
 
 
 
-vim.keymap.set('n', 'æ', ":silent Gitsigns next_hunk<CR>", { silent = true })
-vim.keymap.set('n', 'Æ', ":silent Gitsigns prev_hunk<CR>", { silent = true })
 
 
 -- Buffers
 vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
 vim.keymap.set('n', 'L', ':bnext<CR>', { silent = true })
 vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
+vim.api.nvim_create_autocmd("CmdwinEnter", {
+	callback = function()
+		vim.keymap.set('n', 'q', ':q<CR>', { silent = true, buffer = true })
+	end
+})
 
 -- Notifications
 vim.keymap.set('n', '<leader>nn', ":NoiceAll<CR>", { silent = true })
