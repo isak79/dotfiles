@@ -32,6 +32,14 @@ vim.keymap.set('n', '<leader>gh', function()
 		vim.cmd('DiffviewFileHistory %')
 	end,
 	{ silent = true })
+vim.api.nvim_create_autocmd('FileType', {
+	pattern = "gitsigns-blame",
+	callback = function ()
+		vim.keymap.set('n', 'q', ':q<CR>', {silent = true, buffer = true})
+	end
+})
+
+
 
 vim.keymap.set('n', 'æ', ":silent Gitsigns next_hunk<CR>", { silent = true })
 vim.keymap.set('n', 'Æ', ":silent Gitsigns prev_hunk<CR>", { silent = true })
