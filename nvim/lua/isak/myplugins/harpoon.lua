@@ -31,8 +31,6 @@ end)
 local function main_fn(nr)
 	if harpoon_files[nr] == " " then
 		harpoon_files[nr] = vim.fn.bufname('%')
-	elseif harpoon_files[nr] == vim.fn.bufname('%') then
-		harpoon_files[nr] = " "
 	else
 		vim.cmd("buffer " .. harpoon_files[nr])
 	end

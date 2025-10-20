@@ -7,3 +7,4 @@ ln -s $HOME/dotfiles/karabiner/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/starship.toml $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/atuin/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/.zshrc $HOME/
+ln -s $HOME/dotfiles/nvim/ $XDG_HOME_CONFIG/

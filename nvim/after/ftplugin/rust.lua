@@ -6,7 +6,7 @@ local function get_root_dir()
 	return nil
 end
 
-vim.keymap.set('n', '<leader>P', function()
+vim.keymap.set('n', '<C-p>', function()
 	local worspace_dir = get_root_dir()
 	os.execute("tmux split-window 'cd " .. worspace_dir .. "; cargo run; read'")
 end, { silent = true, buffer = true })

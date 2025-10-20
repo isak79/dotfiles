@@ -92,6 +92,7 @@ alt-shift-l = ['join-with right', 'mode main']
 [mode.terminal.binding]
 alt-t = 'mode main'
 alt-b = ['workspace B', 'mode main']
+alt-2 = ['workspace 2', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
