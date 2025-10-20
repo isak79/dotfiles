@@ -39,7 +39,7 @@ require("lualine").setup({
 			},
 			{
 				function()
-					return ((require("isak.myplugins.harpoon")[1] ~= "") and "1" or "_")
+					return ((require("isak.myplugins.harpoon")[1] ~= " ") and "1" or "_")
 				end,
 				cond = function()
 					return vim.fn.bufname('%') ~= require("isak.myplugins.harpoon")[1]
@@ -54,7 +54,7 @@ require("lualine").setup({
 			},
 			{
 				function()
-					return ((require("isak.myplugins.harpoon")[2] ~= "") and "2" or "_")
+					return ((require("isak.myplugins.harpoon")[2] ~= " ") and "2" or "_")
 				end,
 				cond = function()
 					return vim.fn.bufname('%') ~= require("isak.myplugins.harpoon")[2]
@@ -69,7 +69,7 @@ require("lualine").setup({
 			},
 			{
 				function()
-					return ((require("isak.myplugins.harpoon")[3] ~= "") and "3" or "_")
+					return ((require("isak.myplugins.harpoon")[3] ~= " ") and "3" or "_")
 				end,
 				cond = function()
 					return vim.fn.bufname('%') ~= require("isak.myplugins.harpoon")[3]
@@ -84,7 +84,7 @@ require("lualine").setup({
 			},
 			{
 				function()
-					return ((require("isak.myplugins.harpoon")[4] ~= "") and "4" or "_")
+					return ((require("isak.myplugins.harpoon")[4] ~= " ") and "4" or "_")
 				end,
 				cond = function()
 					return vim.fn.bufname('%') ~= require("isak.myplugins.harpoon")[4]

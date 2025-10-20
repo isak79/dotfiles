@@ -1,15 +1,15 @@
 local harpoon_files = {
-	"", "", "", ""
+	" ", " ", " ", " "
 }
 
 local function set_files_auto()
 	for index, value in ipairs(harpoon_files) do
 		local bufName = vim.fn.bufname('%')
 		if value == bufName then
-			harpoon_files[index] = ""
+			harpoon_files[index] = " "
 			break
 		end
-		if value == "" then
+		if value == " " then
 			harpoon_files[index] = bufName
 			break
 		end
@@ -29,10 +29,10 @@ vim.keymap.set('n', '<leader>H', function()
 end)
 
 local function main_fn(nr)
-	if harpoon_files[nr] == "" then
+	if harpoon_files[nr] == " " then
 		harpoon_files[nr] = vim.fn.bufname('%')
 	elseif harpoon_files[nr] == vim.fn.bufname('%') then
-		harpoon_files[nr] = ""
+		harpoon_files[nr] = " "
 	else
 		vim.cmd("buffer " .. harpoon_files[nr])
 	end
@@ -42,7 +42,7 @@ vim.api.nvim_create_autocmd("BufDelete", {
 	callback = function(args)
 		for index,value in pairs(harpoon_files) do
 			if value == vim.fn.bufname(args.buf) then
-				harpoon_files[index] = ""
+				harpoon_files[index] = " "
 			end
 		end
 	end
