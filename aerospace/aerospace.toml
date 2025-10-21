@@ -66,6 +66,8 @@ alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 alt-shift-semicolon = 'mode service'
 
+alt-f = 'mode focused'
+
 
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
@@ -78,10 +80,8 @@ alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
-[mode.terminal.binding]
-alt-t = 'mode main'
-alt-b = ['workspace B', 'mode main']
-alt-2 = ['workspace 2', 'mode main']
+[mode.focused.binding]
+alt-f = 'mode main'
 
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
