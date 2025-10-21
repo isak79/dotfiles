@@ -50,16 +50,12 @@ alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-4 = 'workspace 4'
-alt-5 = 'workspace 5'
-alt-6 = 'workspace 6'
-alt-b = 'workspace B'
-alt-t = ['workspace T', 'mode terminal']
+alt-b = ['workspace B', 'exec-and-forget open /Applications/Arc.app']
+alt-t = ['workspace T', 'exec-and-forget open /Applications/Ghostty.app']
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
 alt-shift-3 = 'move-node-to-workspace 3'
 alt-shift-4 = 'move-node-to-workspace 4'
-alt-shift-5 = 'move-node-to-workspace 5'
-alt-shift-6 = 'move-node-to-workspace 6'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-t = 'move-node-to-workspace T'
 
@@ -69,6 +65,7 @@ alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 alt-shift-semicolon = 'mode service'
+
 
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
@@ -89,3 +86,5 @@ alt-2 = ['workspace 2', 'mode main']
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
 run = ['layout floating']
+
+
