@@ -11,6 +11,8 @@ vim.o.smartindent = true
 vim.o.undofile = true
 vim.o.termguicolors = true
 vim.o.clipboard = "unnamedplus"
+vim.o.ignorecase = true
+vim.o.smartcase = true
 
 vim.api.nvim_create_autocmd("TextYankPost", {
 	callback = function()
