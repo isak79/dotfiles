@@ -14,7 +14,6 @@ vim.pack.add({
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
-	{ src = "https://github.com/folke/which-key.nvim" },
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
@@ -34,7 +33,6 @@ vim.cmd("colorscheme catppuccin")
 -- vim.cmd(":hi statusline guibg=NONE")
 
 require("isak.pack.lsp")
-require("which-key").setup()
 require("notify").setup()
 require "mini.pick".setup()
 
