@@ -21,7 +21,6 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
 })
 
-
 require("nvim-treesitter").setup({
 	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex" },
 })
@@ -29,8 +28,6 @@ require("fzf-lua")
 require("mason").setup()
 
 vim.cmd("colorscheme catppuccin")
-
--- vim.cmd(":hi statusline guibg=NONE")
 
 require("isak.pack.lsp")
 require("notify").setup()

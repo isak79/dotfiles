@@ -5,6 +5,7 @@ export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 export PATH="${HOME}/myBinaries:${PATH}"
+export EDITOR=nvim
 
 if [[ ! -d "$ZINIT_HOME" ]]; then
 	mkdir -p "$(dirname $ZINIT_HOME)"
