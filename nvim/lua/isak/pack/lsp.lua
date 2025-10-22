@@ -1,4 +1,4 @@
-vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls", "rust-analyzer", "hls" })
+vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls", "rust-analyzer", "hls", "bashls" })
 vim.lsp.config("lua_ls", {
 	settings = {
 		Lua = {
