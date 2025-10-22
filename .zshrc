@@ -7,6 +7,7 @@ ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 export PATH="${HOME}/myBinaries:${PATH}"
 export EDITOR=nvim
 
+
 if [[ ! -d "$ZINIT_HOME" ]]; then
 	mkdir -p "$(dirname $ZINIT_HOME)"
 	git clone https://github.com/zdharma-continuum/zinit "$ZINIT_HOME"
@@ -20,6 +21,7 @@ export FZF_CTRL_T_OPTS="--preview 'bat {}'"
 export FZF_DEFAULT_OPTS="--height 40% --border --color=bg+:#000000,fg+:#f5f5f5"
 
 # Keybinds
+bindkey -e
 bindkey 'ç' fzf-cd-widget
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
@@ -38,6 +40,10 @@ autoload -U compinit && compinit
 
 zinit cdreplay -q
 
+goto_binary ()
+{
+	cd $(dirname $(command -v $1))
+}
 
 # History
 HISTSIZE=5000
