@@ -18,11 +18,10 @@ default=(
 )
 sketchybar --default "${default[@]}"
 
+source "$PLUGIN_DIR/space.sh"
 
 ##### Adding Left Items #####
-sketchybar --add item spaces left\
-					 --set spaces script="$PLUGIN_DIR/space.sh" \
-					 --add item chevron left \
+sketchybar --add item chevron left \
            --set chevron icon= label.drawing=off \
            --add item front_app left \
            --set front_app icon.drawing=off script="$PLUGIN_DIR/front_app.sh" \
