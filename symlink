@@ -1,4 +1,5 @@
 #!/bin/bash
+XDG_HOME_CONFIG=$HOME/.config/
 
 ln -s $HOME/dotfiles/aerospace/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/sketchybar/ $XDG_HOME_CONFIG/
