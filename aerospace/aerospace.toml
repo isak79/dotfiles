@@ -21,7 +21,7 @@ inner.horizontal = 5
 inner.vertical =   5
 outer.left =       5
 outer.bottom =     5
-outer.top =        45
+outer.top =        25
 outer.right =      5
 
 [mode.main.binding]

@@ -1,7 +1,7 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 
 ##### Bar Appearance #####
-sketchybar --bar position=top height=40 blur_radius=30 color=0x40000000
+sketchybar --bar position=top height=20 blur_radius=30 color=0x40000000
 
 ##### Changing Defaults #####
 default=(
@@ -18,7 +18,7 @@ default=(
 )
 sketchybar --default "${default[@]}"
 
-source "$PLUGIN_DIR/space.sh"
+source "$PLUGIN_DIR/spaces.sh"
 
 ##### Adding Left Items #####
 sketchybar --add item chevron left \
