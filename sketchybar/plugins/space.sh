@@ -1,11 +1,12 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
-# sketchybar --add event aerospace_workspace_change
+sketchybar --add event aerospace_workspace_change
 # sketchybar --set "$NAME" background.drawing="$SELECTED"
 
 ##### Adding Mission Control Space Indicators #####
-for sid in "$(aerospace list-workspaces --all)"; do
+for sid in $(aerospace list-workspaces --all); do
   sketchybar --add item "space.$sid" left \
+		--subscribe "space.$sid" aerospace_workspace_change \
 		--set "space.$sid" \
     icon="$sid" \
     icon.padding_left=7 \
@@ -14,5 +15,6 @@ for sid in "$(aerospace list-workspaces --all)"; do
     background.corner_radius=5 \
     background.height=25 \
     label.drawing=off \
-    # script="$PLUGIN_DIR/space.sh"
+    script="$PLUGIN_DIR/aerospacer.sh $sid"
 done
+
