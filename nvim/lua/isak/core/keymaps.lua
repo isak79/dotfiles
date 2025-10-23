@@ -8,8 +8,8 @@ vim.keymap.set({ 'n', 'v', 'x' }, '<leader>d', '"+d<CR>', { silent = true })
 vim.keymap.set('v', '<C-j>', ":<C-u>silent! '<,'>m '>+1<CR>gv", { silent = true })
 vim.keymap.set('v', '<C-k>', ":<C-u>silent! '<,'>m '<-2<CR>gv", { silent = true })
 vim.keymap.set('n', ';', "q:", { silent = true })
-vim.keymap.set('n', 'ø', "{", { silent = true })
-vim.keymap.set('n', 'Ø', "}", { silent = true })
+vim.keymap.set('n', 'ø', "}", { silent = true })
+vim.keymap.set('n', 'Ø', "{", { silent = true })
 vim.keymap.set('n', 'R', ":restart<CR>", { silent = true })
 
 -- Explore
