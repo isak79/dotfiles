@@ -16,6 +16,8 @@ default=(
   icon.padding_right=4
   label.padding_left=4
   label.padding_right=4
+	popup.background.color=0x40000000
+	popup.blur_radius=30
 )
 sketchybar --default "${default[@]}"
 

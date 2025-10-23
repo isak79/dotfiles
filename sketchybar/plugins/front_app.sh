@@ -8,5 +8,5 @@ sketchybar --add item front_app left \
 					 			 script="$SCRIPTS_DIR/front_app_script.sh" \
            --subscribe front_app front_app_switched \
 					 --add item 									front_app.close popup.front_app \
-					 --set front_app.close 				icon="" \
-					 															label="Kill app" \
+					 --set front_app.close 				icon="Kill app" \
+					 															# label="Kill app" \

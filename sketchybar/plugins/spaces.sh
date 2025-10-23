@@ -15,7 +15,7 @@ for sid in $(aerospace list-workspaces --all); do
     background.height=20 \
     label.drawing=off \
 		click_script="aerospace workspace $sid" \
-    script="$SCRIPTS_DIR /aerospacer.sh $sid"
+    script="$SCRIPTS_DIR/aerospacer.sh $sid"
 done
 sketchybar --add item chevron left \
 					 --set chevron icon= label.drawing=off \
