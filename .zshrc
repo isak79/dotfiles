@@ -69,6 +69,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias v=nvim
 alias cat=bat
 alias ls='ls --color'
+alias vpnIface='ifconfig -v | awk '\''/^[a-z]/ {iface=$1} /VPN/ {print iface; exit}'\'
 
 
 # Shell integrations
