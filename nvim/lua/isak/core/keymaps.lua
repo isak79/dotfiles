@@ -14,7 +14,8 @@ vim.keymap.set('n', 'R', ":restart<CR>", { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
-vim.keymap.set({ 'n', 'v' }, '<leader>/', ":FzfLua grep_visual<CR>", { silent = true })
+vim.keymap.set('n', '<leader>/', ":FzfLua live_grep<CR>", { silent = true })
+vim.keymap.set('v', '<leader>/', ":FzfLua grep_visual<CR>", { silent = true })
 vim.keymap.set('n', '<leader>,', ":FzfLua buffers<CR>", { silent = true })
 vim.keymap.set('n', '<leader>f', ":FzfLua lsp_document_symbols<CR>", { silent = true })
 -- vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
