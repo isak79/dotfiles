@@ -1,4 +1,5 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
+SCRIPTS_DIR="$CONFIG_DIR/scripts"
 
 ##### Bar Appearance #####
 sketchybar --bar position=top height=20 blur_radius=30 color=0x40000000
@@ -18,14 +19,11 @@ default=(
 )
 sketchybar --default "${default[@]}"
 
-source "$PLUGIN_DIR/spaces.sh"
 
 ##### Adding Left Items #####
-sketchybar --add item chevron left \
-           --set chevron icon= label.drawing=off \
-           --add item front_app left \
-           --set front_app icon.drawing=off script="$PLUGIN_DIR/front_app.sh" \
-           --subscribe front_app front_app_switched
+source "$PLUGIN_DIR/spaces.sh"
+source "$PLUGIN_DIR/front_app.sh"
+
 
 ##### Adding Right Items #####
 sketchybar --add item clock right \
