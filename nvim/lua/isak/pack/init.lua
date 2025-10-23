@@ -19,6 +19,7 @@ vim.pack.add({
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
 	{ src = "https://github.com/sindrets/diffview.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+	{ src = "https://github.com/folke/flash.nvim" },
 })
 
 require("nvim-treesitter").setup({
