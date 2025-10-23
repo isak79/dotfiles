@@ -71,7 +71,8 @@ vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 -- Lsp
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
 vim.keymap.set("n", "gd", ":FzfLua lsp_definitions<CR>", { silent = true })
-vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
+vim.keymap.set("n", "<leader>k", ":FzfLua lsp_references<CR>", { silent = true })
+vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
 
 -- Toggle clipboard
