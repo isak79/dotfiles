@@ -24,6 +24,7 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 -- Quickfix
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
 vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
+vim.keymap.set('n', '<leader>å', ":cexpr([])<CR>", { silent = true })
 vim.keymap.set('n', '<leader>t', function ()
 	local ft = vim.bo.filetype
 	if ft == "qf" then
