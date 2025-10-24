@@ -25,22 +25,15 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
 vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
 vim.keymap.set('n', '<leader>å', ":cexpr([])<CR>", { silent = true })
-vim.keymap.set('n', '<leader>t', function ()
-	local ft = vim.bo.filetype
-	if ft == "qf" then
-		vim.cmd("cclose")
-	else
-		vim.cmd("copen")
-	end
-end, { silent = true })
+vim.keymap.set('n', '<leader>t', ":copen", { silent = true })
 
 
 
 --Flash
-vim.keymap.set({ "n", "x", "o" }, 's', function() require("flash").jump() end)
-vim.keymap.set({ "n", "x", "o" }, 'S', function() require("flash").treesitter() end)
-vim.keymap.set( "o", 'r', function() require("flash").remote() end)
-vim.keymap.set("c", '<C-s>', function() require("flash").toggle() end)
+vim.keymap.set({ "n", "x", "o" }, 's', require("flash").jump)
+vim.keymap.set({ "n", "x", "o" }, 'S', require("flash").treesitter)
+vim.keymap.set( "o", 'r', require("flash").remote)
+vim.keymap.set("c", '<C-s>', require("flash").toggle)
 
 
 
