@@ -1,1 +1,11 @@
-
+-- require("fzf-lua").setup({
+-- 	keymap = {
+-- 		builtin = {
+-- 			true,
+--       ["<C-d>"]  = "preview-down",
+--       ["<C-u>"]    = "preview-up",
+-- 		},
+-- 	},
+-- })
+--
+require("fzf-lua").setup({"telescope"})

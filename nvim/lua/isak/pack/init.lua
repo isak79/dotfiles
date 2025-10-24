@@ -25,8 +25,8 @@ vim.pack.add({
 require("nvim-treesitter").setup({
 	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex" },
 })
-require("fzf-lua")
 require("mason").setup()
+require("isak.pack.fzf")
 
 vim.cmd("colorscheme catppuccin")
 

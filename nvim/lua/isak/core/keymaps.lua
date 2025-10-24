@@ -21,11 +21,26 @@ vim.keymap.set('n', '<leader>f', ":FzfLua lsp_document_symbols<CR>", { silent = 
 -- vim.keymap.set('n', '<leader>h', ":Pick help<CR>", { silent = true })
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 
+-- Quickfix
+vim.keymap.set('n', ']', ":cnext<CR>", { silent = true })
+vim.keymap.set('n', '[', ":cprev<CR>", { silent = true })
+vim.keymap.set('n', '<leader>t', function ()
+	local ft = vim.bo.filetype
+	if ft == "qf" then
+		vim.cmd("cclose")
+	else
+		vim.cmd("copen")
+	end
+end, { silent = true })
+
+
+
 --Flash
 vim.keymap.set({ "n", "x", "o" }, 's', function() require("flash").jump() end)
 vim.keymap.set({ "n", "x", "o" }, 'S', function() require("flash").treesitter() end)
 vim.keymap.set( "o", 'r', function() require("flash").remote() end)
 vim.keymap.set("c", '<C-s>', function() require("flash").toggle() end)
+
 
 
 -- Git
@@ -35,7 +50,6 @@ vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gd', ":DiffviewOpen<CR>", { silent = true })
-vim.keymap.set('n', '<leader>t', function() vim.cmd("echo hei") end, { silent = true })
 vim.keymap.set('n', 'æ', ":Gitsigns next_hunk<CR>", { silent = true })
 vim.keymap.set('n', 'Æ', ":Gitsigns prev_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gh', function() vim.cmd('DiffviewFileHistory %') end, { silent = true })
