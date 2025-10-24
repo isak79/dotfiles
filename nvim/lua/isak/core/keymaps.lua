@@ -22,8 +22,8 @@ vim.keymap.set('n', '<leader>f', ":FzfLua lsp_document_symbols<CR>", { silent = 
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 
 -- Quickfix
-vim.keymap.set('n', ']', ":cnext<CR>", { silent = true })
-vim.keymap.set('n', '[', ":cprev<CR>", { silent = true })
+vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
+vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
 vim.keymap.set('n', '<leader>t', function ()
 	local ft = vim.bo.filetype
 	if ft == "qf" then
@@ -91,7 +91,6 @@ vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
 -- Lsp
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
 vim.keymap.set("n", "gd", ":FzfLua lsp_definitions<CR>", { silent = true })
-vim.keymap.set("n", "<leader>k", ":FzfLua lsp_references<CR>", { silent = true })
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
 
