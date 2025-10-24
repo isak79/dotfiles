@@ -2,22 +2,27 @@ local harpoon_files = {
 	" ", " ", " ", " "
 }
 
-local function set_files_auto()
-	for index, value in ipairs(harpoon_files) do
-		local bufName = vim.fn.bufname('%')
+local function if_in_then_delete(bufName)
+	local output = 0
+	for index, value in pairs(harpoon_files) do
+		if output == 0 and value == " " then
+			output = index
+		end
 		if value == bufName then
 			harpoon_files[index] = " "
-			break
-		end
-		if value == " " then
-			harpoon_files[index] = bufName
-			break
+			return 0
 		end
 	end
+	return output
 end
 
+
 vim.keymap.set('n', '<leader>h', function()
-	set_files_auto()
+	local bufName = vim.fn.bufname('%')
+	local freeSpot = if_in_then_delete(bufName)
+	if not (freeSpot == 0) then
+			harpoon_files[freeSpot] = bufName
+	end
 end, { desc = "Harpoon set" })
 
 vim.keymap.set('n', '<leader>H', function()
@@ -28,17 +33,9 @@ vim.keymap.set('n', '<leader>H', function()
 	vim.notify(output)
 end)
 
-local function main_fn(nr)
-	if harpoon_files[nr] == " " then
-		harpoon_files[nr] = vim.fn.bufname('%')
-	else
-		vim.cmd("buffer " .. harpoon_files[nr])
-	end
-end
-
 vim.api.nvim_create_autocmd("BufDelete", {
 	callback = function(args)
-		for index,value in pairs(harpoon_files) do
+		for index, value in pairs(harpoon_files) do
 			if value == vim.fn.bufname(args.buf) then
 				harpoon_files[index] = " "
 			end
@@ -47,34 +44,20 @@ vim.api.nvim_create_autocmd("BufDelete", {
 })
 
 vim.keymap.set('n', '<leader>1', function()
-	main_fn(1)
+	vim.cmd("buffer " .. harpoon_files[1])
 end)
 
 vim.keymap.set('n', '<leader>2', function()
-	main_fn(2)
+	vim.cmd("buffer " .. harpoon_files[2])
 end)
 
 vim.keymap.set('n', '<leader>3', function()
-	main_fn(3)
+	vim.cmd("buffer " .. harpoon_files[3])
 end)
 
 vim.keymap.set('n', '<leader>4', function()
-	main_fn(4)
+	vim.cmd("buffer " .. harpoon_files[4])
 end)
 
--- function output_fmt()
--- 	local output = {}
--- 	for index, value in ipairs(harpoon_files) do
--- 		if value == "" then
--- 			output[index] = {"_"}
--- 		elseif value == vim.fn.bufname('%') then
--- 			output[index] = {""..index, color = "#f5a97f"}
--- 		else
--- 			output[index] = {""..index}
--- 		end
--- 	end
--- 	print(output[1][1])
--- 	return output
--- end
 
 return harpoon_files

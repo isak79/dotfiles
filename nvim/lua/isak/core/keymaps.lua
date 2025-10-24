@@ -25,7 +25,7 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
 vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
 vim.keymap.set('n', '<leader>å', ":cexpr([])<CR>", { silent = true })
-vim.keymap.set('n', '<leader>t', ":copen", { silent = true })
+vim.keymap.set('n', '<leader>t', ":copen<CR>", { silent = true })
 
 
 
@@ -63,10 +63,6 @@ vim.api.nvim_create_autocmd("BufEnter", {
 		end
 	end
 })
-
-
-
-
 
 -- Buffers
 vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
