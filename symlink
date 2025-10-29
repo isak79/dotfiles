@@ -10,3 +10,4 @@ ln -s $HOME/dotfiles/atuin/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/.zshrc $HOME/
 ln -s $HOME/dotfiles/nvim/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/btop/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/bat/ $XDG_HOME_CONFIG/
