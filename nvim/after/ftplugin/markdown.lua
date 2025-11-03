@@ -2,9 +2,6 @@ local set = vim.opt_local
 
 set.wrap = true
 
-vim.keymap.set('n', '<C-p>', ":TypstPreview<CR>", { silent = true, buffer = true })
-
-
 vim.keymap.set('n', 'j', function()
 	return vim.v.count == 0 and 'gj' or 'j'
 end, { expr = true, silent = true, buffer = true })
