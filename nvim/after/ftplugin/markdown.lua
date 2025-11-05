@@ -1,3 +1,5 @@
+vim.api.nvim_command("TSBufEnable highlight")
+
 local set = vim.opt_local
 
 set.wrap = true
