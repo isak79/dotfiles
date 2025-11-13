@@ -14,6 +14,12 @@ vim.o.clipboard = "unnamedplus"
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
+vim.api.nvim_set_hl(0, 'LspInlayHint', {
+    fg = '#808080',  -- Gray text
+    bg = 'NONE',     -- Remove background
+    italic = true,   -- Make it italic (optional)
+})
+
 vim.api.nvim_create_autocmd("TextYankPost", {
 	callback = function()
 		vim.highlight.on_yank()

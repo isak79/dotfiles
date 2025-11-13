@@ -10,7 +10,10 @@ vim.keymap.set('v', '<C-k>', ":<C-u>silent! '<,'>m '<-2<CR>gv", { silent = true 
 vim.keymap.set('n', ';', "q:", { silent = true })
 vim.keymap.set('n', 'ø', "}", { silent = true })
 vim.keymap.set('n', 'Ø', "{", { silent = true })
-vim.keymap.set('n', 'R', ":restart<CR>", { silent = true })
+vim.keymap.set('n', '<leader>R', ":restart<CR>", { silent = true })
+vim.keymap.set('n', '<leader>nh', function ()
+	vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+end, { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', ":FzfLua files<CR>", { silent = true })
