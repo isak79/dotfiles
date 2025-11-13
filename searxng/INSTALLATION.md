@@ -48,8 +48,10 @@ launchctl load ~/Library/LaunchAgents/searxng.plist
 
 Before setting up the launch agent, test manually:
 ```bash
-source ~/.searxng-venv/bin/activate
-python -m searxng.server
+source ~/Projects/searxng/.searxng-venv/bin/activate
+export PYTHONPATH=/Users/isakhansen/Projects/searxng
+export SEARXNG_SETTINGS_PATH=/Users/isakhansen/dotfiles/searxng/settings.yml
+python ~/Projects/searxng/searx/webapp.py
 ```
 
 Visit `http://127.0.0.1:8888` to verify it's working.
