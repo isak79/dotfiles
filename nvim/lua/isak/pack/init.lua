@@ -20,10 +20,26 @@ vim.pack.add({
 	{ src = "https://github.com/sindrets/diffview.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
 	{ src = "https://github.com/folke/flash.nvim" },
+	{ src = "https://github.com/nvim-mini/mini.surround.git" },
 })
 
 require("nvim-treesitter").setup({
 	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python" },
+})
+
+require('mini.surround').setup({
+  mappings = {
+    add = 'ma', -- Add surrounding in Normal and Visual modes
+    delete = 'md', -- Delete surrounding
+    find = 'mf', -- Find surrounding (to the right)
+    find_left = 'mF', -- Find surrounding (to the left)
+    highlight = 'mh', -- Highlight surrounding
+    replace = 'mr', -- Replace surrounding
+
+    suffix_last = 'l', -- Suffix to search with "prev" method
+    suffix_next = 'n', -- Suffix to search with "next" method
+  },
+	silent = true,
 })
 require("mason").setup()
 require("isak.pack.fzf")

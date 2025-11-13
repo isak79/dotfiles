@@ -11,7 +11,7 @@ vim.keymap.set('n', ';', "q:", { silent = true })
 vim.keymap.set('n', 'ø', "}", { silent = true })
 vim.keymap.set('n', 'Ø', "{", { silent = true })
 vim.keymap.set('n', '<leader>R', ":restart<CR>", { silent = true })
-vim.keymap.set('n', '<leader>nh', function ()
+vim.keymap.set('n', '<leader>n', function ()
 	vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 end, { silent = true })
 

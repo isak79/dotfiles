@@ -44,6 +44,10 @@
       "rev": "96ee37d",
       "src": "https://github.com/nvim-mini/mini.pick"
     },
+    "mini.surround": {
+      "rev": "88c5229",
+      "src": "https://github.com/nvim-mini/mini.surround.git"
+    },
     "noice.nvim": {
       "rev": "38c702b",
       "src": "https://github.com/folke/noice.nvim"
