@@ -21,7 +21,9 @@ vim.pack.add({
 	{ src = "https://github.com/folke/flash.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.surround.git" },
 	{ src = "https://github.com/nvim-mini/mini.ai" },
+	{ src = "https://github.com/folke/snacks.nvim" },
 })
+
 
 require("nvim-treesitter").setup({
 	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python" },

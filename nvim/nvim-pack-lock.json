@@ -84,6 +84,10 @@
       "rev": "919e155",
       "src": "https://github.com/stevearc/oil.nvim"
     },
+    "snacks.nvim": {
+      "rev": "dec29f5",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
     "typst-preview.nvim": {
       "rev": "1603d37",
       "src": "https://github.com/chomosuke/typst-preview.nvim"
