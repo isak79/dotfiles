@@ -7,7 +7,6 @@ vim.pack.add({
 	{ src = "https://github.com/Saghen/blink.cmp" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
-	{ src = "https://github.com/ibhagwan/fzf-lua" },
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/rcarriga/nvim-notify" },
 	{ src = "https://github.com/folke/noice.nvim" },
@@ -28,6 +27,13 @@ vim.pack.add({
 require("nvim-treesitter").setup({
 	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python" },
 })
+
+require("snacks").setup({
+	picker = {
+		enabled = true,
+	}
+})
+
 require("mini.ai").setup()
 
 require('mini.surround').setup({
@@ -52,7 +58,6 @@ require('mini.surround').setup({
 	silent = true,
 })
 require("mason").setup()
-require("isak.pack.fzf")
 
 vim.cmd("colorscheme catppuccin")
 
