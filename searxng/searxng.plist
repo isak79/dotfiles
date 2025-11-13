@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>searxng</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>-c</string>
+		<string>source /Users/isakhansen/Projects/searxng/.searxng-venv/bin/activate &amp;&amp; python /Users/isakhansen/Projects/searxng/searx/webapp.py</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>SEARXNG_SETTINGS_PATH</key>
+		<string>/Users/isakhansen/dotfiles/searxng/settings.yml</string>
+		<key>PYTHONPATH</key>
+		<string>/Users/isakhansen/Projects/searxng</string>
+	</dict>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardOutPath</key>
+	<string>/tmp/searxng.log</string>
+	<key>StandardErrorPath</key>
+	<string>/tmp/searxng.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/isakhansen</string>
+</dict>
+</plist>
