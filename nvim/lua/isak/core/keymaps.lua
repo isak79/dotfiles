@@ -30,15 +30,11 @@ vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
 vim.keymap.set('n', '<leader>å', ":cexpr([])<CR>", { silent = true })
 vim.keymap.set('n', '<leader>t', ":copen<CR>", { silent = true })
 
-
-
 --Flash
 vim.keymap.set({ "n", "x", "o" }, 's', require("flash").jump)
 vim.keymap.set({ "n", "x", "o" }, 'S', require("flash").treesitter)
 vim.keymap.set( "o", 'r', require("flash").remote)
 vim.keymap.set("c", '<C-s>', require("flash").toggle)
-
-
 
 -- Git
 vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
@@ -86,6 +82,7 @@ vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
 vim.keymap.set("n", "gd", ":FzfLua lsp_definitions<CR>", { silent = true })
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
+vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { silent = true })
 
 -- Toggle clipboard
 SysCB = true

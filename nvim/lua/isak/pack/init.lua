@@ -1,7 +1,6 @@
 vim.pack.add({
 	{ src = "https://github.com/catppuccin/nvim" },
 	{ src = "https://github.com/stevearc/oil.nvim" },
-	{ src = "https://github.com/nvim-mini/mini.pick" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
 	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/christoomey/vim-tmux-navigator" },
@@ -57,7 +56,6 @@ vim.cmd("colorscheme catppuccin")
 
 require("isak.pack.lsp")
 require("notify").setup()
-require "mini.pick".setup()
 
 require("isak.pack.blink")
 require("isak.pack.noice")

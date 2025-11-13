@@ -44,10 +44,6 @@
       "rev": "2847986",
       "src": "https://github.com/nvim-mini/mini.icons"
     },
-    "mini.pick": {
-      "rev": "96ee37d",
-      "src": "https://github.com/nvim-mini/mini.pick"
-    },
     "mini.surround": {
       "rev": "88c5229",
       "src": "https://github.com/nvim-mini/mini.surround.git"
