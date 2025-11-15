@@ -64,6 +64,8 @@ alt-shift-semicolon = 'mode service'
 
 alt-f = 'mode focused'
 
+alt-m = 'mode launch'
+
 
 [mode.service.binding]
 esc = ['reload-config', 'mode main']
@@ -92,6 +94,14 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
+[mode.launch.binding]
+alt-m = 'mode main'
+alt-b = ['exec-and-forget open /Applications/Brave\ Browser.app/', 'mode main']
+alt-t = ['exec-and-forget open /Applications/Ghostty.app/', 'mode main']
+alt-s = ['exec-and-forget open /Applications/Spotify.app/', 'mode main']
+alt-q = ['exec-and-forget open /Applications/qbittorrent.app/', 'mode main']
+alt-j = ['exec-and-forget open /Applications/Jellyfin.app/', 'mode main']
+alt-p = ['exec-and-forget open /Applications/Plex Media Server.app/', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
