@@ -1,5 +1,3 @@
-vim.api.nvim_command("TSBufEnable highlight")
-
 local function get_root_dir()
 	local workspace_folder = vim.lsp.buf.list_workspace_folders()
 	if workspace_folder and #workspace_folder > 0 then

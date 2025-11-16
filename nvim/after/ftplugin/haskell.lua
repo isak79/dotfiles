@@ -1,5 +1,3 @@
-vim.api.nvim_command("TSBufEnable highlight")
-
 vim.keymap.set('n', '<C-p>', function()
 	local filename = vim.fn.bufname('%')
 	os.execute("tmux split-window 'ghci " .. filename .. "; read'")

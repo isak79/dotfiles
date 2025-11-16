@@ -24,10 +24,6 @@ vim.pack.add({
 })
 
 
-require("nvim-treesitter").setup({
-	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python" },
-})
-
 require("snacks").setup({
 	picker = {
 		enabled = true,
@@ -44,6 +40,7 @@ require("isak.pack.lsp")
 require("isak.pack.surround")
 require("notify").setup()
 
+require("isak.pack.treesitter")
 require("isak.pack.blink")
 require("isak.pack.noice")
 require("isak.pack.oil")
