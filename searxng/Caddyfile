@@ -1,0 +1,4 @@
+10.0.0.47 {
+		reverse_proxy localhost:8888
+		tls internal
+	}
