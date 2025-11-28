@@ -21,8 +21,11 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.surround.git" },
 	{ src = "https://github.com/nvim-mini/mini.ai" },
 	{ src = "https://github.com/folke/snacks.nvim" },
+	{ src = "https://github.com/stevearc/quicker.nvim" },
 })
 
+
+require("quicker").setup()
 
 require("snacks").setup({
 	picker = {

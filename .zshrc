@@ -21,10 +21,14 @@ export FZF_CTRL_T_OPTS="--preview 'bat {}'"
 export FZF_DEFAULT_OPTS="--height 40% --border --color=bg+:#000000,fg+:#f5f5f5"
 
 # Keybinds
-bindkey -e
+function zvm_after_init ()
+{
 bindkey 'ç' fzf-cd-widget
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey '^O' clear-screen
+bindkey '^R' fzf-history-widget
+}
 
 # Zsh plugins
 source "${ZINIT_HOME}/zinit.zsh"
@@ -32,6 +36,7 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light Aloxaf/fzf-tab
+zinit light jeffreytse/zsh-vi-mode
 
 # Snippets
 zinit snippet OMZP::git

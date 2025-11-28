@@ -13,6 +13,7 @@ vim.o.termguicolors = true
 vim.o.clipboard = "unnamedplus"
 vim.o.ignorecase = true
 vim.o.smartcase = true
+vim.opt.laststatus = 3
 
 vim.api.nvim_set_hl(0, 'LspInlayHint', {
 	fg = '#808080', -- Gray text

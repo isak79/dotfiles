@@ -84,6 +84,10 @@
       "rev": "919e155",
       "src": "https://github.com/stevearc/oil.nvim"
     },
+    "quicker.nvim": {
+      "rev": "9983d4b",
+      "src": "https://github.com/stevearc/quicker.nvim"
+    },
     "snacks.nvim": {
       "rev": "dec29f5",
       "src": "https://github.com/folke/snacks.nvim"

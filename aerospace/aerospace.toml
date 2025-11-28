@@ -102,6 +102,8 @@ s = ['exec-and-forget open /Applications/Spotify.app/', 'mode main']
 q = ['exec-and-forget open /Applications/qbittorrent.app/', 'mode main']
 j = ['exec-and-forget open /Applications/Jellyfin.app/', 'mode main']
 p = ['exec-and-forget open /Applications/Plex Media Server.app/', 'mode main']
+d = ['exec-and-forget open /Applications/Discord.app/', 'mode main']
+
 
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
