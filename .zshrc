@@ -1,7 +1,7 @@
 . "$HOME/.cargo/env"
 
 
-PS1="%F{#eed49f}%n%f@%m: %F{#f5a97f}%1~%f$ "
+PS1="%F{#eed49f}%n%f@%m: %F{#7dc4e4}%1~%f$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
