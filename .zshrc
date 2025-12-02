@@ -1,5 +1,8 @@
 . "$HOME/.cargo/env"
 
+
+PS1="%F{#eed49f}%n%f@%m: %F{#f5a97f}%1~%f$ "
+
 export XDG_HOME_CONFIG=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
@@ -80,7 +83,6 @@ alias vpnIface='ifconfig -v | awk '\''/^[a-z]/ {iface=$1} /VPN: ProtonVPN/ {prin
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(starship init zsh)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
