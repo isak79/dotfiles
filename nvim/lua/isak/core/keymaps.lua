@@ -13,6 +13,8 @@ vim.keymap.set('n', '<leader>R', ":restart<CR>", { silent = true })
 vim.keymap.set('n', '<leader>u', function ()
 	vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 end, { silent = true })
+vim.keymap.set('n', '+', '<C-w>+', { silent = true })
+vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', function ()

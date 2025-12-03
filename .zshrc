@@ -1,6 +1,7 @@
 . "$HOME/.cargo/env"
 
 
+# Prompt
 PS1="%F{#eed49f}%n%f@%m: %F{#7dc4e4}%1~%f$ "
 
 export XDG_HOME_CONFIG=$HOME/.config

@@ -45,6 +45,12 @@ vim.api.nvim_create_autocmd("Filetype", {
 	command = "wincmd L",
 })
 
+
+vim.api.nvim_create_autocmd("Filetype", {
+	pattern = "mail",
+	command = "wincmd L",
+})
+
 vim.api.nvim_create_autocmd({ "BufEnter", "WinEnter" }, {
 	group = vim.api.nvim_create_augroup("active_cursorline", { clear = true }),
 	callback = function()

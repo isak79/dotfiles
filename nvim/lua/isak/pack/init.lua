@@ -22,6 +22,7 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.ai" },
 	{ src = "https://github.com/folke/snacks.nvim" },
 	{ src = "https://github.com/stevearc/quicker.nvim" },
+	{ src = "https://github.com/pimalaya/himalaya-vim" },
 })
 
 
