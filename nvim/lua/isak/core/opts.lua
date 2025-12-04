@@ -85,13 +85,3 @@ vim.api.nvim_create_autocmd("CursorMoved", {
 		end
 	end
 })
-
-
-vim.api.nvim_create_autocmd("BufEnter", {
-	callback = function()
-		local bufname = vim.fn.bufname('%')
-		if string.find(bufname, "diffview") then
-			vim.keymap.set('n', 'q', ':DiffviewClose<CR>', { silent = true, buffer = true })
-		end
-	end
-})

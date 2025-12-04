@@ -53,8 +53,6 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
 vim.keymap.set('n', 'Å', ":cprev<CR>", { silent = true })
 vim.keymap.set('n', '<leader>å', ":cexpr([])<CR>", { silent = true })
-vim.keymap.set('n', '<leader>t', ":copen<CR>", { silent = true })
-
 --Flash
 vim.keymap.set({ "n", "x", "o" }, 's', require("flash").jump)
 vim.keymap.set({ "n", "x", "o" }, 'S', require("flash").treesitter)
@@ -62,29 +60,20 @@ vim.keymap.set( "o", 'r', require("flash").remote)
 vim.keymap.set("c", '<C-s>', require("flash").toggle)
 
 -- Git
-vim.keymap.set('n', '<leader>gg', ":LazyGit<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gl', ":LazyGitLog<CR>", { silent = true })
+vim.keymap.set('n', '<leader>gg', function ()
+	Snacks.lazygit()
+end, { silent = true })
 vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
 vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gd', ":DiffviewOpen<CR>", { silent = true })
 vim.keymap.set('n', 'æ', ":Gitsigns next_hunk<CR>", { silent = true })
 vim.keymap.set('n', 'Æ', ":Gitsigns prev_hunk<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gh', function() vim.cmd('DiffviewFileHistory %') end, { silent = true })
 
 
 vim.api.nvim_create_autocmd('FileType', {
 	pattern = "gitsigns-blame",
 	callback = function()
 		vim.keymap.set('n', 'q', ':q<CR>', { silent = true, buffer = true })
-	end
-})
-vim.api.nvim_create_autocmd("BufEnter", {
-	callback = function()
-		local bufname = vim.fn.bufname('%')
-		if string.find(bufname, "diffview") then
-			vim.keymap.set('n', 'q', ':DiffviewClose<CR>', { silent = true, buffer = true })
-		end
 	end
 })
 

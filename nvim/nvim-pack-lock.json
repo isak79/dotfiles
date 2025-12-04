@@ -4,10 +4,6 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
-    "diffview.nvim": {
-      "rev": "4516612",
-      "src": "https://github.com/sindrets/diffview.nvim"
-    },
     "flash.nvim": {
       "rev": "3be9bf7",
       "src": "https://github.com/folke/flash.nvim"
@@ -27,10 +23,6 @@
     "himalaya-vim": {
       "rev": "bb8d0eb",
       "src": "https://github.com/pimalaya/himalaya-vim"
-    },
-    "lazygit.nvim": {
-      "rev": "2305dee",
-      "src": "https://github.com/kdheepak/lazygit.nvim"
     },
     "lualine.nvim": {
       "rev": "3946f01",
