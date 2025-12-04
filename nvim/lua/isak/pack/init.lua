@@ -21,8 +21,10 @@ vim.pack.add({
 	{ src = "https://github.com/folke/snacks.nvim" },
 	{ src = "https://github.com/stevearc/quicker.nvim" },
 	{ src = "https://github.com/pimalaya/himalaya-vim" },
+	{ src = "https://github.com/nvim-mini/mini.pairs" },
 })
 
+require("mini.pairs").setup()
 
 require("quicker").setup()
 

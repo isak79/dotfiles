@@ -27,12 +27,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
-vim.api.nvim_create_autocmd("CmdwinEnter", {
-	callback = function()
-		vim.keymap.set('n', 'q', ':q<CR>', { silent = true, buffer = true })
-	end
-})
-
 vim.api.nvim_create_autocmd("filetype", {
 	group = vim.api.nvim_create_augroup("no auto comment", {}),
 	callback = function()
