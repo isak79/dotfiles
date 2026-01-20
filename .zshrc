@@ -9,6 +9,7 @@ export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 export PATH="${HOME}/myBinaries:${PATH}"
+export PATH="/opt/homebrew/Cellar/openjdk/25.0.1/bin:${PATH}"
 export EDITOR=nvim
 
 
