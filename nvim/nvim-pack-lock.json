@@ -20,10 +20,6 @@
       "rev": "1ee5c1f",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
-    "himalaya-vim": {
-      "rev": "bb8d0eb",
-      "src": "https://github.com/pimalaya/himalaya-vim"
-    },
     "lualine.nvim": {
       "rev": "3946f01",
       "src": "https://github.com/nvim-lualine/lualine.nvim"

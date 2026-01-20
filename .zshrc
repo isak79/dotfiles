@@ -17,7 +17,13 @@ if [[ ! -d "$ZINIT_HOME" ]]; then
 	git clone https://github.com/zdharma-continuum/zinit "$ZINIT_HOME"
 fi
 
-
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
 
 
 export FZF_DEFAULT_COMMAND='fd --type f'
@@ -79,6 +85,7 @@ alias v=nvim
 alias cat=bat
 alias ls='ls --color'
 alias vpnIface='ifconfig -v | awk '\''/^[a-z]/ {iface=$1} /VPN: ProtonVPN/ {print iface; exit}'\'
+alias t=tmux
 
 
 # Shell integrations

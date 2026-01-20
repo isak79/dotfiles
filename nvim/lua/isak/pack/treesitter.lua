@@ -1,5 +1,5 @@
 require("nvim-treesitter.configs").setup({
-	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python" },
+	ensure_installed = { "lua", "typescript", "rust", "javascript", "haskell", "regex", "python", "java" },
 	highlight = { enable = true },
 	textobjects = {
 		select = {

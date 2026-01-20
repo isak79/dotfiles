@@ -20,30 +20,22 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.ai" },
 	{ src = "https://github.com/folke/snacks.nvim" },
 	{ src = "https://github.com/stevearc/quicker.nvim" },
-	{ src = "https://github.com/pimalaya/himalaya-vim" },
 	{ src = "https://github.com/nvim-mini/mini.pairs" },
 })
 
 require("mini.pairs").setup()
-
 require("quicker").setup()
-
+require("mini.ai").setup()
 require("snacks").setup({
 	picker = {
 		enabled = true,
 	}
 })
-
-require("mini.ai").setup()
-
 require("mason").setup()
-
 vim.cmd("colorscheme catppuccin")
-
 require("isak.pack.lsp")
 require("isak.pack.surround")
 vim.notify = require("notify")
-
 require("isak.pack.treesitter")
 require("isak.pack.blink")
 require("isak.pack.noice")
