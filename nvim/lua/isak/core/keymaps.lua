@@ -59,7 +59,6 @@ vim.keymap.set('n', '<leader>o', function()
 			isOpen = true
 		end
 	end
-
 	if isOpen then
 		vim.cmd("cclose")
 		else vim.cmd("copen")
