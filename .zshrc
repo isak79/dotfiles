@@ -2,7 +2,7 @@
 
 
 # Prompt
-PS1="%F{#eed49f}%n%f@%m: %F{#7dc4e4}%1~%f$ "
+PS1="%F{#eed49f}%n%f@%m: [%F{#7dc4e4}%1~%f]$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
@@ -87,6 +87,7 @@ alias cat=bat
 alias ls='ls --color'
 alias vpnIface='ifconfig -v | awk '\''/^[a-z]/ {iface=$1} /VPN: ProtonVPN/ {print iface; exit}'\'
 alias t=tmux
+alias oc=opencode
 
 
 # Shell integrations
