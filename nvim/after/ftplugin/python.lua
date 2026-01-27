@@ -8,5 +8,6 @@ end
 
 vim.keymap.set('n', '<C-p><C-p>', function()
 	local worspace_dir = get_root_dir()
-	os.execute("tmux split-window 'cd " .. worspace_dir .. "/tests/; pytest; read'")
+	local bufName = vim.fn.bufname('%')
+	os.execute("tmux split-window 'python3 " .. bufName .. "; read'")
 end, { silent = true, buffer = true })
