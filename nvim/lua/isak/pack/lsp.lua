@@ -1,4 +1,5 @@
-vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls", "rust-analyzer", "hls", "bashls", "pylsp", "markdown_oxide", "html", "jdtls" })
+vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls", "rust-analyzer", "hls", "bashls", "pylsp", "markdown_oxide", "html",
+	"jdtls", "tailwindcss", "emmet_ls" })
 vim.lsp.config("lua_ls", {
 	hint = {
 		enable = true,
@@ -15,6 +16,13 @@ vim.lsp.config("lua_ls", {
 				globals = { "vim" } }
 		}
 	}
+})
+
+vim.lsp.config("emmet_ls", {
+    filetypes = {
+        "html", "css", "scss", "javascript", "javascriptreact",
+        "typescript", "typescriptreact", "tsx", "jsx"
+    },
 })
 
 vim.lsp.config('rust-analyzer', {
