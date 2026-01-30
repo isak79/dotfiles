@@ -103,6 +103,7 @@ q = ['exec-and-forget open /Applications/qbittorrent.app/', 'mode main']
 j = ['exec-and-forget open /Applications/Jellyfin.app/', 'mode main']
 p = ['exec-and-forget open /Applications/Plex Media Server.app/', 'mode main']
 d = ['exec-and-forget open /Applications/Discord.app/', 'mode main']
+shift-s = ['exec-and-forget open /Applications/Stremio.app/', 'mode main']
 esc = 'mode main'
 
 
