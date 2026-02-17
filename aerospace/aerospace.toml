@@ -96,7 +96,7 @@ alt-shift-equal = 'resize smart +50'
 
 [mode.launch.binding]
 alt-m = 'mode main'
-b = ['exec-and-forget open /Applications/LibreWolf.app/', 'mode main']
+b = ['exec-and-forget open /Applications/Zen.app/', 'mode main']
 shift-b = ['exec-and-forget open /Applications/Brave\ Browser.app/', 'mode main']
 t = ['exec-and-forget open /Applications/Ghostty.app/', 'mode main']
 s = ['exec-and-forget open /Applications/Spotify.app/', 'mode main']
