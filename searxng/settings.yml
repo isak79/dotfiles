@@ -144,7 +144,7 @@ ui:
   # Disable to select multiple categories at once and start the search manually.
   search_on_category_select: true
   # Hotkeys: default or vim
-  hotkeys: default
+  hotkeys: vim
   # URL formatting: pretty, full or host
   url_formatting: pretty
 
