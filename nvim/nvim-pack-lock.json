@@ -4,6 +4,10 @@
       "rev": "5037cfa",
       "src": "https://github.com/Saghen/blink.cmp"
     },
+    "diffview.nvim": {
+      "rev": "4516612",
+      "src": "https://github.com/sindrets/diffview.nvim"
+    },
     "flash.nvim": {
       "rev": "3be9bf7",
       "src": "https://github.com/folke/flash.nvim"

@@ -17,12 +17,12 @@ default-root-container-orientation = 'auto'
 key-mapping.preset = 'qwerty'
 
 [gaps]
-inner.horizontal = 5
-inner.vertical =   5
-outer.left =       5
-outer.bottom =     5
-outer.top =        25
-outer.right =      5
+inner.horizontal = 2
+inner.vertical =   2
+outer.left =       2
+outer.bottom =     2
+outer.top =        2
+outer.right =      2
 
 [mode.main.binding]
 
@@ -106,6 +106,7 @@ p = ['exec-and-forget open /Applications/Plex Media Server.app/', 'mode main']
 d = ['exec-and-forget open /Applications/Discord.app/', 'mode main']
 shift-s = ['exec-and-forget open /Applications/Stremio.app/', 'mode main']
 esc = 'mode main'
+f = ['exec-and-forget open /Applications/FreeTube.app/', 'mode main']
 
 
 [[on-window-detected]]

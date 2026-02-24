@@ -22,6 +22,7 @@ vim.pack.add({
 	{ src = "https://github.com/stevearc/quicker.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.pairs" },
 	{ src = "https://github.com/mfussenegger/nvim-jdtls" },
+	{ src = "https://github.com/sindrets/diffview.nvim" },
 })
 
 require("mini.pairs").setup()
@@ -33,7 +34,7 @@ require("snacks").setup({
 	}
 })
 require("mason").setup()
-vim.cmd("colorscheme catppuccin")
+require("isak.pack.catppuccin")
 require("isak.pack.lsp")
 require("isak.pack.surround")
 vim.notify = require("notify")

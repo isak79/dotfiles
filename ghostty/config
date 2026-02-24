@@ -1,7 +1,8 @@
-theme = catppuccin-mocha
+theme = catppuccin-macchiato
 font-size = 18
 alpha-blending = linear-corrected
-background-blur-radius = 20
+# background-blur-radius = 20
+background-opacity = 0.95
 
 font-family = JetBrainsMono NFM
 font-family-bold = JetBrainsMono NFM 
@@ -11,7 +12,7 @@ font-family-bold-italic = JetBrainsMono NFM Bold Italic
 
 mouse-hide-while-typing = true
 # window-decoration = true
-keybind = global:cmd+@=toggle_quick_terminal
+# keybind = global:cmd+@=toggle_quick_terminal
 macos-option-as-alt = true
 keybind = super+r=reload_config
 macos-titlebar-style = hidden
