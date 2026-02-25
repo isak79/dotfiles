@@ -37,7 +37,14 @@ require("mason").setup()
 require("isak.pack.catppuccin")
 require("isak.pack.lsp")
 require("isak.pack.surround")
+
+
+require("notify").setup({
+  background_colour = "#000000",
+})
 vim.notify = require("notify")
+
+
 require("isak.pack.treesitter")
 require("isak.pack.blink")
 require("isak.pack.noice")

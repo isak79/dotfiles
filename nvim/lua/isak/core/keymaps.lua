@@ -16,6 +16,10 @@ vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 
 -- Explore
+vim.keymap.set('n', '<leader>fH', function()
+	Snacks.picker.highlights()
+end, { silent = true })
+
 vim.keymap.set('n', '<leader> ', function()
 	Snacks.picker.smart()
 end, { silent = true })
