@@ -27,7 +27,7 @@ local C = {
 	crust = "#181926",
 }
 
-local transparent_bg = false and "NONE" or "#1E1E2D"
+local transparent_bg = true and "NONE" or "#1E1E2D"
 
 return {
 	replace = {
