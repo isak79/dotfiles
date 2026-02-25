@@ -77,9 +77,6 @@ vim.keymap.set("o", 'r', require("flash").remote)
 vim.keymap.set("c", '<C-s>', require("flash").toggle)
 
 -- Git
-vim.keymap.set('n', '<leader>gg', function()
-	Snacks.lazygit()
-end, { silent = true })
 vim.keymap.set('n', '<leader>gB', function()
 	Snacks.gitbrowse()
 end, { silent = true })
