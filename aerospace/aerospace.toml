@@ -1,8 +1,8 @@
 after-login-command = []
 
-exec-on-workspace-change = ['/bin/bash', '-c',
-    'sketchybar --trigger aerospace_workspace_change'
-]
+# exec-on-workspace-change = ['/bin/bash', '-c',
+#     'sketchybar --trigger aerospace_workspace_change'
+# ]
 start-at-login = true
 
 enable-normalization-flatten-containers = true
@@ -54,6 +54,7 @@ alt-shift-3 = 'move-node-to-workspace 3'
 alt-shift-4 = 'move-node-to-workspace 4'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-t = 'move-node-to-workspace T'
+alt-s = ['exec-and-forget ~/dotfiles/binaries/run_spotify', 'mode main']
 
 alt-shift-f = 'fullscreen'
 
@@ -108,10 +109,13 @@ d = ['exec-and-forget open /Applications/Discord.app/', 'mode main']
 shift-s = ['exec-and-forget open /Applications/Stremio.app/', 'mode main']
 esc = 'mode main'
 f = ['exec-and-forget open /Applications/FreeTube.app/', 'mode main']
+k = ['exec-and-forget ~/dotfiles/binaries/run_spotify', 'mode main']
 
 
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
 run = ['layout floating']
 
-
+[[on-window-detected]]
+if.app-id = 'io.freetubeapp.freetube'
+run = ['layout floating']
