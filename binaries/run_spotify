@@ -1,6 +1,11 @@
 #!/bin/bash
 window_id=$(aerospace list-windows --all | awk -F'|' '$3 ~ /👻/ {print $1; exit}')
-if [ -n "$window_id" ]; then
+curr_win=$(aerospace list-workspaces --focused)
+curr_window_id=$(aerospace list-windows --workspace $curr_win | awk -F'|' '$3 ~ /👻/ {print $1; exit}')
+
+if [ -n "$curr_window_id" ]; then
+		aerospace move-node-to-workspace --window-id $window_id S
+elif [ -n "$window_id" ]; then
     focused_win=$(aerospace list-workspaces --focused)
     aerospace move-node-to-workspace --window-id $window_id $focused_win
     aerospace focus --window-id $window_id
