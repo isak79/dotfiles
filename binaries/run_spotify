@@ -11,4 +11,7 @@ elif [ -n "$window_id" ]; then
     aerospace focus --window-id $window_id
 else
     /Applications/Ghostty.app/Contents/MacOS/ghostty -e "/Users/isakhansen/.cargo/bin/spotify_player" &
+		sleep 1
+		window_id=$(aerospace list-windows --all | awk -F'|' '$3 ~ /👻/ {print $1; exit}')
+		aerospace layout floating --window-id $window_id
 fi
