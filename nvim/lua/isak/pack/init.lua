@@ -7,7 +7,6 @@ vim.pack.add({
 	{ src = "https://github.com/Saghen/blink.cmp" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
-	{ src = "https://github.com/rcarriga/nvim-notify" },
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
@@ -22,7 +21,6 @@ vim.pack.add({
 	{ src = "https://github.com/stevearc/quicker.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.pairs" },
 	{ src = "https://github.com/mfussenegger/nvim-jdtls" },
-	{ src = "https://github.com/sindrets/diffview.nvim" },
 })
 
 require("mini.pairs").setup()
@@ -37,12 +35,6 @@ require("mason").setup()
 require("isak.pack.catppuccin")
 require("isak.pack.lsp")
 require("isak.pack.surround")
-
-
-require("notify").setup({
-  background_colour = "#000000",
-})
-vim.notify = require("notify")
 
 
 require("isak.pack.treesitter")
