@@ -115,7 +115,3 @@ k = ['exec-and-forget ~/dotfiles/binaries/run_spotify', 'mode main']
 [[on-window-detected]]
 if.app-id = 'net.java.openjdk.java'
 run = ['layout floating']
-
-[[on-window-detected]]
-if.app-id = 'io.freetubeapp.freetube'
-run = ['layout floating']
