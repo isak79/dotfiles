@@ -96,10 +96,6 @@
       "rev": "dec29f5",
       "src": "https://github.com/folke/snacks.nvim"
     },
-    "typst-preview.nvim": {
-      "rev": "1603d37",
-      "src": "https://github.com/chomosuke/typst-preview.nvim"
-    },
     "vim-tmux-navigator": {
       "rev": "c45243d",
       "src": "https://github.com/christoomey/vim-tmux-navigator"
