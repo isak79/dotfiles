@@ -5,8 +5,6 @@ vim.pack.add({
 	{ src = "https://github.com/christoomey/vim-tmux-navigator" },
 	{ src = "https://github.com/Saghen/blink.cmp" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
-	{ src = "https://github.com/MunifTanjim/nui.nvim" },
-	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
@@ -14,16 +12,12 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
 	{ src = "https://github.com/folke/flash.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.surround.git" },
-	{ src = "https://github.com/nvim-mini/mini.ai" },
 	{ src = "https://github.com/folke/snacks.nvim" },
-	{ src = "https://github.com/stevearc/quicker.nvim" },
 	{ src = "https://github.com/nvim-mini/mini.pairs" },
 	{ src = "https://github.com/mfussenegger/nvim-jdtls" },
 })
 
 require("mini.pairs").setup()
-require("quicker").setup()
-require("mini.ai").setup()
 require("snacks").setup({
 	picker = {
 		enabled = true,
@@ -37,5 +31,4 @@ require("isak.pack.surround")
 
 require("isak.pack.treesitter")
 require("isak.pack.blink")
-require("isak.pack.noice")
 require("isak.pack.oil")

@@ -104,10 +104,6 @@ vim.api.nvim_create_autocmd("CmdwinEnter", {
 	end
 })
 
--- Notifications
-vim.keymap.set('n', '<leader>nn', ":NoiceAll<CR>", { silent = true })
-vim.keymap.set('n', '<leader>nd', ":Noice dismiss<CR>", { silent = true })
-
 -- Lsp
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { silent = true })
 vim.keymap.set("n", "gd", function()
