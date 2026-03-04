@@ -125,3 +125,9 @@ vim.keymap.set('n', '<leader>c', function()
 		SysCB = false
 	end
 end)
+
+
+-- autopairs
+vim.keymap.set('i', "(", "()i")
+vim.keymap.set('i', "[", "[]i")
+vim.keymap.set('i', "{", "{}i")
