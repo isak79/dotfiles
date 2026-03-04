@@ -25,8 +25,6 @@ require("mason").setup()
 require("isak.pack.catppuccin")
 require("isak.pack.lsp")
 require("isak.pack.surround")
-
-
 require("isak.pack.treesitter")
 require("isak.pack.blink")
 require("isak.pack.oil")

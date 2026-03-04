@@ -13,7 +13,7 @@ font-family-bold-italic = JetBrainsMono NFM Bold Italic
 mouse-hide-while-typing = true
 # window-decoration = true
 # keybind = global:cmd+@=toggle_quick_terminal
-macos-option-as-alt = true
+# macos-option-as-alt = true
 keybind = super+r=reload_config
 macos-titlebar-style = hidden
 macos-option-as-alt = false
