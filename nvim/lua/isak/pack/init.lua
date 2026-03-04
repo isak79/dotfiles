@@ -8,7 +8,6 @@ vim.pack.add({
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/folke/noice.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
-	{ src = "https://github.com/nvim-lualine/lualine.nvim" },
 	{ src = "https://github.com/rafamadriz/friendly-snippets" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 	{ src = "https://github.com/lewis6991/gitsigns.nvim" },
@@ -40,4 +39,3 @@ require("isak.pack.treesitter")
 require("isak.pack.blink")
 require("isak.pack.noice")
 require("isak.pack.oil")
-require("isak.pack.lualine")

@@ -3,8 +3,7 @@ local set = vim.opt_local
 set.wrap = true
 
 vim.keymap.set('n', '<C-p>', function()
-	local filename = vim.fn.bufname('%')
-	os.execute("tmux split-window 'tinymist preview " .. filename .. "'")
+	vim.lsp.buf.execute_command({ command = "tinymist.startDefaultPreview", title = "Preview" })
 end, { silent = true, buffer = true })
 
 
@@ -18,9 +17,9 @@ vim.keymap.set('n', 'k', function()
 end, { expr = true, silent = true, buffer = true })
 
 
-vim.api.nvim_create_autocmd("TextChangedI", {
-	pattern = "*.typ",
-	callback = function()
-		vim.cmd(':w')
-	end
-})
+-- vim.api.nvim_create_autocmd({"TextChanged", "TextChangedI"}, {
+-- 	pattern = "*.typ",
+-- 	callback = function()
+-- 		vim.cmd(':w')
+-- 	end
+-- })
