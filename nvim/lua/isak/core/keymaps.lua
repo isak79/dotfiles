@@ -91,8 +91,6 @@ vim.api.nvim_create_autocmd('FileType', {
 })
 
 -- Buffers
-vim.keymap.set('n', 'H', ':bprev<CR>', { silent = true })
-vim.keymap.set('n', 'L', ':bnext<CR>', { silent = true })
 vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
 vim.api.nvim_create_autocmd("CmdwinEnter", {
 	callback = function()
