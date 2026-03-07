@@ -3,12 +3,10 @@ local set = vim.opt_local
 set.wrap = true
 
 vim.keymap.set('n', '<C-p>', function()
-	local clients = vim.lsp.get_clients({ name = "tinymist", bufnr = 0 })
-	if #clients > 0 then
-		clients[1]:exec_cmd({ command = "tinymist.startDefaultPreview", title = "Preview" })
-	else
-		vim.notify("Tinymist LSP client not found", vim.log.levels.WARN)
-	end
+  local client = vim.lsp.get_clients({ name = "tinymist", bufnr = 0 })[1]
+  if client then
+    client:exec_cmd({ command = "tinymist.startDefaultPreview", title = "Preview" })
+  end
 end, { silent = true, buffer = true })
 
 
