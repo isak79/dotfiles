@@ -10,8 +10,24 @@ elif [ -n "$window_id" ]; then
     aerospace move-node-to-workspace --window-id $window_id $focused_win
     aerospace focus --window-id $window_id
 else
-    /Applications/Ghostty.app/Contents/MacOS/ghostty -e "/Users/isakhansen/.cargo/bin/spotify_player" &
-		sleep 1
-		window_id=$(aerospace list-windows --all | awk -F'|' '$3 ~ /👻/ {print $1; exit}')
+	osascript -e '
+				tell application "Ghostty"
+						if not running then
+								activate
+								delay 0.5
+						else
+								activate
+						end if
+				end tell
+				
+				tell application "System Events"
+						tell process "Ghostty"
+								keystroke "t" using command down  -- New tab
+								delay 0.2
+								keystroke "exec spotify_player"
+								keystroke return
+						end tell
+				end tell
+				'
 		aerospace layout floating --window-id $window_id
 fi
