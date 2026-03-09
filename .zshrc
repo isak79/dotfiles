@@ -2,7 +2,7 @@
 
 
 # Prompt
-PS1="%F{#eed49f}%n%f@%m$ "
+PS1="[%F{#eed49f}%n%f@%m]$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
