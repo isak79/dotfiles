@@ -47,6 +47,9 @@ vim.keymap.set('n', '<leader>fh', function()
 	Snacks.picker.help()
 end, { silent = true })
 vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
+vim.keymap.set('n', '<leader>fg', function()
+	Snacks.picker.git_log()
+end, { silent = true })
 
 -- Quickfix
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
