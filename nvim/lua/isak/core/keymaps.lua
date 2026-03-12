@@ -68,13 +68,6 @@ vim.keymap.set('n', '<leader>o', function()
 	end
 end)
 
-
---Flash
-vim.keymap.set({ "n", "x", "o" }, 's', require("flash").jump)
-vim.keymap.set({ "n", "x", "o" }, 'S', require("flash").treesitter)
-vim.keymap.set("o", 'r', require("flash").remote)
-vim.keymap.set("c", '<C-s>', require("flash").toggle)
-
 -- Git
 vim.keymap.set('n', '<leader>gB', function()
 	Snacks.gitbrowse()
