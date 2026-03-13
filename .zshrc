@@ -1,6 +1,5 @@
 . "$HOME/.cargo/env"
 
-
 # Prompt
 PS1="[%F{#eed49f}%n%f@%m]$ "
 
@@ -18,35 +17,17 @@ if [[ ! -d "$ZINIT_HOME" ]]; then
 	git clone https://github.com/zdharma-continuum/zinit "$ZINIT_HOME"
 fi
 
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	IFS= read -r -d '' cwd < "$tmp"
-	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
-	rm -f -- "$tmp"
-}
-
-
-export FZF_DEFAULT_COMMAND='fd --type f'
-export FZF_CTRL_T_OPTS="--preview 'bat {}'"
-export FZF_DEFAULT_OPTS="--height 40% --border --color=bg+:#000000,fg+:#f5f5f5"
 
 # Keybinds
 function zvm_after_init ()
 {
-bindkey 'ç' fzf-cd-widget
-bindkey '^p' history-search-backward
-bindkey '^n' history-search-forward
 bindkey '^O' clear-screen
-bindkey '^R' fzf-history-widget
+source <(sk --shell zsh --shell-bindings)
 }
 
 # Zsh plugins
 source "${ZINIT_HOME}/zinit.zsh"
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
-zinit light Aloxaf/fzf-tab
 zinit light jeffreytse/zsh-vi-mode
 
 # Snippets
@@ -54,12 +35,9 @@ zinit snippet OMZP::git
 
 autoload -U compinit && compinit
 
+
 zinit cdreplay -q
 
-goto_binary ()
-{
-	cd $(dirname $(command -v $1))
-}
 
 # History
 HISTSIZE=5000
@@ -74,25 +52,16 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
-# Completion styling
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
-
 # Aliases
 alias c=cdi
 alias v=nvim
 alias cat=bat
 alias ls='ls --color'
-alias vpnIface='ifconfig -v | awk '\''/^[a-z]/ {iface=$1} /VPN: ProtonVPN/ {print iface; exit}'\'
 alias t=tmux
 alias oc=opencode
 
 
 # Shell integrations
-eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 export NVM_DIR="$HOME/.nvm"
