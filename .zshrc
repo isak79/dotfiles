@@ -29,6 +29,8 @@ source <(sk --shell zsh --shell-bindings)
 source "${ZINIT_HOME}/zinit.zsh"
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light jeffreytse/zsh-vi-mode
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
 
 # Snippets
 zinit snippet OMZP::git
