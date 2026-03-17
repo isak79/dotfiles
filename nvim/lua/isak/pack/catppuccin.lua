@@ -59,7 +59,6 @@ require("catppuccin").setup({
     auto_integrations = false,
     integrations = {
         cmp = true,
-        gitsigns = true,
         nvimtree = true,
         notify = false,
         mini = {

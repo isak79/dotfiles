@@ -50,6 +50,9 @@ vim.keymap.set('n', '<leader>e', ":Oil<CR>", { silent = true })
 vim.keymap.set('n', '<leader>fg', function()
 	Snacks.picker.git_log()
 end, { silent = true })
+vim.keymap.set('n', '<leader>gg', function ()
+	Snacks.picker.git_branches()
+end, { silent = true })
 
 -- Quickfix
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
@@ -72,19 +75,6 @@ end)
 vim.keymap.set('n', '<leader>gB', function()
 	Snacks.gitbrowse()
 end, { silent = true })
-vim.keymap.set('n', '<leader>gb', ":Gitsigns blame<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gs', ":Gitsigns stage_hunk<CR>", { silent = true })
-vim.keymap.set('n', '<leader>gr', ":Gitsigns reset_hunk<CR>", { silent = true })
-vim.keymap.set('n', 'æ', ":Gitsigns next_hunk<CR>", { silent = true })
-vim.keymap.set('n', 'Æ', ":Gitsigns prev_hunk<CR>", { silent = true })
-
-
-vim.api.nvim_create_autocmd('FileType', {
-	pattern = "gitsigns-blame",
-	callback = function()
-		vim.keymap.set('n', 'q', ':q<CR>', { silent = true, buffer = true })
-	end
-})
 
 -- Buffers
 vim.keymap.set('n', '<leader>bd', ':bd<CR>', { silent = true })
