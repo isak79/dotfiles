@@ -17,7 +17,9 @@ vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', function()
-	Snacks.picker.files()
+	Snacks.picker.files({
+		hidden = true,
+	})
 end, { silent = true })
 vim.keymap.set('n', '<leader>,', function()
 	Snacks.picker.buffers()
@@ -53,6 +55,13 @@ end, { silent = true })
 vim.keymap.set('n', '<leader>gg', function ()
 	Snacks.picker.git_branches()
 end, { silent = true })
+vim.keymap.set('n', '<leader>gl', function ()
+	Snacks.picker.git_log()
+end, { silent = true })
+vim.keymap.set('n', '<leader>gL', function ()
+	Snacks.picker.git_log_file()
+end, { silent = true })
+
 
 -- Quickfix
 vim.keymap.set('n', 'å', ":cnext<CR>", { silent = true })
