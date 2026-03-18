@@ -21,6 +21,8 @@ fi
 # Keybinds
 function zvm_after_init ()
 {
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
 bindkey '^O' clear-screen
 source <(sk --shell zsh --shell-bindings)
 }
