@@ -1,5 +1,6 @@
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.nuw = 1
 vim.o.wrap = false
 vim.o.signcolumn = "number"
 vim.o.tabstop = 2
