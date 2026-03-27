@@ -1,7 +1,7 @@
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.wrap = false
-vim.o.signcolumn = "yes"
+vim.o.signcolumn = "number"
 vim.o.tabstop = 2
 vim.o.swapfile = false
 vim.o.shiftwidth = 2
