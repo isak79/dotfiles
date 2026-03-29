@@ -7,7 +7,6 @@ require("oil").setup({
 	},
 	columns = {
 		"permissions",
-		"icon",
 	},
 	float = {
 		max_width = 0.7,
