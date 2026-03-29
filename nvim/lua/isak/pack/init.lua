@@ -15,6 +15,11 @@ vim.pack.add({
 require("snacks").setup({
 	picker = {
 		enabled = true,
+		icons = {
+			files = {
+				enabled = false,
+			},
+		},
 	}
 })
 require("mason").setup()
