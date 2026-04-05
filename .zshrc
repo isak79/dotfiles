@@ -63,7 +63,7 @@ alias cat=bat
 alias ls='ls --color'
 alias t=tmux
 alias oc=opencode
-alias pdf="fd -t f \"\\.*pdf$\" | sk | sed 's/\ /\\\ /g' | xargs zathura"
+alias pdf="fd -t f \"\\.*(pdf|epub|mobi)$\" | sk | sed 's/\ /\\\ /g' | xargs zathura"
 alias movie="fd -t f \"\\.(mkv|webm)$\" | sk | sed 's/\ /\\\ /g' | xargs mpv"
 
 
