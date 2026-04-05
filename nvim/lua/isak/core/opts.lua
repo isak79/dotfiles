@@ -15,6 +15,10 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.opt.laststatus = 3
 
+vim.cmd("packadd nvim.undotree")
+
+require("vim._core.ui2").enable({})
+
 vim.api.nvim_set_hl(0, 'LspInlayHint', {
 	fg = '#808080', -- Gray text
 	bg = 'NONE',   -- Remove background

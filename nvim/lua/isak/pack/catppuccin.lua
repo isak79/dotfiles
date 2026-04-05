@@ -6,7 +6,7 @@ require("catppuccin").setup({
     },
     transparent_background = true, -- disables setting the background color.
     float = {
-        transparent = false, -- enable transparent floating windows
+        transparent = true, -- enable transparent floating windows
         solid = false, -- use solid styling for floating windows, see |winborder|
     },
     show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
