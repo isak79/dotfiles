@@ -8,6 +8,6 @@ vim.keymap.set('n', '<C-p><C-p>', function()
 end, { silent = true, buffer = true })
 
 
-vim.keymap.set('n', '<C-p><C-o>', function()
-	vim.cmd("LspStart hls")
+vim.keymap.set('n', '<C-p><C-l>', function()
+	vim.cmd("lsp enable hls")
 end, { silent = true, buffer = true })
