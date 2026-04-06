@@ -15,6 +15,7 @@ vim.keymap.set('n', '<leader>u', function()
 end, { silent = true })
 vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 vim.keymap.set('n', '+', '<C-w>+', { silent = true })
+vim.keymap.set('n', '<leader>U', ':Undotree<CR>:wincmd L<CR>', { silent = true })
 
 -- Explore
 vim.keymap.set('n', '<leader> ', function()
