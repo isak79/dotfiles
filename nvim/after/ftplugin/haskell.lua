@@ -4,7 +4,8 @@ vim.bo.shiftwidth = 2
 vim.bo.softtabstop = 2
 
 vim.keymap.set('n', '<C-p><C-p>', function()
-	os.execute("tmux split-window 'cabal repl; read'")
+	local cwd = vim.fn.shellescape(vim.fn.getcwd())
+	os.execute('tmux new-window -c ' .. cwd .. ' "cabal repl"')
 end, { silent = true, buffer = true })
 
 
