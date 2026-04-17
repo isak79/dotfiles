@@ -83,3 +83,7 @@ vim.api.nvim_create_autocmd("CursorMoved", {
 		end
 	end
 })
+
+vim.api.nvim_create_user_command("PackDel", function (opts)
+	vim.pack.del(opts.fargs)
+end, { nargs = "+", desc = "Delete plugins (space separated)" })
