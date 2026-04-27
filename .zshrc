@@ -1,7 +1,7 @@
 . "$HOME/.cargo/env"
 
 # Prompt
-PS1="[%F{#eed49f}%n%f@%m]$ "
+PROMPT="[%F{#eed49f}%n%f@%m]$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
@@ -63,12 +63,14 @@ alias cat=bat
 alias ls='ls --color'
 alias t=tmux
 alias oc=opencode
-alias pdf="fd -t f \"\\.*(pdf|epub|mobi)$\" | sk | sed 's/\ /\\\ /g' | xargs zathura"
+alias pdf="fd -t f \"\\.*(pdf|epub|mobi)$\" | sk | sed 's/\ /\\\ /g' | xargs open"
 alias movie="fd -t f \"\\.(mkv|webm)$\" | sk | sed 's/\ /\\\ /g' | xargs mpv"
+alias q="pi --model big-pickle -p --no-session"
 
 
 # Shell integrations
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(spotify_player generate zsh)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -78,3 +80,4 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+eval "$(direnv hook zsh)"
