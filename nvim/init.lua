@@ -1,6 +1,9 @@
+require("vim._core.ui2").enable({})
+
 require("isak.pack")
 require("isak.core")
 require("isak.myplugins")
+
 
 vim.treesitter.query.set("markdown", "injections", [[
 (fenced_code_block

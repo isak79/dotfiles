@@ -10,6 +10,7 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 	{ src = "https://github.com/nvim-mini/mini.surround.git" },
 	{ src = "https://github.com/folke/snacks.nvim" },
+	{ src = "https://github.com/folke/flash.nvim" },
 })
 
 require("snacks").setup({

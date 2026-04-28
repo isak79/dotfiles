@@ -17,6 +17,14 @@ vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 vim.keymap.set('n', '+', '<C-w>+', { silent = true })
 vim.keymap.set('n', '<leader>U', ':Undotree<CR>:wincmd L<CR>', { silent = true })
 
+ 
+--Flash
+vim.keymap.set({ "n", "x", "o" }, 's', require("flash").jump)
+vim.keymap.set({ "n", "x", "o" }, 'S', require("flash").treesitter)
+vim.keymap.set("o", 'r', require("flash").remote)
+vim.keymap.set("c", '<C-s>', require("flash").toggle)
+
+
 -- Explore
 vim.keymap.set('n', '<leader> ', function()
 	Snacks.picker.files({
@@ -100,6 +108,7 @@ end, { silent = true })
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename)
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format, { silent = true })
 vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { silent = true })
+vim.keymap.set('n', '<leader>p', ":checkhealth vim.lsp<CR>", { silent = true })
 
 -- Toggle clipboard
 SysCB = true
