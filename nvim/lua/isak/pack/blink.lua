@@ -1,4 +1,6 @@
-require "blink.cmp".setup({
+local cmp = require('blink.cmp')
+cmp.build():wait(6000)
+cmp.setup({
 	keymap = { preset = 'default' },
 	appearance = {
 		nerd_font_variant = 'mono'
