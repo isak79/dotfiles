@@ -1,0 +1,20 @@
+#!/bin/bash
+set -euo pipefail
+
+AEROSPACE_CONFIG="$HOME/.config/aerospace/aerospace.toml"
+if [ ! -f "$AEROSPACE_CONFIG" ]; then
+  AEROSPACE_CONFIG="$HOME/dotfiles/aerospace/aerospace.toml"
+fi
+
+hidden_state="$(sketchybar --query bar | jq -r '.hidden')"
+
+if [ "$hidden_state" = "off" ]; then
+  sketchybar --bar hidden=on
+  new_top_gap=2
+else
+  sketchybar --bar hidden=off
+  new_top_gap=22
+fi
+
+perl -0777 -i -pe "s/^outer\.top\s*=\s*\d+/outer.top =        ${new_top_gap}/m" "$AEROSPACE_CONFIG"
+aerospace reload-config

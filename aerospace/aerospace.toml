@@ -1,8 +1,8 @@
 after-login-command = []
 
-# exec-on-workspace-change = ['/bin/bash', '-c',
-#     'sketchybar --trigger aerospace_workspace_change'
-# ]
+exec-on-workspace-change = ['/bin/bash', '-c',
+    'sketchybar --trigger aerospace_workspace_change'
+]
 start-at-login = true
 
 enable-normalization-flatten-containers = true
@@ -55,6 +55,7 @@ alt-shift-4 = 'move-node-to-workspace 4'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-t = 'move-node-to-workspace T'
 alt-s = ['exec-and-forget ~/dotfiles/binaries/run_spotify', 'mode main']
+alt-a = 'exec-and-forget ~/dotfiles/binaries/toggle_bar_gap'
 
 alt-shift-f = 'fullscreen'
 
@@ -99,7 +100,7 @@ alt-shift-equal = 'resize smart +50'
 [mode.launch.binding]
 alt-m = 'mode main'
 b = ['exec-and-forget open /Applications/LibreWolf.app/', 'mode main']
-shift-b = ['exec-and-forget open /Applications/Google\ Chrome.app/', 'mode main']
+shift-b = ['exec-and-forget open /Applications/Helium.app/', 'mode main']
 t = ['exec-and-forget open /Applications/Ghostty.app/', 'mode main']
 s = ['exec-and-forget open /Applications/Spotify.app/', 'mode main']
 q = ['exec-and-forget open /Applications/qbittorrent.app/', 'mode main']

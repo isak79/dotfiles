@@ -5,6 +5,9 @@ sketchybar --add event aerospace_workspace_change
 
 ##### Adding Mission Control Space Indicators #####
 for sid in $(aerospace list-workspaces --all); do
+	if [ $sid = "S" ]; then
+		continue
+	fi
   sketchybar --add item "space.$sid" left \
 		--subscribe "space.$sid" aerospace_workspace_change \
 		--set "space.$sid" \
