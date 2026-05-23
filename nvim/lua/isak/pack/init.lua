@@ -11,7 +11,6 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.surround.git" },
 	{ src = "https://github.com/folke/snacks.nvim" },
 	{ src = "https://github.com/folke/flash.nvim" },
-	{ src = "https://github.com/tpope/vim-fugitive" },
 	{ src = "https://github.com/saghen/blink.lib" },
 })
 
