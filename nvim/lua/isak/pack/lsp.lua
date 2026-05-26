@@ -1,5 +1,5 @@
 vim.lsp.enable({ "lua_ls", "tinymist", "ts_ls", "rust-analyzer", "bashls", "pyright", "markdown_oxide", "html",
-	"jdtls", "tailwindcss", "emmet_ls", "lemminx", "java" })
+	"jdtls", "tailwindcss", "emmet_ls", "lemminx", "java", "kotlin_lsp" })
 vim.lsp.config("lua_ls", {
 	hint = {
 		enable = true,
