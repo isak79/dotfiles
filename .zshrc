@@ -1,15 +1,18 @@
 . "$HOME/.cargo/env"
 
 # Prompt
-PROMPT="[%F{#eed49f}%n%f@%m]$ "
+PROMPT="[%F{#eed49f}%n%f@%m] [%F{#7dc4e4}%1~%f]$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
+export XDG_CONFIG_HOME=$HOME/.config
 export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 export PATH="${HOME}/myBinaries:${PATH}"
 export PATH="/opt/homebrew/Cellar/openjdk/25.0.2/bin/:${PATH}"
+export PATH="/Users/isakhansen/.bun/bin:$PATH"
 export EDITOR=nvim
+export MPD_HOST="/Users/isakhansen/.config/mpd/socket"
 
 
 if [[ ! -d "$ZINIT_HOME" ]]; then
@@ -17,6 +20,9 @@ if [[ ! -d "$ZINIT_HOME" ]]; then
 	git clone https://github.com/zdharma-continuum/zinit "$ZINIT_HOME"
 fi
 
+function username() {
+	pass show $1 | awk '/user/ {print $2}'
+}
 
 # Keybinds
 function zvm_after_init ()
@@ -66,6 +72,7 @@ alias oc=opencode
 alias pdf="fd -t f \"\\.*(pdf|epub|mobi)$\" | sk | sed 's/\ /\\\ /g' | xargs open"
 alias movie="fd -t f \"\\.(mkv|webm)$\" | sk | sed 's/\ /\\\ /g' | xargs mpv"
 alias q="pi --model big-pickle -p --no-session"
+alias nm="neomutt"
 
 
 # Shell integrations
