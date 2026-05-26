@@ -12,3 +12,4 @@ ln -s $HOME/dotfiles/nvim/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/btop/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/bat/ $XDG_HOME_CONFIG/
 ln -s $HOME/dotfiles/tmux/ $XDG_HOME_CONFIG/
+ln -s $HOME/dotfiles/rmpc/ $XDG_HOME_CONFIG/
