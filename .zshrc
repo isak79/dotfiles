@@ -1,7 +1,7 @@
 . "$HOME/.cargo/env"
 
 # Prompt
-PROMPT="[%F{#eed49f}%n%f@%m] [%F{#7dc4e4}%1~%f]$ "
+PROMPT="[%F{#eed49f}%n%f@%m %F{#7dc4e4}%1~%f]$ "
 
 export XDG_HOME_CONFIG=$HOME/.config
 export XDG_CONFIG_HOME=$HOME/.config
